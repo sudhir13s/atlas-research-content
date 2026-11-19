@@ -5,6 +5,13 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Schema 1.1 (citation signals)
+
+- **Added** the optional, agent-owned `citation_signals` block on `paper`: `cited_by_count`,
+  `venue` (optional), `observed_at` and `source` (the paper's OpenAlex address). Copied from
+  OpenAlex by code, only for papers with an arXiv ID or DOI, matched by that identifier alone;
+  absent until the first read.
+
 ### Added
 - Repository scaffold to the content-repo standard: `meta.json`, `schema/registry.json`, the five
   JSON Schemas (`_shared`, `paper`, `research-topic`, `research-direction`, `research-resource`),
@@ -19,3 +26,4 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 ## Schema versions
 
 - **1.0** — initial schema for all four research content types.
+- **1.1** — `paper.citation_signals`.

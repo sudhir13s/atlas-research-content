@@ -35,7 +35,7 @@ see `schema/<type>.schema.json`.
 - `tags`: lowercase, hyphen-separated.
 - `updated`: ISO date (`YYYY-MM-DD`).
 - `sources[]`: `{ url, title, trust }` — `trust` in `[0,1]`. A paper's source is its own link.
-- `schema_version`: the `major.minor` the file was authored against (currently `1.0`).
+- `schema_version`: the `major.minor` the file was authored against (currently `1.1`).
 
 ## Body sections
 
@@ -52,7 +52,9 @@ see `schema/<type>.schema.json`.
   `{era, order}` and present only for must-read papers. `is_high_impact` marks the few papers the
   page highlights. Body: `Why It Matters`, then optionally `Also Noted` (a second text from another
   topic's list). `summary` holds the short must-read text when a longer one fills `Why It Matters`.
-  Other titles the paper is known by go in `aliases`.
+  Other titles the paper is known by go in `aliases`. `citation_signals` is agent-owned: citation
+  count, venue, the day it was read and the paper's OpenAlex address, copied by code for papers with
+  an arXiv ID or DOI; never written by hand.
 - **research-topic** — `icon`, `order`. No body.
 - **research-direction** — `search_query` (words joined with `+`), `is_hot`, `order`. Body:
   `Why It Matters`.
