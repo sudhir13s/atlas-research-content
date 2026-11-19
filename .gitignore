@@ -1,0 +1,6 @@
+# OS / editor cruft — this is a content-only repo; nothing is generated or built here.
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

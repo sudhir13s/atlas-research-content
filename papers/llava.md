@@ -1,0 +1,24 @@
+---
+id: paper/llava
+type: paper
+slug: llava
+schema_version: 1.0
+title: LLaVA
+authors: Liu et al.
+year: 2023
+url: https://arxiv.org/abs/2304.08485
+arxiv_id: '2304.08485'
+topics:
+- research-topic/multimodal
+is_high_impact: false
+tags:
+- paper
+updated: '2026-11-19'
+sources:
+- url: https://arxiv.org/abs/2304.08485
+  title: LLaVA
+---
+
+## Why It Matters
+
+Connected a frozen CLIP vision encoder to a frozen LLM with a simple linear projection, then fine-tuned on GPT-4-generated visual instruction data. Showed that visual instruction following emerges from a surprisingly simple architecture. The most replicated open VLM recipe — its simplicity spawned dozens of variants and established the visual instruction tuning paradigm.

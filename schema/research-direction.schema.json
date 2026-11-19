@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theaiatlas.dev/schema/research/research-direction.schema.json",
+  "title": "research-direction",
+  "allOf": [{ "$ref": "_shared.schema.json#/$defs/base" }],
+  "properties": {
+    "type": { "const": "research-direction" },
+    "search_query": {
+      "type": "string",
+      "minLength": 1,
+      "description": "the paper-search query for the direction, with `+` between words"
+    },
+    "is_hot": { "type": "boolean", "description": "the direction is moving fast right now" },
+    "order": { "type": "integer", "minimum": 1, "description": "position among the directions, 1 = first" }
+  },
+  "required": ["search_query", "is_hot", "order"]
+}

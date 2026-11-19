@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theaiatlas.dev/schema/research/paper.schema.json",
+  "title": "paper",
+  "allOf": [{ "$ref": "_shared.schema.json#/$defs/base" }],
+  "properties": {
+    "type": { "const": "paper" },
+    "authors": {
+      "type": "string",
+      "minLength": 1,
+      "description": "the authors as the page writes them, without the year (for example `Vaswani et al.`)"
+    },
+    "year": { "type": "integer", "minimum": 1900 },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "where to read the paper; an arXiv abstract page when there is one, otherwise the publisher, a PDF or a book page"
+    },
+    "arxiv_id": {
+      "type": "string",
+      "pattern": "^\\d{4}\\.\\d{4,5}$",
+      "description": "present only when `url` is an arXiv link, taken from it by code"
+    },
+    "topics": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^research-topic/[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "description": "FKs → research-topic/<slug>: every topic the paper is listed under; empty when it belongs to none"
+    },
+    "must_read": {
+      "type": "object",
+      "description": "present only for the papers on the must-read list",
+      "required": ["era", "order"],
+      "additionalProperties": false,
+      "properties": {
+        "era": { "type": "string", "minLength": 1, "description": "the era heading the paper sits under, newest era first" },
+        "order": { "type": "integer", "minimum": 1, "description": "position in the must-read list, 1 = first" }
+      }
+    },
+    "is_high_impact": { "type": "boolean", "description": "one of the few papers the page highlights beside the lists" },
+    "summary": {
+      "type": "string",
+      "description": "the short must-read text, kept when a longer text fills the `Why It Matters` section"
+    }
+  },
+  "required": ["authors", "year", "url", "topics", "is_high_impact"]
+}

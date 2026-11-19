@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "shared": "schema/_shared.schema.json",
+  "types": {
+    "paper": {
+      "folder": "papers",
+      "schema": "schema/paper.schema.json",
+      "id_prefix": "paper/",
+      "sections": ["Why It Matters"],
+      "optional_sections": ["Also Noted"]
+    },
+    "research-topic": {
+      "folder": "topics",
+      "schema": "schema/research-topic.schema.json",
+      "id_prefix": "research-topic/",
+      "sections": []
+    },
+    "research-direction": {
+      "folder": "directions",
+      "schema": "schema/research-direction.schema.json",
+      "id_prefix": "research-direction/",
+      "sections": ["Why It Matters"]
+    },
+    "research-resource": {
+      "folder": "resources",
+      "schema": "schema/research-resource.schema.json",
+      "id_prefix": "research-resource/",
+      "sections": ["Overview"]
+    }
+  }
+}
