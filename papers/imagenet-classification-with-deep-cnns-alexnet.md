@@ -8,7 +8,7 @@ aliases:
 - AlexNet
 authors: Krizhevsky, Sutskever & Hinton
 year: 2012
-url: https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+url: https://doi.org/10.1145/3065386
 topics:
 - research-topic/neural-networks
 must_read:
@@ -20,6 +20,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.1145/3065386
+  title: ImageNet Classification with Deep CNNs (AlexNet)
 - url: https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
   title: ImageNet Classification with Deep CNNs (AlexNet)
 ---

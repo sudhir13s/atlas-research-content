@@ -6,7 +6,7 @@ schema_version: 1.0
 title: Computing Machinery and Intelligence
 authors: Alan Turing
 year: 1950
-url: https://academic.oup.com/mind/article/LIX/236/433/986238
+url: https://doi.org/10.1093/mind/LIX.236.433
 topics: []
 must_read:
   era: Foundations of AI (1940s-1980s)
@@ -16,6 +16,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.1093/mind/LIX.236.433
+  title: Computing Machinery and Intelligence
 - url: https://academic.oup.com/mind/article/LIX/236/433/986238
   title: Computing Machinery and Intelligence
 ---

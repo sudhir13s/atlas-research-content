@@ -6,7 +6,7 @@ schema_version: 1.0
 title: A Logical Calculus of Ideas Immanent in Nervous Activity
 authors: McCulloch & Pitts
 year: 1943
-url: https://link.springer.com/article/10.1007/BF02478259
+url: https://doi.org/10.1007/BF02478259
 topics: []
 must_read:
   era: Foundations of AI (1940s-1980s)
@@ -16,6 +16,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.1007/BF02478259
+  title: A Logical Calculus of Ideas Immanent in Nervous Activity
 - url: https://link.springer.com/article/10.1007/BF02478259
   title: A Logical Calculus of Ideas Immanent in Nervous Activity
 ---

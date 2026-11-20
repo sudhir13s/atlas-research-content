@@ -6,8 +6,8 @@ schema_version: 1.0
 title: Self-RAG
 authors: Asai et al.
 year: 2023
-url: https://arxiv.org/abs/2305.15294
-arxiv_id: '2305.15294'
+url: https://arxiv.org/abs/2310.11511
+arxiv_id: '2310.11511'
 topics:
 - research-topic/rag
 is_high_impact: false
@@ -15,7 +15,7 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
-- url: https://arxiv.org/abs/2305.15294
+- url: https://arxiv.org/abs/2310.11511
   title: Self-RAG
 ---
 

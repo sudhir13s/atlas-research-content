@@ -6,7 +6,7 @@ schema_version: 1.0
 title: The Perceptron
 authors: Rosenblatt
 year: 1958
-url: https://psycnet.apa.org/record/1959-09865-001
+url: https://doi.org/10.1037/h0042519
 topics: []
 must_read:
   era: Foundations of AI (1940s-1980s)
@@ -16,6 +16,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.1037/h0042519
+  title: The Perceptron
 - url: https://psycnet.apa.org/record/1959-09865-001
   title: The Perceptron
 ---

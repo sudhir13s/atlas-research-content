@@ -6,7 +6,7 @@ schema_version: 1.0
 title: GloVe
 authors: Pennington et al.
 year: 2014
-url: https://nlp.stanford.edu/pubs/glove.pdf
+url: https://doi.org/10.3115/v1/D14-1162
 topics:
 - research-topic/nlp-classics
 is_high_impact: false
@@ -14,6 +14,10 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.3115/v1/D14-1162
+  title: GloVe
+- url: https://aclanthology.org/D14-1162/
+  title: GloVe
 - url: https://nlp.stanford.edu/pubs/glove.pdf
   title: GloVe
 ---

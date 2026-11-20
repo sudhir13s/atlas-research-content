@@ -6,7 +6,7 @@ schema_version: 1.0
 title: Learning Representations by Back-Propagating Errors
 authors: Rumelhart, Hinton & Williams
 year: 1986
-url: https://www.nature.com/articles/323533a0
+url: https://doi.org/10.1038/323533a0
 topics: []
 must_read:
   era: Foundations of AI (1940s-1980s)
@@ -16,6 +16,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.1038/323533a0
+  title: Learning Representations by Back-Propagating Errors
 - url: https://www.nature.com/articles/323533a0
   title: Learning Representations by Back-Propagating Errors
 ---

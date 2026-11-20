@@ -6,7 +6,7 @@ schema_version: 1.0
 title: 'Perceptrons: An Introduction to Computational Geometry'
 authors: Minsky & Papert
 year: 1969
-url: https://mitpress.mit.edu/9780262534772/perceptrons/
+url: https://doi.org/10.7551/mitpress/11301.001.0001
 topics: []
 must_read:
   era: Foundations of AI (1940s-1980s)
@@ -16,6 +16,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.7551/mitpress/11301.001.0001
+  title: 'Perceptrons: An Introduction to Computational Geometry'
 - url: https://mitpress.mit.edu/9780262534772/perceptrons/
   title: 'Perceptrons: An Introduction to Computational Geometry'
 ---

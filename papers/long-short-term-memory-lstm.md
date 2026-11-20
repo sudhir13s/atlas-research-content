@@ -6,7 +6,7 @@ schema_version: 1.0
 title: Long Short-Term Memory (LSTM)
 authors: Hochreiter & Schmidhuber
 year: 1997
-url: https://www.bioinf.jku.at/publications/older/2604.pdf
+url: https://doi.org/10.1162/neco.1997.9.8.1735
 topics:
 - research-topic/neural-networks
 must_read:
@@ -18,6 +18,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.1162/neco.1997.9.8.1735
+  title: Long Short-Term Memory (LSTM)
 - url: https://www.bioinf.jku.at/publications/older/2604.pdf
   title: Long Short-Term Memory (LSTM)
 ---

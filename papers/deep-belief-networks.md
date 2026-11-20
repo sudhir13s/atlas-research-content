@@ -6,7 +6,7 @@ schema_version: 1.0
 title: Deep Belief Networks
 authors: Hinton, Osindero & Teh
 year: 2006
-url: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf
+url: https://doi.org/10.1162/neco.2006.18.7.1527
 topics: []
 must_read:
   era: Statistical Learning & Revival (1990s-2000s)
@@ -16,6 +16,8 @@ tags:
 - paper
 updated: '2026-11-19'
 sources:
+- url: https://doi.org/10.1162/neco.2006.18.7.1527
+  title: Deep Belief Networks
 - url: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf
   title: Deep Belief Networks
 ---
