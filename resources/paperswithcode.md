@@ -3,24 +3,23 @@ id: research-resource/paperswithcode
 type: research-resource
 slug: paperswithcode
 schema_version: 1.0
-title: Papers With Code
+title: Papers with Code
 icon: 💻
 links:
-- label: Latest
-  url: https://paperswithcode.co/latest
-- label: Trending
+- label: Trending papers
   url: https://paperswithcode.co/
-- label: SOTA Leaderboards
-  url: https://paperswithcode.co/sota
 - label: Methods
   url: https://paperswithcode.co/methods
+- label: Hugging Face trending papers
+  url: https://huggingface.co/papers/trending
 order: 4
 tags:
 - research-resource
-updated: '2026-11-19'
+updated: '2026-11-21'
 sources: []
 ---
 
 ## Overview
 
-Paper to code to benchmark linkages. Best for finding implementations. Free.
+Trending papers with links to their code. A new site that carries on the Papers with Code name;
+the original address now leads to Hugging Face's trending papers. Free.
