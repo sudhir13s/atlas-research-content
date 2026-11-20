@@ -27,7 +27,7 @@ It is the `research` domain of a multi-repo reference library
 # Vendor it
 git clone https://github.com/sudhir13s/atlas-research-content.git
 # or as a submodule of your project
-git submodule add https://github.com/sudhir13s/atlas-research-content.git content/research-src
+git submodule add https://github.com/sudhir13s/atlas-research-content.git content/atlas-research-content
 ```
 
 Every content file is a Markdown file with YAML frontmatter (the structured fields) and a Markdown
