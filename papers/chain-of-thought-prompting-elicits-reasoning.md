@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 12
 is_high_impact: true
+citation_signals:
+  cited_by_count: 38349
+  venue: neural information processing systems
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W7133224126
 summary: Adding 'let's think step by step' dramatically improves LLM reasoning on math and logic. Simple but transformative — showed that prompting technique matters as much as model architecture for reasoning tasks.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2201.11903
   title: Chain-of-Thought Prompting Elicits Reasoning

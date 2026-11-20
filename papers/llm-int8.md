@@ -11,9 +11,14 @@ arxiv_id: '2208.07339'
 topics:
 - research-topic/efficiency
 is_high_impact: false
+citation_signals:
+  cited_by_count: 2673
+  venue: neural information processing systems
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W7133198810
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2208.07339
   title: LLM.int8()

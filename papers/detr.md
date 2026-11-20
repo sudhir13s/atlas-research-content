@@ -11,9 +11,14 @@ arxiv_id: '2005.12872'
 topics:
 - research-topic/vision
 is_high_impact: false
+citation_signals:
+  cited_by_count: 25731
+  venue: Lecture notes in computer science
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3030520226
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2005.12872
   title: DETR

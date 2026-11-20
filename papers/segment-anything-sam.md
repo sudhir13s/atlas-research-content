@@ -14,10 +14,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 4
 is_high_impact: false
+citation_signals:
+  cited_by_count: 19456
+  venue: IEEE/CVF International Conference on Computer Vision (ICCV)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4390874575
 summary: A foundation model for image segmentation that can segment any object in any image given a point, box, or text prompt. Trained on 11M images with 1B+ masks. Redefined what 'general-purpose vision' means.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2304.02643
   title: Segment Anything (SAM)

@@ -10,9 +10,14 @@ url: https://doi.org/10.3115/v1/D14-1162
 topics:
 - research-topic/nlp-classics
 is_high_impact: false
+citation_signals:
+  cited_by_count: 42248
+  venue: Conference on Empirical Methods in Natural Language Processing (EMNLP)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2250539671
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://doi.org/10.3115/v1/D14-1162
   title: GloVe

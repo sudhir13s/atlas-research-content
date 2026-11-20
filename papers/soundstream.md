@@ -11,9 +11,14 @@ arxiv_id: '2107.03312'
 topics:
 - research-topic/audio
 is_high_impact: false
+citation_signals:
+  cited_by_count: 1796
+  venue: IEEE/ACM Transactions on Audio Speech and Language Processing
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3178321840
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2107.03312
   title: SoundStream

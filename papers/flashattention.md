@@ -12,9 +12,14 @@ topics:
 - research-topic/transformers
 - research-topic/efficiency
 is_high_impact: false
+citation_signals:
+  cited_by_count: 5917
+  venue: neural information processing systems
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W7133227460
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2205.14135
   title: FlashAttention

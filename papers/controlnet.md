@@ -11,9 +11,14 @@ arxiv_id: '2302.05543'
 topics:
 - research-topic/diffusion
 is_high_impact: false
+citation_signals:
+  cited_by_count: 10463
+  venue: IEEE/CVF International Conference on Computer Vision (ICCV)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4390873054
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2302.05543
   title: ControlNet

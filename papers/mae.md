@@ -11,9 +11,14 @@ arxiv_id: '2111.06377'
 topics:
 - research-topic/vision
 is_high_impact: false
+citation_signals:
+  cited_by_count: 15912
+  venue: IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4226002507
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2111.06377
   title: MAE

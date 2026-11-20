@@ -12,9 +12,14 @@ must_read:
   era: Foundations of AI (1940s-1980s)
   order: 36
 is_high_impact: false
+citation_signals:
+  cited_by_count: 25135
+  venue: Bulletin of Mathematical Biology
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W1995341919
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://doi.org/10.1007/BF02478259
   title: A Logical Calculus of Ideas Immanent in Nervous Activity

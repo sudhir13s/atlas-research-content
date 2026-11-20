@@ -11,9 +11,14 @@ arxiv_id: '2209.03143'
 topics:
 - research-topic/audio
 is_high_impact: false
+citation_signals:
+  cited_by_count: 1256
+  venue: IEEE/ACM Transactions on Audio Speech and Language Processing
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4381786045
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2209.03143
   title: AudioLM

@@ -11,9 +11,14 @@ arxiv_id: '1802.05365'
 topics:
 - research-topic/nlp-classics
 is_high_impact: false
+citation_signals:
+  cited_by_count: 15585
+  venue: 'Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)'
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2787560479
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1802.05365
   title: ELMo

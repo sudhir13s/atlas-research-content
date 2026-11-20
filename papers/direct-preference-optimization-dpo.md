@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 8
 is_high_impact: false
+citation_signals:
+  cited_by_count: 10923
+  venue: neural information processing systems
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W7133208539
 summary: Simplified RLHF by eliminating the reward model entirely. Directly optimizes the language model on preference pairs. Now the dominant alignment technique for open models.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2305.18290
   title: Direct Preference Optimization (DPO)

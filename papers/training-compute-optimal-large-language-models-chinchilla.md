@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 10
 is_high_impact: false
+citation_signals:
+  cited_by_count: 6673
+  venue: neural information processing systems
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W7133225605
 summary: Most LLMs were undertrained, not undersized. A 70B model trained on 4x more data outperformed 280B trained on less. Completely changed how the industry allocates compute.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2203.15556
   title: Training Compute-Optimal Large Language Models (Chinchilla)

@@ -14,10 +14,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 5
 is_high_impact: false
+citation_signals:
+  cited_by_count: 7688
+  venue: neural information processing systems
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W7133214447
 summary: Showed that language models can teach themselves when and how to use external tools (calculators, search engines, APIs) by inserting tool calls into training data. Foundation of the agentic AI paradigm.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2302.04761
   title: Toolformer

@@ -11,9 +11,14 @@ arxiv_id: '2109.07958'
 topics:
 - research-topic/alignment
 is_high_impact: false
+citation_signals:
+  cited_by_count: 5037
+  venue: Proceedings of the conference - Association for Computational Linguistics. Meeting
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3201174429
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2109.07958
   title: TruthfulQA

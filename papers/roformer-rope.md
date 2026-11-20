@@ -11,9 +11,14 @@ arxiv_id: '2104.09864'
 topics:
 - research-topic/transformers
 is_high_impact: false
+citation_signals:
+  cited_by_count: 7456
+  venue: Neurocomputing
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4388979610
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2104.09864
   title: RoFormer (RoPE)

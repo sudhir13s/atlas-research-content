@@ -11,9 +11,14 @@ arxiv_id: '2307.03172'
 topics:
 - research-topic/rag
 is_high_impact: false
+citation_signals:
+  cited_by_count: 6848
+  venue: Transactions of the Association for Computational Linguistics
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4391876619
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2307.03172
   title: Lost in the Middle

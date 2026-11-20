@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 11
 is_high_impact: false
+citation_signals:
+  cited_by_count: 37134
+  venue: IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4312933868
 summary: The Stable Diffusion paper. Moved diffusion to latent space for practical image generation. Democratized AI art — millions of people used it within months of release. The most impactful generative AI paper for consumers.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2112.10752
   title: High-Resolution Image Synthesis with Latent Diffusion Models

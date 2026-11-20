@@ -12,9 +12,14 @@ must_read:
   era: Foundations of AI (1940s-1980s)
   order: 34
 is_high_impact: false
+citation_signals:
+  cited_by_count: 17469
+  venue: Psychological Review
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2040870580
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://doi.org/10.1037/h0042519
   title: The Perceptron

@@ -12,9 +12,14 @@ must_read:
   era: Foundations of AI (1940s-1980s)
   order: 33
 is_high_impact: false
+citation_signals:
+  cited_by_count: 507
+  venue: The MIT Press eBooks
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4255885670
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://doi.org/10.7551/mitpress/11301.001.0001
   title: 'Perceptrons: An Introduction to Computational Geometry'

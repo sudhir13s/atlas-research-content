@@ -13,10 +13,15 @@ must_read:
   era: Statistical Learning & Revival (1990s-2000s)
   order: 30
 is_high_impact: false
+citation_signals:
+  cited_by_count: 131870
+  venue: Neural Computation
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2064675550
 summary: Solved the vanishing gradient problem with gated memory cells. Dominated sequence modeling for 20 years — Google Translate, Siri, and Alexa all ran on LSTMs before transformers replaced them.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://doi.org/10.1162/neco.1997.9.8.1735
   title: Long Short-Term Memory (LSTM)

@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 7
 is_high_impact: false
+citation_signals:
+  cited_by_count: 7434
+  venue: neural information processing systems
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W7133233472
 summary: Fine-tune a 65B model on a single 48GB GPU via 4-bit quantization + low-rank adaptation. Democratized LLM customization for individual researchers and small teams.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2305.14314
   title: 'QLoRA: Efficient Finetuning of Quantized Language Models'

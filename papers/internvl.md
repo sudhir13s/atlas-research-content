@@ -11,9 +11,14 @@ arxiv_id: '2312.14238'
 topics:
 - research-topic/multimodal
 is_high_impact: false
+citation_signals:
+  cited_by_count: 3952
+  venue: IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4402713111
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2312.14238
   title: InternVL

@@ -15,10 +15,15 @@ must_read:
   era: Deep Learning Revolution (2012-2015)
   order: 27
 is_high_impact: false
+citation_signals:
+  cited_by_count: 118207
+  venue: Communications of the ACM
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2163605009
 summary: Crushed ImageNet by 10+ percentage points using GPUs and deep CNNs. Within two years, every major tech company reorganized around deep learning. The modern AI era begins here.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://doi.org/10.1145/3065386
   title: ImageNet Classification with Deep CNNs (AlexNet)
