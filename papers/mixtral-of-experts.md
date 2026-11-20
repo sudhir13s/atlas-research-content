@@ -14,10 +14,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 3
 is_high_impact: false
+citation_signals:
+  cited_by_count: 4828
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4390723197
 summary: Made Mixture-of-Experts practical and open. 8 expert networks, 2 active per token — so a 46B total model runs at the cost of a 12B model. Unlocked the quality-of-large at the cost-of-small tradeoff.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2401.04088
   title: Mixtral of Experts

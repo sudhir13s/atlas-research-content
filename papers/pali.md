@@ -11,9 +11,14 @@ arxiv_id: '2209.06794'
 topics:
 - research-topic/multimodal
 is_high_impact: false
+citation_signals:
+  cited_by_count: 964
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4296406182
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2209.06794
   title: PaLI

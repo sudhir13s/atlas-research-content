@@ -14,10 +14,15 @@ must_read:
   era: Deep Learning Revolution (2012-2015)
   order: 22
 is_high_impact: false
+citation_signals:
+  cited_by_count: 18006
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2949650786
 summary: Skip connections solved the degradation problem in very deep networks. Before ResNet, networks deeper than ~20 layers performed worse. ResNet enabled 152-layer networks, and the residual connection principle is now in every transformer block.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1512.03385
   title: Deep Residual Learning for Image Recognition (ResNet)

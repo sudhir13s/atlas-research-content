@@ -11,9 +11,14 @@ arxiv_id: '2002.08909'
 topics:
 - research-topic/rag
 is_high_impact: false
+citation_signals:
+  cited_by_count: 1336
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3007672467
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2002.08909
   title: REALM

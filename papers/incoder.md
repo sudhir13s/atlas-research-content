@@ -11,9 +11,14 @@ arxiv_id: '2204.05999'
 topics:
 - research-topic/code
 is_high_impact: false
+citation_signals:
+  cited_by_count: 808
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4224060952
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2204.05999
   title: InCoder

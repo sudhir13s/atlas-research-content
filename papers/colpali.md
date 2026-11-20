@@ -11,9 +11,14 @@ arxiv_id: '2407.01449'
 topics:
 - research-topic/rag
 is_high_impact: false
+citation_signals:
+  cited_by_count: 433
+  venue: International Conference on Learning Representations
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4400373146
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2407.01449
   title: ColPali

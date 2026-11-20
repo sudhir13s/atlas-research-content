@@ -16,10 +16,15 @@ must_read:
   era: Deep Learning Revolution (2012-2015)
   order: 26
 is_high_impact: false
+citation_signals:
+  cited_by_count: 44114
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W1614298861
 summary: king - man + woman = queen. Proved that unsupervised pretraining on text captures real semantics as geometric relationships in vector space. Paradigm shift that led to all modern embedding and pretraining approaches.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1301.3781
   title: Efficient Estimation of Word Representations (Word2Vec)

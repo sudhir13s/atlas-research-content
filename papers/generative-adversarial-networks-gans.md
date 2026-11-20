@@ -17,10 +17,15 @@ must_read:
   era: Deep Learning Revolution (2012-2015)
   order: 23
 is_high_impact: false
+citation_signals:
+  cited_by_count: 11967
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4298289240
 summary: Generator vs discriminator competition produced the first photorealistic image generation. Spawned StyleGAN, CycleGAN, and thousands of variants. The dominant generative paradigm before diffusion models took over in 2022.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1406.2661
   title: Generative Adversarial Networks (GANs)

@@ -17,10 +17,15 @@ must_read:
   era: Scaling & Foundation Models (2020-2022)
   order: 13
 is_high_impact: false
+citation_signals:
+  cited_by_count: 61476
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3135367836
 summary: Trained on 400M image-text pairs from the internet, CLIP learned to connect vision and language. Enabled zero-shot image classification — describe any category in text and CLIP classifies images into it. The foundation of all vision-language models.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2103.00020
   title: 'CLIP: Learning Transferable Visual Models'

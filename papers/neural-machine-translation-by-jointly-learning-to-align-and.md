@@ -16,10 +16,15 @@ must_read:
   era: Deep Learning Revolution (2012-2015)
   order: 25
 is_high_impact: false
+citation_signals:
+  cited_by_count: 32229
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2133564696
 summary: Introduced the attention mechanism — the decoder looks back at different parts of the input instead of compressing everything into one vector. This single idea is the direct ancestor of transformer self-attention.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1409.0473
   title: Neural Machine Translation by Jointly Learning to Align and Translate

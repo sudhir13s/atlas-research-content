@@ -16,10 +16,15 @@ must_read:
   era: Scaling & Foundation Models (2020-2022)
   order: 16
 is_high_impact: true
+citation_signals:
+  cited_by_count: 12454
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3001279689
 summary: Model performance follows precise power-law relationships with compute, dataset size, and parameter count. You can predict performance before training. Bigger models + more data + more compute = predictably better results.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2001.08361
   title: Scaling Laws for Neural Language Models

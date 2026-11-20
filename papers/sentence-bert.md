@@ -11,9 +11,14 @@ arxiv_id: '1908.10084'
 topics:
 - research-topic/rag
 is_high_impact: false
+citation_signals:
+  cited_by_count: 94
+  venue: TUbilio (Technical University of Darmstadt)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2971193649
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1908.10084
   title: Sentence-BERT

@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 1
 is_high_impact: false
+citation_signals:
+  cited_by_count: 9659
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4405903187
 summary: 671B total parameters but only 37B active per token via MoE. Introduced Multi-head Latent Attention (MLA) which compresses KV cache by 93%. Trained for $5.5M — a fraction of comparable models. MIT license. Changed the economics of frontier models.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2412.19437
   title: DeepSeek-V3 Technical Report

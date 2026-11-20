@@ -11,9 +11,14 @@ arxiv_id: '2307.09288'
 topics:
 - research-topic/llm
 is_high_impact: false
+citation_signals:
+  cited_by_count: 22588
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4384918448
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2307.09288
   title: Llama 2

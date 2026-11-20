@@ -11,9 +11,14 @@ arxiv_id: '2210.17323'
 topics:
 - research-topic/efficiency
 is_high_impact: false
+citation_signals:
+  cited_by_count: 3089
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4307934016
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2210.17323
   title: GPTQ

@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 9
 is_high_impact: false
+citation_signals:
+  cited_by_count: 10993
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4226278401
 summary: The paper behind ChatGPT. RLHF aligns language models with human intent. A 1.3B InstructGPT was preferred over 175B GPT-3, proving alignment matters more than raw scale.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2203.02155
   title: Training language models to follow instructions (InstructGPT)

@@ -16,10 +16,15 @@ must_read:
   era: Attention & Transformers (2016-2019)
   order: 21
 is_high_impact: false
+citation_signals:
+  cited_by_count: 9876
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2519091744
 summary: Autoregressive generation applied to raw audio waveforms. Produced speech quality that was indistinguishable from human recordings for the first time. The architectural ancestor of all modern text-to-speech and audio generation models.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1609.03499
   title: 'WaveNet: A Generative Model for Raw Audio'

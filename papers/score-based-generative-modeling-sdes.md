@@ -11,9 +11,14 @@ arxiv_id: '2011.13456'
 topics:
 - research-topic/diffusion
 is_high_impact: false
+citation_signals:
+  cited_by_count: 8145
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3110257065
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2011.13456
   title: Score-Based Generative Modeling (SDEs)

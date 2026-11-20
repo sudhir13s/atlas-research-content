@@ -16,10 +16,15 @@ must_read:
   era: Scaling & Foundation Models (2020-2022)
   order: 15
 is_high_impact: true
+citation_signals:
+  cited_by_count: 62242
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3030163527
 summary: 175B parameters. Demonstrated that at sufficient scale, language models learn new tasks from just a few examples in the prompt — no fine-tuning needed. This 'in-context learning' ability was unexpected and changed the field's understanding of what scale enables.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2005.14165
   title: Language Models are Few-Shot Learners (GPT-3)

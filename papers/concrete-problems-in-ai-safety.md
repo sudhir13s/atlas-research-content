@@ -11,9 +11,14 @@ arxiv_id: '1606.06565'
 topics:
 - research-topic/alignment
 is_high_impact: false
+citation_signals:
+  cited_by_count: 5217
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2462906003
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1606.06565
   title: Concrete Problems in AI Safety

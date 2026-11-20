@@ -16,10 +16,15 @@ must_read:
   era: LLM Era & Agents (2022-Present)
   order: 6
 is_high_impact: false
+citation_signals:
+  cited_by_count: 29576
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4322718191
 summary: Meta's release of LLaMA weights launched the entire open-weight LLM movement. Within weeks, the community had fine-tuned variants (Alpaca, Vicuna) approaching ChatGPT quality. Proved open models could compete with closed ones.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2302.13971
   title: 'LLaMA: Open and Efficient Foundation Language Models'

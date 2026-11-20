@@ -18,10 +18,15 @@ must_read:
   era: Scaling & Foundation Models (2020-2022)
   order: 14
 is_high_impact: true
+citation_signals:
+  cited_by_count: 68247
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3094502228
 summary: Split images into 16x16 patches and processed them with a standard transformer. Proved the transformer is not language-specific. With sufficient data, ViT matches or exceeds CNNs on vision tasks. Launched the entire Vision Transformer field.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2010.11929
   title: An Image is Worth 16x16 Words (ViT)

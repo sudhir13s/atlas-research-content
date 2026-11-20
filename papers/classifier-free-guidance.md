@@ -11,9 +11,14 @@ arxiv_id: '2207.12598'
 topics:
 - research-topic/diffusion
 is_high_impact: false
+citation_signals:
+  cited_by_count: 7324
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4288099666
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2207.12598
   title: Classifier-Free Guidance

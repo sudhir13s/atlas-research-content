@@ -11,9 +11,14 @@ arxiv_id: '2212.04356'
 topics:
 - research-topic/audio
 is_high_impact: false
+citation_signals:
+  cited_by_count: 5819
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4311000453
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2212.04356
   title: Whisper

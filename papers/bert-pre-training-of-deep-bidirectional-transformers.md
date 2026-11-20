@@ -16,10 +16,15 @@ must_read:
   era: Attention & Transformers (2016-2019)
   order: 19
 is_high_impact: true
+citation_signals:
+  cited_by_count: 83274
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2896457183
 summary: Introduced pretrain-then-finetune for NLP. A single pretrained model adapted to dozens of tasks with just a simple output layer. Masked language modeling became the standard pretraining objective. Dominated NLP from 2018 to 2022.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1810.04805
   title: 'BERT: Pre-training of Deep Bidirectional Transformers'

@@ -11,9 +11,14 @@ arxiv_id: '2204.14198'
 topics:
 - research-topic/multimodal
 is_high_impact: false
+citation_signals:
+  cited_by_count: 2830
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4225323055
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2204.14198
   title: Flamingo

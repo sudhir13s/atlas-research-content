@@ -11,9 +11,14 @@ arxiv_id: '2108.12409'
 topics:
 - research-topic/transformers
 is_high_impact: false
+citation_signals:
+  cited_by_count: 973
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3196318247
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2108.12409
   title: 'ALiBi: Train Short, Test Long'

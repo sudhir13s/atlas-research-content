@@ -11,9 +11,14 @@ arxiv_id: '2304.07193'
 topics:
 - research-topic/vision
 is_high_impact: false
+citation_signals:
+  cited_by_count: 11378
+  venue: Transactions on machine learning research
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4366208220
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2304.07193
   title: DINOv2

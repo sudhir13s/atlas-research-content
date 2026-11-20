@@ -14,10 +14,15 @@ must_read:
   era: Deep Learning Revolution (2012-2015)
   order: 24
 is_high_impact: false
+citation_signals:
+  cited_by_count: 21813
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2130942839
 summary: Encode an input sequence into a fixed vector, decode into output. Made neural machine translation possible and directly inspired the transformer's encoder-decoder structure three years later.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1409.3215
   title: Sequence to Sequence Learning

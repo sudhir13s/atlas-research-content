@@ -11,9 +11,14 @@ arxiv_id: '2102.05095'
 topics:
 - research-topic/video
 is_high_impact: false
+citation_signals:
+  cited_by_count: 3940
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W3126721948
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2102.05095
   title: TimeSformer

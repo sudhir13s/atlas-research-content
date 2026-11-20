@@ -11,9 +11,14 @@ arxiv_id: '1908.02265'
 topics:
 - research-topic/multimodal
 is_high_impact: false
+citation_signals:
+  cited_by_count: 4910
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W2970608575
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1908.02265
   title: ViLBERT

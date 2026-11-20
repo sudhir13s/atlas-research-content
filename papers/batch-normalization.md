@@ -11,9 +11,14 @@ arxiv_id: '1502.03167'
 topics:
 - research-topic/neural-networks
 is_high_impact: false
+citation_signals:
+  cited_by_count: 39009
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W1836465849
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/1502.03167
   title: Batch Normalization

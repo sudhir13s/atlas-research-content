@@ -11,9 +11,14 @@ arxiv_id: '2212.08073'
 topics:
 - research-topic/alignment
 is_high_impact: false
+citation_signals:
+  cited_by_count: 6044
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-20'
+  source: https://openalex.org/W4311991106
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-20'
 sources:
 - url: https://arxiv.org/abs/2212.08073
   title: Constitutional AI
