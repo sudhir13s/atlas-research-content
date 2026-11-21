@@ -19,7 +19,7 @@ citation_signals:
   source: https://openalex.org/W1498436455
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://doi.org/10.1038/323533a0
   title: Learning Representations by Back-Propagating Errors
@@ -29,4 +29,7 @@ sources:
 
 ## Why It Matters
 
-Backpropagation — the algorithm that makes deep learning possible. Showed how to compute gradients through layers, enabling multi-layer networks to learn internal representations. Every neural network trained today uses this algorithm.
+Describes back-propagation, a learning procedure for networks of neurone-like units that repeatedly adjusts connection weights to minimize the difference between the actual and the desired output vector.
+
+- As a result, internal hidden units come to represent important features of the task domain.
+- The authors state that this ability to create useful new features distinguishes back-propagation from earlier, simpler methods such as the perceptron-convergence procedure.

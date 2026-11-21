@@ -18,18 +18,22 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 29576
-  venue: arXiv (Cornell University)
+  venue: arXiv preprint
   observed_at: '2026-11-20'
   source: https://openalex.org/W4322718191
-summary: Meta's release of LLaMA weights launched the entire open-weight LLM movement. Within weeks, the community had fine-tuned variants (Alpaca, Vicuna) approaching ChatGPT quality. Proved open models could compete with closed ones.
+summary: Introduces LLaMA, a collection of foundation language models from 7B to 65B parameters, trained on trillions of tokens of publicly available data only.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2302.13971
   title: 'LLaMA: Open and Efficient Foundation Language Models'
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Demonstrated that a 65B model trained on only public data could match GPT-3 and outperform Chinchilla, then Meta released the weights. This single act created the open-source LLM ecosystem — fine-tuning communities, quantization tooling, and hundreds of derivative models all trace back to this release.
+The authors report that LLaMA-13B outperforms GPT-3 (175B) on most benchmarks and that LLaMA-65B is competitive with Chinchilla-70B and PaLM-540B.
+
+All the models were released to the research community.

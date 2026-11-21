@@ -18,18 +18,25 @@ must_read:
 is_high_impact: true
 citation_signals:
   cited_by_count: 12454
-  venue: arXiv (Cornell University)
+  venue: arXiv preprint
   observed_at: '2026-11-20'
   source: https://openalex.org/W3001279689
-summary: Model performance follows precise power-law relationships with compute, dataset size, and parameter count. You can predict performance before training. Bigger models + more data + more compute = predictably better results.
+summary: Studies empirical scaling laws for language model performance on the cross-entropy loss.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2001.08361
   title: Scaling Laws for Neural Language Models
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Discovered smooth power-law relationships between compute budget, dataset size, model parameters, and loss — meaning you can predict a model's performance before training it. Gave labs a principled way to allocate million-dollar training budgets. The foundation of all modern LLM training planning.
+The authors report:
+
+- loss scales as a power law with model size, dataset size and training compute, some trends spanning more than seven orders of magnitude;
+- network width or depth has minimal effects within a wide range;
+- simple equations for overfitting and training speed allow the optimal allocation of a fixed compute budget to be determined;
+- larger models are more sample-efficient, so compute-optimal training uses very large models on relatively modest data and stops well before convergence.

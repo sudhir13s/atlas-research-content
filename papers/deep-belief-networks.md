@@ -3,7 +3,9 @@ id: paper/deep-belief-networks
 type: paper
 slug: deep-belief-networks
 schema_version: 1.0
-title: Deep Belief Networks
+title: A Fast Learning Algorithm for Deep Belief Nets
+aliases:
+- Deep Belief Networks
 authors: Hinton, Osindero & Teh
 year: 2006
 url: https://doi.org/10.1162/neco.2006.18.7.1527
@@ -19,14 +21,18 @@ citation_signals:
   source: https://openalex.org/W2136922672
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://doi.org/10.1162/neco.2006.18.7.1527
-  title: Deep Belief Networks
+  title: A Fast Learning Algorithm for Deep Belief Nets
 - url: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf
-  title: Deep Belief Networks
+  title: A Fast Learning Algorithm for Deep Belief Nets
 ---
 
 ## Why It Matters
 
-Showed that deep networks could be trained layer-by-layer using unsupervised pretraining, then fine-tuned. Restarted interest in deep learning after 15+ years of dominance by SVMs and shallow models. Hinton's persistence through the 'neural network winter' ultimately transformed the field.
+Uses “complementary priors” to remove the explaining-away effects that make inference difficult in densely connected belief nets with many hidden layers.
+
+- From this the authors derive a fast, greedy algorithm that learns deep, directed belief networks one layer at a time.
+- The greedy stage initialises a slower fine-tuning procedure, a contrastive version of the wake-sleep algorithm.
+- After fine-tuning, a network with three hidden layers models handwritten digit images and their labels; the authors report better digit classification than the best discriminative learning algorithms.

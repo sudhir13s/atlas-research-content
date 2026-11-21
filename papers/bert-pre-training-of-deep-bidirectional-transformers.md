@@ -3,7 +3,7 @@ id: paper/bert-pre-training-of-deep-bidirectional-transformers
 type: paper
 slug: bert-pre-training-of-deep-bidirectional-transformers
 schema_version: 1.0
-title: 'BERT: Pre-training of Deep Bidirectional Transformers'
+title: 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'
 aliases:
 - BERT
 authors: Devlin et al.
@@ -18,18 +18,25 @@ must_read:
 is_high_impact: true
 citation_signals:
   cited_by_count: 83274
-  venue: arXiv (Cornell University)
+  venue: NAACL 2019
   observed_at: '2026-11-20'
   source: https://openalex.org/W2896457183
-summary: Introduced pretrain-then-finetune for NLP. A single pretrained model adapted to dozens of tasks with just a simple output layer. Masked language modeling became the standard pretraining objective. Dominated NLP from 2018 to 2022.
+summary: Introduces BERT (Bidirectional Encoder Representations from Transformers), a language representation model pre-trained on unlabeled text by conditioning on both left and right context in all layers.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/1810.04805
-  title: 'BERT: Pre-training of Deep Bidirectional Transformers'
+  title: 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'
+- url: https://aclanthology.org/N19-1423/
+  title: 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Introduced bidirectional pretraining via masked language modeling, then fine-tuning on downstream tasks. Crushed every NLP benchmark overnight and made transfer learning the default approach. BERT single-handedly ended the era of task-specific architectures and started the pretrain-then-fine-tune paradigm.
+The pre-trained model is fine-tuned with just one additional output layer for tasks such as question answering and language inference.
+
+- No substantial task-specific architecture changes are needed.
+- The authors report new state-of-the-art results on eleven natural language processing tasks, including a GLUE (General Language Understanding Evaluation) score of 80.5% and a SQuAD v1.1 question answering test F1 of 93.2.

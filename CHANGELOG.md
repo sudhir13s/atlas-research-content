@@ -5,6 +5,14 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Must-read papers checked against their primary pages
+
+- **Changed** the 36 must-read `paper` records after checking each against its arXiv record,
+  proceedings page or publisher page: exact titles (short names moved to `aliases`), authors and
+  year where they differed, the venue in `citation_signals.venue` set from the page that states it
+  and locked against the OpenAlex refresh, and `summary` and `Why It Matters` rewritten to what
+  the abstract supports, without superlatives or unsourced influence claims.
+
 ### Schema 1.1 (citation signals)
 
 - **Added** the optional, agent-owned `citation_signals` block on `paper`: `cited_by_count`,

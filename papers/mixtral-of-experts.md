@@ -16,18 +16,25 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 4828
-  venue: arXiv (Cornell University)
+  venue: arXiv preprint
   observed_at: '2026-11-20'
   source: https://openalex.org/W4390723197
-summary: Made Mixture-of-Experts practical and open. 8 expert networks, 2 active per token — so a 46B total model runs at the cost of a 12B model. Unlocked the quality-of-large at the cost-of-small tradeoff.
+summary: 'Introduces Mixtral 8x7B, a sparse mixture-of-experts (SMoE) language model: the Mistral 7B architecture with 8 feedforward blocks (experts) per layer, of which a router selects two for each token.'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2401.04088
   title: Mixtral of Experts
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-First practical open-weight Mixture-of-Experts LLM, routing each token to 2 of 8 expert networks for 8x7B total parameters but only 13B active per token. Matched GPT-3.5 quality at far lower inference cost. Proved MoE is production-ready, not just a research curiosity.
+Each token has access to 47B parameters but uses 13B active parameters during inference. The authors report:
+
+- it outperforms or matches Llama 2 70B and GPT-3.5 on all evaluated benchmarks, and vastly outperforms Llama 2 70B on mathematics, code generation and multilingual benchmarks;
+- Mixtral 8x7B - Instruct surpasses GPT-3.5 Turbo, Claude-2.1, Gemini Pro and Llama 2 70B - chat on human benchmarks.
+
+Both models are released under the Apache 2.0 license.

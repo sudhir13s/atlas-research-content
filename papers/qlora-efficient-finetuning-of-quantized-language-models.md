@@ -3,7 +3,7 @@ id: paper/qlora-efficient-finetuning-of-quantized-language-models
 type: paper
 slug: qlora-efficient-finetuning-of-quantized-language-models
 schema_version: 1.0
-title: 'QLoRA: Efficient Finetuning of Quantized Language Models'
+title: 'QLoRA: Efficient Finetuning of Quantized LLMs'
 aliases:
 - QLoRA
 authors: Dettmers et al.
@@ -18,18 +18,28 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 7434
-  venue: neural information processing systems
+  venue: NeurIPS 2023
   observed_at: '2026-11-20'
   source: https://openalex.org/W7133233472
-summary: Fine-tune a 65B model on a single 48GB GPU via 4-bit quantization + low-rank adaptation. Democratized LLM customization for individual researchers and small teams.
+summary: Introduces QLoRA, a fine-tuning approach that backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters (LoRA).
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2305.14314
-  title: 'QLoRA: Efficient Finetuning of Quantized Language Models'
+  title: 'QLoRA: Efficient Finetuning of Quantized LLMs'
+- url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/1feb87871436031bdc0f2beaa62a049b-Abstract-Conference.html
+  title: 'QLoRA: Efficient Finetuning of Quantized LLMs'
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Combined 4-bit NormalFloat quantization with LoRA adapters to enable fine-tuning a 65B model on a single 48GB GPU without quality degradation. Introduced double quantization and paged optimizers to push memory efficiency further. Democratized LLM fine-tuning — anyone with a consumer GPU can now customize a frontier-scale model.
+It cuts memory enough to fine-tune a 65B-parameter model on a single 48GB GPU while preserving full 16-bit fine-tuning task performance. It introduces:
+
+- 4-bit NormalFloat (NF4), a data type the authors call information theoretically optimal for normally distributed weights;
+- double quantization, which quantizes the quantization constants;
+- paged optimizers to manage memory spikes.
+
+The authors’ Guanaco models reach 99.3% of ChatGPT’s performance level on the Vicuna benchmark after 24 hours of fine-tuning on a single GPU.

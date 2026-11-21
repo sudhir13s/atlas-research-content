@@ -3,7 +3,7 @@ id: paper/efficient-estimation-of-word-representations-word2vec
 type: paper
 slug: efficient-estimation-of-word-representations-word2vec
 schema_version: 1.0
-title: Efficient Estimation of Word Representations (Word2Vec)
+title: Efficient Estimation of Word Representations in Vector Space
 aliases:
 - Word2Vec
 authors: Mikolov et al.
@@ -18,18 +18,23 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 44114
-  venue: arXiv (Cornell University)
+  venue: arXiv preprint
   observed_at: '2026-11-20'
   source: https://openalex.org/W1614298861
-summary: king - man + woman = queen. Proved that unsupervised pretraining on text captures real semantics as geometric relationships in vector space. Paradigm shift that led to all modern embedding and pretraining approaches.
+summary: Proposes two model architectures for computing continuous vector representations of words from very large data sets.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/1301.3781
-  title: Efficient Estimation of Word Representations (Word2Vec)
+  title: Efficient Estimation of Word Representations in Vector Space
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Learned dense vector representations of words from raw text using simple neural networks, revealing that semantic relationships are captured as linear directions in the embedding space (king - man + woman = queen). Made word similarity computable and searchable. The paper that convinced the NLP community that distributed representations are the right foundation for language understanding.
+The authors report large accuracy gains on a word similarity task at much lower computational cost than earlier neural network techniques.
+
+- Learning high-quality vectors from a 1.6 billion word data set takes less than a day.
+- The vectors give state-of-the-art performance on the authors’ test set for syntactic and semantic word similarity.

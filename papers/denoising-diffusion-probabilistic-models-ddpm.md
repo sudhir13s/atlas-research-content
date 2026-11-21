@@ -3,7 +3,7 @@ id: paper/denoising-diffusion-probabilistic-models-ddpm
 type: paper
 slug: denoising-diffusion-probabilistic-models-ddpm
 schema_version: 1.0
-title: Denoising Diffusion Probabilistic Models (DDPM)
+title: Denoising Diffusion Probabilistic Models
 aliases:
 - DDPM
 authors: Ho et al.
@@ -18,18 +18,26 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 20791
-  venue: arXiv (Cornell University)
+  venue: NeurIPS 2020
   observed_at: '2026-11-20'
   source: https://openalex.org/W3036167779
-summary: The foundational diffusion model paper. Showed that iteratively denoising random noise could generate high-quality images. This denoising approach replaced GANs as the dominant generation paradigm and led directly to Stable Diffusion, DALL-E, and Midjourney.
+summary: Synthesizes images with diffusion probabilistic models, latent variable models inspired by nonequilibrium thermodynamics, trained on a weighted variational bound linked to denoising score matching with Langevin dynamics.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2006.11239
-  title: Denoising Diffusion Probabilistic Models (DDPM)
+  title: Denoising Diffusion Probabilistic Models
+- url: https://proceedings.neurips.cc/paper_files/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html
+  title: Denoising Diffusion Probabilistic Models
+- url: https://arxiv.org/abs/2112.10752
+  title: High-Resolution Image Synthesis with Latent Diffusion Models
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Showed that gradually denoising Gaussian noise, trained with a simple mean-squared-error loss, produces images rivaling GANs without adversarial training instability. The simplicity of the training objective is what made diffusion models practical for everyone. THE foundational paper for the entire diffusion-based generation revolution.
+The authors report an Inception score of 9.46 and a state-of-the-art FID (Fréchet Inception Distance) of 3.17 on unconditional CIFAR10, and sample quality similar to ProgressiveGAN on 256x256 LSUN.
+
+In 2021 the latent diffusion paper described diffusion models as achieving state-of-the-art synthesis results on image data.

@@ -18,18 +18,24 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 9876
-  venue: arXiv (Cornell University)
+  venue: arXiv preprint
   observed_at: '2026-11-20'
   source: https://openalex.org/W2519091744
-summary: Autoregressive generation applied to raw audio waveforms. Produced speech quality that was indistinguishable from human recordings for the first time. The architectural ancestor of all modern text-to-speech and audio generation models.
+summary: Introduces WaveNet, a fully probabilistic, autoregressive deep neural network that generates raw audio waveforms, conditioning each audio sample on all previous ones.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/1609.03499
   title: 'WaveNet: A Generative Model for Raw Audio'
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Generated raw audio waveforms sample by sample using dilated causal convolutions, producing speech so natural it was nearly indistinguishable from human recordings. Replaced the entire concatenative and parametric TTS pipeline with a single neural network. The foundation of Google's text-to-speech system and the starting point for all modern neural audio synthesis.
+The authors report:
+
+- in text-to-speech, human listeners rate it significantly more natural than the best parametric and concatenative systems, for English and Mandarin;
+- one model captures many speakers and switches between them when conditioned on speaker identity;
+- trained on music, it generates novel and often highly realistic fragments, and it gives promising results for phoneme recognition.

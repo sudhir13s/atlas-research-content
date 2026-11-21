@@ -3,7 +3,7 @@ id: paper/direct-preference-optimization-dpo
 type: paper
 slug: direct-preference-optimization-dpo
 schema_version: 1.0
-title: Direct Preference Optimization (DPO)
+title: 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'
 aliases:
 - DPO
 authors: Rafailov et al.
@@ -18,18 +18,25 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 10923
-  venue: neural information processing systems
+  venue: NeurIPS 2023
   observed_at: '2026-11-20'
   source: https://openalex.org/W7133208539
-summary: Simplified RLHF by eliminating the reward model entirely. Directly optimizes the language model on preference pairs. Now the dominant alignment technique for open models.
+summary: 'Introduces Direct Preference Optimization (DPO): a parameterization of the reward model in reinforcement learning from human feedback (RLHF) whose optimal policy has a closed form, so the RLHF problem is solved with a simple classification loss.'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2305.18290
-  title: Direct Preference Optimization (DPO)
+  title: 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'
+- url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html
+  title: 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Eliminated the reward model from RLHF by reformulating preference optimization as a simple classification loss on preference pairs. Turns a complex RL pipeline into a single supervised fine-tuning step. Now the most widely used alignment method because it is dramatically simpler to implement, more stable to train, and produces comparable results to PPO-based RLHF.
+The authors describe DPO as stable, performant and computationally lightweight, with no sampling from the model during fine-tuning.
+
+- In their experiments it aligns models with human preferences as well as or better than existing methods.
+- It exceeds RLHF based on proximal policy optimization (PPO) at controlling the sentiment of generations, and matches or improves response quality in summarization and single-turn dialogue.

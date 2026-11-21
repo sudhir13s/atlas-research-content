@@ -19,7 +19,7 @@ citation_signals:
   source: https://openalex.org/W2001771035
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://doi.org/10.1093/mind/LIX.236.433
   title: Computing Machinery and Intelligence
@@ -29,4 +29,7 @@ sources:
 
 ## Why It Matters
 
-Asked 'Can machines think?' and proposed the Turing Test as a practical measure. Anticipated virtually every major debate in AI — learning vs programming, consciousness, Chinese Room arguments. The founding philosophical document of artificial intelligence.
+Opens with the question “Can machines think?” and recasts it as a game the paper calls the imitation game.
+
+- An interrogator questions a man and a woman and tries to determine which is which.
+- Turing then asks what will happen when a machine takes the man’s part in the game.

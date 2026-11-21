@@ -3,7 +3,7 @@ id: paper/sequence-to-sequence-learning
 type: paper
 slug: sequence-to-sequence-learning
 schema_version: 1.0
-title: Sequence to Sequence Learning
+title: Sequence to Sequence Learning with Neural Networks
 authors: Sutskever, Vinyals & Le
 year: 2014
 url: https://arxiv.org/abs/1409.3215
@@ -16,18 +16,26 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 21813
-  venue: arXiv (Cornell University)
+  venue: NeurIPS 2014
   observed_at: '2026-11-20'
   source: https://openalex.org/W2130942839
-summary: Encode an input sequence into a fixed vector, decode into output. Made neural machine translation possible and directly inspired the transformer's encoder-decoder structure three years later.
+summary: 'Presents a general end-to-end approach to sequence learning: a multilayered long short-term memory (LSTM) network maps the input sequence to a fixed-dimensional vector, and another deep LSTM decodes the target sequence from it.'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/1409.3215
-  title: Sequence to Sequence Learning
+  title: Sequence to Sequence Learning with Neural Networks
+- url: https://proceedings.neurips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html
+  title: Sequence to Sequence Learning with Neural Networks
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Encode an input sequence into a fixed-length vector, then decode it into an output sequence. This encoder-decoder pattern made neural machine translation possible and directly inspired the transformer architecture three years later.
+On WMT'14 English-to-French the authors report:
+
+- 34.8 BLEU (bilingual evaluation understudy score) on the full test set, against 33.3 for a phrase-based statistical machine translation system;
+- 36.5 BLEU when the LSTM reranks that system’s 1000 hypotheses;
+- no difficulty on long sentences, and markedly better results when the words of source sentences are reversed.

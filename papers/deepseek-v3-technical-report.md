@@ -6,7 +6,7 @@ schema_version: 1.0
 title: DeepSeek-V3 Technical Report
 aliases:
 - DeepSeek-V3
-authors: DeepSeek AI
+authors: DeepSeek-AI
 year: 2024
 url: https://arxiv.org/abs/2412.19437
 arxiv_id: '2412.19437'
@@ -18,18 +18,24 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 9659
-  venue: arXiv (Cornell University)
+  venue: arXiv preprint
   observed_at: '2026-11-20'
   source: https://openalex.org/W4405903187
-summary: 671B total parameters but only 37B active per token via MoE. Introduced Multi-head Latent Attention (MLA) which compresses KV cache by 93%. Trained for $5.5M — a fraction of comparable models. MIT license. Changed the economics of frontier models.
+summary: Describes DeepSeek-V3, a Mixture-of-Experts (MoE) language model with 671B total parameters, 37B of them activated for each token, built on Multi-head Latent Attention (MLA) and the DeepSeekMoE architecture.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2412.19437
   title: DeepSeek-V3 Technical Report
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Combined Multi-head Latent Attention (MLA) with Mixture-of-Experts at 671B parameters, achieving GPT-4-level performance at a fraction of the training cost. Released under MIT license, it proved that frontier-class models can be built outside US labs. A wake-up call for the industry on cost-efficient training.
+The report adds an auxiliary-loss-free strategy for load balancing and a multi-token prediction training objective.
+
+- Pre-training on 14.8 trillion tokens, then supervised fine-tuning and reinforcement learning.
+- Full training took 2.788M H800 GPU hours, with no irrecoverable loss spikes or rollbacks.
+- The authors report that it outperforms other open-source models and performs comparably to leading closed-source models; the checkpoints are public.

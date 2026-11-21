@@ -3,7 +3,7 @@ id: paper/clip-learning-transferable-visual-models
 type: paper
 slug: clip-learning-transferable-visual-models
 schema_version: 1.0
-title: 'CLIP: Learning Transferable Visual Models'
+title: Learning Transferable Visual Models From Natural Language Supervision
 aliases:
 - CLIP
 authors: Radford et al.
@@ -19,22 +19,26 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 61476
-  venue: arXiv (Cornell University)
+  venue: ICML 2021
   observed_at: '2026-11-20'
   source: https://openalex.org/W3135367836
-summary: Trained on 400M image-text pairs from the internet, CLIP learned to connect vision and language. Enabled zero-shot image classification — describe any category in text and CLIP classifies images into it. The foundation of all vision-language models.
+summary: 'Learns image representations from natural language: the model (CLIP) is pre-trained to predict which caption goes with which image, on 400 million (image, text) pairs collected from the internet.'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2103.00020
-  title: 'CLIP: Learning Transferable Visual Models'
+  title: Learning Transferable Visual Models From Natural Language Supervision
+- url: https://proceedings.mlr.press/v139/radford21a.html
+  title: Learning Transferable Visual Models From Natural Language Supervision
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Trained image and text encoders jointly on 400M image-text pairs from the internet, enabling zero-shot image classification by matching images to text descriptions. Eliminated the need for labeled datasets in many vision tasks. The vision-language alignment it pioneered underpins DALL-E, Stable Diffusion, and every modern VLM.
+After pre-training, text that names or describes a visual concept lets the model transfer zero-shot to downstream tasks.
 
-## Also Noted
-
-Trained dual image-text encoders on 400M web pairs using contrastive learning, creating a shared embedding space where images and text are directly comparable. Enabled zero-shot classification, image search, and became the vision backbone for DALL-E, Stable Diffusion, and most VLMs. The foundational vision-language alignment method that the entire multimodal AI field is built upon.
+- On over 30 computer vision datasets the authors report non-trivial transfer to most tasks, often competitive with a fully supervised baseline.
+- Zero-shot, it matches the original ResNet-50 on ImageNet without using any of the 1.28 million training examples.
+- Code and pre-trained weights were released.

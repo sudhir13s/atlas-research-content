@@ -3,7 +3,10 @@ id: paper/segment-anything-sam
 type: paper
 slug: segment-anything-sam
 schema_version: 1.0
-title: Segment Anything (SAM)
+title: Segment Anything
+aliases:
+- Segment Anything Model (SAM)
+- SAM
 authors: Kirillov et al.
 year: 2023
 url: https://arxiv.org/abs/2304.02643
@@ -16,18 +19,25 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 19456
-  venue: IEEE/CVF International Conference on Computer Vision (ICCV)
+  venue: ICCV 2023
   observed_at: '2026-11-20'
   source: https://openalex.org/W4390874575
-summary: A foundation model for image segmentation that can segment any object in any image given a point, box, or text prompt. Trained on 11M images with 1B+ masks. Redefined what 'general-purpose vision' means.
+summary: 'Introduces the Segment Anything project: a new task, model and dataset for image segmentation, with a model designed and trained to be promptable.'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2304.02643
-  title: Segment Anything (SAM)
+  title: Segment Anything
+- url: https://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html
+  title: Segment Anything
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Trained on 1B masks across 11M images to create a promptable segmentation model — give it a point, box, or text and it segments any object in any image. Introduced the concept of foundation models for vision tasks beyond classification. Now the backbone of interactive annotation tools, medical imaging, and robotics pipelines.
+Using the model in a data collection loop, the authors built SA-1B: over 1 billion masks on 11 million licensed and privacy-respecting images.
+
+- The model transfers zero-shot to new image distributions and tasks, often competitive with or superior to prior fully supervised results, the authors report.
+- The Segment Anything Model (SAM) and SA-1B were released.

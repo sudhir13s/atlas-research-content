@@ -18,18 +18,23 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 32229
-  venue: arXiv (Cornell University)
+  venue: ICLR 2015
   observed_at: '2026-11-20'
   source: https://openalex.org/W2133564696
-summary: Introduced the attention mechanism — the decoder looks back at different parts of the input instead of compressing everything into one vector. This single idea is the direct ancestor of transformer self-attention.
+summary: Extends the encoder-decoder model for neural machine translation so that it automatically (soft-)searches for the parts of a source sentence relevant to predicting each target word, instead of using one fixed-length vector.
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/1409.0473
   title: Neural Machine Translation by Jointly Learning to Align and Translate
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Introduced the attention mechanism for neural machine translation, allowing the decoder to dynamically focus on different parts of the source sentence at each generation step. Eliminated the information bottleneck of fixed-size encoder vectors. The direct precursor to the transformer — 'Attention Is All You Need' took this idea and removed everything else.
+The authors conjecture that the fixed-length vector is a bottleneck for the basic encoder-decoder architecture.
+
+- With the new approach they report English-to-French translation performance comparable to the existing state-of-the-art phrase-based system.
+- The (soft-)alignments the model finds agree well with intuition.

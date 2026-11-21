@@ -3,7 +3,7 @@ id: paper/an-image-is-worth-16x16-words-vit
 type: paper
 slug: an-image-is-worth-16x16-words-vit
 schema_version: 1.0
-title: An Image is Worth 16x16 Words (ViT)
+title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'
 aliases:
 - Vision Transformer (ViT)
 - ViT
@@ -20,22 +20,25 @@ must_read:
 is_high_impact: true
 citation_signals:
   cited_by_count: 68247
-  venue: arXiv (Cornell University)
+  venue: ICLR 2021
   observed_at: '2026-11-20'
   source: https://openalex.org/W3094502228
-summary: Split images into 16x16 patches and processed them with a standard transformer. Proved the transformer is not language-specific. With sufficient data, ViT matches or exceeds CNNs on vision tasks. Launched the entire Vision Transformer field.
+summary: 'Introduces the Vision Transformer (ViT): a standard Transformer applied directly to sequences of image patches, with no reliance on convolutional neural networks (CNNs).'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2010.11929
-  title: An Image is Worth 16x16 Words (ViT)
+  title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'
+- url: https://iclr.cc/virtual/2021/oral/3458
+  title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Split images into 16x16 patches, treat each patch as a token, and run a standard transformer. Proved that the transformer architecture is not language-specific — it works equally well for vision. Launched the entire Vision Transformer field.
+The authors show that a pure transformer on image patches can perform very well on image classification.
 
-## Also Noted
-
-Proved that a pure transformer applied directly to image patches, with no convolutional layers whatsoever, matches or exceeds CNNs when pretrained on sufficient data. Shattered the assumption that inductive biases like locality and translation invariance are necessary for vision. Launched the entire ViT ecosystem.
+- Pre-trained on large amounts of data and transferred to mid-sized or small benchmarks (ImageNet, CIFAR-100, VTAB), ViT attains excellent results compared with state-of-the-art convolutional networks.
+- It needs substantially fewer computational resources to train.

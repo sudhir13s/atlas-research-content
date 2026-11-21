@@ -5,9 +5,9 @@ slug: high-resolution-image-synthesis-with-latent-diffusion-models
 schema_version: 1.0
 title: High-Resolution Image Synthesis with Latent Diffusion Models
 aliases:
-- Latent Diffusion (Stable Diffusion)
+- Latent Diffusion Models (LDM)
 authors: Rombach et al.
-year: 2022
+year: 2021
 url: https://arxiv.org/abs/2112.10752
 arxiv_id: '2112.10752'
 topics:
@@ -18,18 +18,26 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 37134
-  venue: IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+  venue: CVPR 2022
   observed_at: '2026-11-20'
   source: https://openalex.org/W4312933868
-summary: The Stable Diffusion paper. Moved diffusion to latent space for practical image generation. Democratized AI art — millions of people used it within months of release. The most impactful generative AI paper for consumers.
+summary: 'Introduces latent diffusion models (LDMs): diffusion models trained in the latent space of powerful pretrained autoencoders instead of pixel space, with cross-attention layers for conditioning on inputs such as text or bounding boxes.'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/2112.10752
   title: High-Resolution Image Synthesis with Latent Diffusion Models
+- url: https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html
+  title: High-Resolution Image Synthesis with Latent Diffusion Models
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Moved diffusion from pixel space to the compressed latent space of a pretrained autoencoder, cutting compute by 10-100x while preserving image quality. This made high-resolution image generation practical on consumer GPUs. The paper behind Stable Diffusion — the model that democratized AI art and created an entire open-source generation ecosystem.
+The authors report:
+
+- a new state of the art for image inpainting;
+- highly competitive results on unconditional image generation, semantic scene synthesis and super-resolution;
+- substantially lower computational requirements than pixel-based diffusion models.

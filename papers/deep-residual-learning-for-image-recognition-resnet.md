@@ -3,7 +3,9 @@ id: paper/deep-residual-learning-for-image-recognition-resnet
 type: paper
 slug: deep-residual-learning-for-image-recognition-resnet
 schema_version: 1.0
-title: Deep Residual Learning for Image Recognition (ResNet)
+title: Deep Residual Learning for Image Recognition
+aliases:
+- ResNet
 authors: He et al.
 year: 2015
 url: https://arxiv.org/abs/1512.03385
@@ -16,18 +18,26 @@ must_read:
 is_high_impact: false
 citation_signals:
   cited_by_count: 18006
-  venue: arXiv (Cornell University)
+  venue: CVPR 2016
   observed_at: '2026-11-20'
   source: https://openalex.org/W2949650786
-summary: Skip connections solved the degradation problem in very deep networks. Before ResNet, networks deeper than ~20 layers performed worse. ResNet enabled 152-layer networks, and the residual connection principle is now in every transformer block.
+summary: 'Introduces residual learning: layers learn residual functions with reference to their inputs, which eases the training of networks substantially deeper than those used before.'
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-21'
 sources:
 - url: https://arxiv.org/abs/1512.03385
-  title: Deep Residual Learning for Image Recognition (ResNet)
+  title: Deep Residual Learning for Image Recognition
+- url: https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html
+  title: Deep Residual Learning for Image Recognition
+locked:
+- citation_signals.venue
 ---
 
 ## Why It Matters
 
-Introduced skip connections that allow gradients to flow through 152+ layers without degrading. Before ResNet, deeper networks paradoxically performed worse. The residual connection principle is now used in every transformer block.
+The authors report:
+
+- residual networks are easier to optimize and gain accuracy from considerably increased depth;
+- on ImageNet, nets of up to 152 layers, 8 times deeper than VGG nets with lower complexity; an ensemble reached 3.57% test error and won first place in the ILSVRC (ImageNet Large Scale Visual Recognition Challenge) 2015 classification task;
+- a 28% relative improvement on COCO object detection, and first places in ImageNet detection and localization and COCO detection and segmentation in 2015.

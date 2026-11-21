@@ -3,9 +3,9 @@ id: paper/language-models-are-unsupervised-multitask-learners-gpt-2
 type: paper
 slug: language-models-are-unsupervised-multitask-learners-gpt-2
 schema_version: 1.0
-title: Language Models are Unsupervised Multitask Learners (GPT-2)
+title: Language Models are Unsupervised Multitask Learners
 aliases:
-- GPT-2 (Safety Concerns)
+- GPT-2
 authors: Radford et al.
 year: 2019
 url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
@@ -15,15 +15,19 @@ must_read:
   era: Attention & Transformers (2016-2019)
   order: 18
 is_high_impact: false
-summary: Language models can perform tasks they were never trained for — translation, summarization, QA — just by predicting the next word. First model withheld from release due to safety concerns, starting the responsible release conversation.
+summary: Shows that language models begin to learn tasks such as question answering, translation, reading comprehension and summarization without explicit supervision when trained on WebText, a new dataset of millions of webpages.
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-21'
 sources:
 - url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
-  title: Language Models are Unsupervised Multitask Learners (GPT-2)
+  title: Language Models are Unsupervised Multitask Learners
 ---
 
 ## Why It Matters
 
-OpenAI initially withheld GPT-2 citing misuse concerns for generating convincing fake text, sparking the first major public debate about responsible AI release. The model itself showed that unsupervised language models can generate coherent multi-paragraph text. Set the precedent for staged release and responsible disclosure practices that the industry still follows.
+The authors report:
+
+- given a document plus questions, answers reach 55 F1 on the CoQA dataset, matching or exceeding 3 of 4 baseline systems without their 127,000+ training examples;
+- model capacity is essential to zero-shot task transfer, and increasing it improves performance log-linearly across tasks;
+- GPT-2, a 1.5B-parameter Transformer, achieves state-of-the-art results on 7 of 8 language modeling datasets zero-shot, while still underfitting WebText.
