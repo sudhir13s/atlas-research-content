@@ -3,14 +3,14 @@
   "domain": "research",
   "title": "AI Research — reference knowledge",
   "schema_version": "1.1",
-  "description": "Portable, reusable reference knowledge for AI research: landmark papers with the reason each one matters, the topics that group them, the research directions currently moving, and the platforms researchers use to find and read papers. Content only — Markdown + JSON Schema + docs, zero code.",
+  "description": "Portable, reusable reference knowledge for AI research: landmark papers with the reason each one matters, the topics that group them, the research directions currently moving, the platforms researchers use to find and read papers, and the recent papers the community is reading, copied from their sources. Content only — Markdown + JSON Schema + docs, zero code.",
   "entrypoints": {
     "human": "README.md",
     "agent": "AGENTS.md",
     "conventions": "CONVENTIONS.md",
     "registry": "schema/registry.json"
   },
-  "types": ["paper", "research-topic", "research-direction", "research-resource"],
+  "types": ["paper", "research-topic", "research-direction", "research-resource", "feed-item"],
   "license": "CC-BY-4.0",
   "standard": "https://github.com/sudhir13s/TheAIAtlas/blob/main/docs/content-repo-standard.md"
 }

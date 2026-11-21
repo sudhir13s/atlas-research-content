@@ -12,6 +12,12 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
   OpenAlex by code, only for papers with an arXiv ID or DOI, matched by that identifier alone;
   absent until the first read.
 
+### Schema 1.1 (recent papers)
+
+- **Added** the `feed-item` type (folder `feed/<year>/<month>/`, kind `paper` only): one record per
+  recent paper the community is reading, copied from Hugging Face Papers or arXiv. It moved here
+  from `atlas-news-content`, because Research shows these papers; the files are unchanged.
+
 ### Added
 - Repository scaffold to the content-repo standard: `meta.json`, `schema/registry.json`, the five
   JSON Schemas (`_shared`, `paper`, `research-topic`, `research-direction`, `research-resource`),
@@ -26,4 +32,4 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 ## Schema versions
 
 - **1.0** — initial schema for all four research content types.
-- **1.1** — `paper.citation_signals`.
+- **1.1** — `paper.citation_signals`; the `feed-item` type for recent papers.

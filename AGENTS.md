@@ -23,6 +23,7 @@ Two equivalent ways to enumerate the library:
 
 - **Glob**: read every `**/*.md`, parse its YAML frontmatter, key on `id` / `type`.
 - **By type**: for a known `type`, list its `folder` from the registry and read each `<slug>.md`.
+  A `dated` type (`feed-item`) files its records at `feed/<year>/<month>/<slug>.md`.
 
 Every file self-identifies via frontmatter (`id`, `type`, `slug`, `title`, `tags`, ...), so no
 separate index is needed and none can fall out of sync.

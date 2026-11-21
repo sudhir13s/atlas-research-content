@@ -29,7 +29,7 @@
         "id": { "$ref": "#/$defs/id" },
         "type": {
           "type": "string",
-          "enum": ["paper", "research-topic", "research-direction", "research-resource"]
+          "enum": ["paper", "research-topic", "research-direction", "research-resource", "feed-item"]
         },
         "slug": { "$ref": "#/$defs/slug" },
         "schema_version": { "type": ["string", "number"] },
