@@ -2,7 +2,7 @@
 
 Portable, reusable reference knowledge about **AI research**: landmark papers and why each one
 matters, the topics that group them, the research directions moving right now, and the platforms
-researchers use to find and read papers. Authored as Markdown with structured YAML frontmatter,
+researchers use to find and read papers, and the recent papers the community is reading. Authored as Markdown with structured YAML frontmatter,
 validated by JSON Schema, and readable by both humans and AI agents. This repo is **content
 only**: no code, no build step, no framework lock-in. Any project can vendor it (as a git
 submodule or a plain checkout) and render it however it likes.
@@ -20,6 +20,7 @@ It is the `research` domain of a multi-repo reference library
 | `research-topic` | `topics/` | A subject that groups papers (Transformers, Diffusion, Agents, ...) |
 | `research-direction` | `directions/` | A research direction moving now, with a paper-search query and why it matters |
 | `research-resource` | `resources/` | A platform for finding and reading papers (arXiv, Semantic Scholar, ...) with its useful links |
+| `feed-item` | `feed/<year>/<month>/` | One recent paper copied from its source (Hugging Face Papers, arXiv), filed by published date: title, link, date, authors and upvotes, and the abstract as the source gives it |
 
 ## Quick start
 
@@ -27,7 +28,7 @@ It is the `research` domain of a multi-repo reference library
 # Vendor it
 git clone https://github.com/sudhir13s/atlas-research-content.git
 # or as a submodule of your project
-git submodule add https://github.com/sudhir13s/atlas-research-content.git content/atlas-research-content
+git submodule add https://github.com/sudhir13s/atlas-research-content.git content/research-src
 ```
 
 Every content file is a Markdown file with YAML frontmatter (the structured fields) and a Markdown
@@ -42,6 +43,7 @@ schema/registry.json      # type → folder/schema/sections map (machine entrypo
 schema/*.schema.json      # JSON Schema per content type
 templates/*.template.md   # copy these to author new content
 papers/ topics/ directions/ resources/
+feed/<year>/<month>/      # recent papers, one file each, filed by published date
 ```
 
 ## Contributing

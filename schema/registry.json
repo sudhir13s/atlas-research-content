@@ -21,6 +21,14 @@
       "id_prefix": "research-direction/",
       "sections": ["Why It Matters"]
     },
+    "feed-item": {
+      "folder": "feed",
+      "layout": "dated",
+      "schema": "schema/feed-item.schema.json",
+      "id_prefix": "feed-item/",
+      "sections": ["Summary"],
+      "optional_sections": ["Why It Matters"]
+    },
     "research-resource": {
       "folder": "resources",
       "schema": "schema/research-resource.schema.json",

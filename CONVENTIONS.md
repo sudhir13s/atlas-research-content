@@ -61,6 +61,18 @@ see `schema/<type>.schema.json`.
 - **research-resource** — `icon`, `links[]` (`{label, url}`, display order), `order`. Body:
   `Overview`.
 
+- **feed-item** — a recent paper the community is reading, kept apart from the landmark `paper`
+  records. Its slug is `<YYYY-MM-DD>-<title-words>-<8 hex>`: the UTC day the source published it
+  (`undated` when it gave no date), the title as lowercase ASCII words cut to 60 characters, and the
+  first 8 hex characters of the SHA-256 of its `url`. The file is `feed/<year>/<month>/<slug>.md`
+  (`feed/undated/` without a date) and its name equals `slug`. `kind` is always `paper`; `url` is
+  unique across the repo; `source` names the `config/sources.yaml` entry and `source_tool` the fetch
+  tool (`arxiv`, `huggingface-papers`). A paper copied by code has a `generated_by` that names the
+  job and run only: `fields` holds what the source gave (`arxiv_id`, `authors`, counts), `relevance`
+  is `0`, `tags` is empty, the `Summary` is the abstract as the source gives it, and it has no
+  `quote`, `review` or `Why It Matters`. A paper a model wrote names `provider`, `model` and
+  `prompt_version` in `generated_by` and carries `quote`, `review` and both sections.
+
 ## Sourcing
 
 Open-source-first, zero plagiarism. Prefer open papers and official pages. Reference paywalled
