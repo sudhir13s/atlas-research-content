@@ -8,17 +8,16 @@ icon: 🌐
 links:
 - label: Search
   url: https://core.ac.uk/
-- label: AI/ML papers
-  url: https://core.ac.uk/search?q=machine+learning
-- label: Data Providers
-  url: https://core.ac.uk/data-providers
 order: 12
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://core.ac.uk/
+  title: CORE
+  trust: 0.9
 ---
 
 ## Overview
 
-World's largest aggregator of open access research papers. 300M+ papers. Free.
+Aggregates open access research papers. Its home page offers search across 452M papers and calls its discovery tools free for everyone.

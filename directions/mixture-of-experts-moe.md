@@ -9,10 +9,18 @@ is_hot: true
 order: 1
 tags:
 - research-direction
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://arxiv.org/abs/1701.06538
+  title: 'Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer'
+  trust: 0.9
+- url: https://arxiv.org/abs/2412.19437
+  title: DeepSeek-V3 Technical Report
+  trust: 0.9
 ---
 
 ## Why It Matters
 
-DeepSeek-V3 proved MoE can match dense models at a fraction of cost
+Mixture-of-experts (MoE) layers use a trainable gating network to pick a sparse combination of expert sub-networks for each input, so model capacity grows without a matching rise in computation.
+
+- The DeepSeek-V3 authors report an MoE model with 671B total parameters, 37B of them active per token, trained in 2.788M H800 GPU hours.

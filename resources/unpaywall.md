@@ -10,15 +10,21 @@ links:
   url: https://unpaywall.org/
 - label: Chrome Extension
   url: https://unpaywall.org/products/extension
-- label: How It Works
+- label: FAQ
   url: https://unpaywall.org/faq
 order: 11
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://unpaywall.org/products/extension
+  title: Unpaywall browser extension
+  trust: 0.9
+- url: https://unpaywall.org/faq
+  title: Unpaywall FAQ
+  trust: 0.9
 ---
 
 ## Overview
 
-Browser extension that finds free legal versions of paywalled papers.
+Browser extension for Chrome and Firefox that shows a free, legal copy of a paywalled article when its database has one, harvested from journals and open access repositories. Free.

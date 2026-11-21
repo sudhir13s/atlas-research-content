@@ -9,10 +9,15 @@ is_hot: true
 order: 4
 tags:
 - research-direction
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://arxiv.org/abs/2404.14219
+  title: 'Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone'
+  trust: 0.9
 ---
 
 ## Why It Matters
 
-Phi, Gemma, Qwen show 3-8B models approaching larger model quality
+Language models small enough to run on limited hardware.
+
+- The Phi-3 authors report that phi-3-mini, a 3.8-billion-parameter model small enough to deploy on a phone, rivals Mixtral 8x7B and GPT-3.5 on academic benchmarks and internal testing.

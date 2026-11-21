@@ -6,8 +6,8 @@ schema_version: 1.0
 title: HELM (Stanford)
 icon: 📊
 links:
-- label: HELM Dashboard
-  url: https://crfm.stanford.edu/helm/latest/
+- label: HELM Leaderboards
+  url: https://crfm.stanford.edu/helm/
 - label: HELM Paper
   url: https://arxiv.org/abs/2211.09110
 - label: CRFM Home
@@ -19,10 +19,16 @@ links:
 order: 10
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://crfm.stanford.edu/helm/
+  title: HELM leaderboards
+  trust: 0.9
+- url: https://arxiv.org/abs/2211.09110
+  title: Holistic Evaluation of Language Models
+  trust: 0.9
 ---
 
 ## Overview
 
-Stanford's holistic evaluation of language models. Benchmark methodology research.
+A framework from Stanford's Center for Research on Foundation Models (CRFM) for evaluating foundation models, which it describes as reproducible and transparent. Its leaderboards include Capabilities, HELM Lite, HELM Classic, VHELM and HEIM.

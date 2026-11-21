@@ -11,7 +11,7 @@ year: 2022
 url: https://arxiv.org/abs/2201.11903
 arxiv_id: '2201.11903'
 topics:
-- research-topic/nlp-classics
+- research-topic/llm
 must_read:
   era: LLM Era & Agents (2022-Present)
   order: 12

@@ -19,10 +19,13 @@ links:
 order: 1
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://info.arxiv.org/about/index.html
+  title: About arXiv
+  trust: 0.9
 ---
 
 ## Overview
 
-Primary open-access preprint repository for AI/ML papers. Updated daily. Free.
+A curated, open access research-sharing platform hosting more than three million articles in eight subject areas, including computer science. Submission has no fees.

@@ -5,6 +5,16 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Directions and resources checked against their primary sources
+
+- **Changed** the 15 `research-direction` records: `Why It Matters` now describes the research
+  area and the main approaches, each backed by a paper whose arXiv abstract states it and cited in
+  `sources`. Market, adoption and prediction claims and numbers no paper states were removed.
+- **Changed** the 13 `research-resource` records: overviews say only what each site states about
+  itself, without rankings or unstated "free" claims. Links that no longer resolve or did not do
+  what their label said were removed or relabelled, and `sources` lists the pages used.
+- **Changed** the GPT-2 and chain-of-thought `paper` records move to `research-topic/llm`.
+
 ### Must-read papers checked against their primary pages
 
 - **Changed** the 36 must-read `paper` records after checking each against its arXiv record,

@@ -9,10 +9,15 @@ is_hot: true
 order: 5
 tags:
 - research-direction
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://arxiv.org/abs/2204.14198
+  title: 'Flamingo: a Visual Language Model for Few-Shot Learning'
+  trust: 0.9
 ---
 
 ## Why It Matters
 
-Vision-language-audio unification is the next frontier after text
+Models that take images or video together with text as input.
+
+- Flamingo, for example, bridges pretrained vision-only and language-only models and handles arbitrarily interleaved images, video and text.

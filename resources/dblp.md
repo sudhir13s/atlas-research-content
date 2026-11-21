@@ -19,10 +19,13 @@ links:
 order: 7
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://dblp.org/
+  title: dblp computer science bibliography
+  trust: 0.9
 ---
 
 ## Overview
 
-Comprehensive computer science bibliography. Every published CS paper indexed. Free.
+Open bibliographic information on major computer science journals and proceedings, operated by Schloss Dagstuhl. All metadata is released as open data under CC0 1.0.

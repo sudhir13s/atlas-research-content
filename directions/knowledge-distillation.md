@@ -9,10 +9,13 @@ is_hot: false
 order: 9
 tags:
 - research-direction
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://arxiv.org/abs/1503.02531
+  title: Distilling the Knowledge in a Neural Network
+  trust: 0.9
 ---
 
 ## Why It Matters
 
-Transferring capabilities from large to small models
+Compressing the knowledge of a large model or an ensemble into a smaller model that is easier to deploy, as described by Hinton, Vinyals and Dean.

@@ -17,10 +17,16 @@ links:
 order: 8
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://www.connectedpapers.com/about
+  title: About Connected Papers
+  trust: 0.9
+- url: https://www.connectedpapers.com/pricing
+  title: Connected Papers pricing
+  trust: 0.9
 ---
 
 ## Overview
 
-Visual citation graph — see how papers relate to each other. Free for basic use.
+Builds a visual graph of papers similar to a chosen paper, using co-citation and bibliographic coupling, so it is not a citation tree. Its data comes from the Semantic Scholar corpus. The free plan includes 5 graphs per month; paid plans are unlimited.

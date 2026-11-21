@@ -14,17 +14,20 @@ links:
   url: https://scholar.google.com/scholar?q=AI+agents+tool+use&as_ylo=2024
 - label: Diffusion models
   url: https://scholar.google.com/scholar?q=diffusion+models+image+generation&as_ylo=2024
-- label: Top Cited AI (all time)
+- label: 'Search: deep learning'
   url: https://scholar.google.com/scholar?q=deep+learning&as_sdt=0%2C5&sort=cit
 - label: Scholar Profiles
   url: https://scholar.google.com/citations?view_op=search_authors&mauthors=machine+learning
 order: 2
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://scholar.google.com/intl/en/scholar/about.html
+  title: About Google Scholar
+  trust: 0.9
 ---
 
 ## Overview
 
-Broadest academic search engine. Covers journals, conferences, preprints. Free.
+Searches articles, theses, books, abstracts and court opinions from academic publishers, professional societies, online repositories, universities and other websites.

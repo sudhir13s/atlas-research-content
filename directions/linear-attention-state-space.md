@@ -9,10 +9,15 @@ is_hot: true
 order: 3
 tags:
 - research-direction
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://arxiv.org/abs/2312.00752
+  title: 'Mamba: Linear-Time Sequence Modeling with Selective State Spaces'
+  trust: 0.9
 ---
 
 ## Why It Matters
 
-Mamba and variants challenge quadratic attention with O(n) inference
+Subquadratic sequence models, such as linear attention and structured state space models (SSMs), aim to avoid the cost of attention on long sequences.
+
+- The Mamba authors report linear scaling in sequence length and 5 times higher inference throughput than Transformers.

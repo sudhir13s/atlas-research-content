@@ -10,8 +10,6 @@ links:
   url: https://www.semanticscholar.org/
 - label: LLM Research
   url: https://www.semanticscholar.org/search?q=large+language+models&sort=pub-date
-- label: Research Feeds
-  url: https://www.semanticscholar.org/feeds
 - label: AI Agents papers
   url: https://www.semanticscholar.org/search?q=AI+agents+tool+use&sort=pub-date
 - label: Highly Influential Papers
@@ -19,10 +17,13 @@ links:
 order: 5
 tags:
 - research-resource
-updated: '2026-11-19'
-sources: []
+updated: '2026-11-21'
+sources:
+- url: https://www.semanticscholar.org/about
+  title: About Semantic Scholar
+  trust: 0.9
 ---
 
 ## Overview
 
-AI-powered citation tracking and influential paper detection by Allen AI. Free.
+A free, AI-powered research tool for scientific literature, run by Ai2.

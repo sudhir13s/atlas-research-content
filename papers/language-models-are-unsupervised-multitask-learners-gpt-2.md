@@ -10,7 +10,7 @@ authors: Radford et al.
 year: 2019
 url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
 topics:
-- research-topic/alignment
+- research-topic/llm
 must_read:
   era: Attention & Transformers (2016-2019)
   order: 18
