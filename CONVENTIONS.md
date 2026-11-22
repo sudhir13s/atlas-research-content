@@ -35,7 +35,7 @@ see `schema/<type>.schema.json`.
 - `tags`: lowercase, hyphen-separated.
 - `updated`: ISO date (`YYYY-MM-DD`).
 - `sources[]`: `{ url, title, trust }` — `trust` in `[0,1]`. A paper's source is its own link.
-- `schema_version`: the `major.minor` the file was authored against (currently `1.1`).
+- `schema_version`: the `major.minor` the file was authored against (currently `2.0`).
 
 ## Body sections
 
@@ -56,8 +56,20 @@ see `schema/<type>.schema.json`.
   count, venue, the day it was read and the paper's OpenAlex address, copied by code for papers with
   an arXiv ID or DOI; never written by hand.
 - **research-topic** — `icon`, `order`. No body.
-- **research-direction** — `search_query` (words joined with `+`), `is_hot`, `order`. Body:
-  `Why It Matters`.
+- **research-direction** — `search_query`, `order`. Body: `Why It Matters`.
+  - `search_query` is words joined with `+`; a phrase goes inside double quotes
+    (`"mixture+of+experts"`, `agent+"tool+use"`). A paper must contain every word and phrase. The
+    same query opens the arXiv search and is counted through the arXiv API, so it holds no field
+    prefix and no `OR`.
+  - `activity` is agent-owned and never written by hand; a template has none. It holds the arXiv
+    paper counts for the query in the latest window and the one before (`papers_recent`,
+    `papers_previous`), the same two counts for every paper of the counted arXiv categories
+    (`field_recent`, `field_previous`), the rule the counts were judged by (`window_days`,
+    `min_papers`, `min_growth_vs_field`), the verdict `is_hot`, the day read and the API address
+    that gave `papers_recent`.
+  - A direction is hot when `papers_recent >= min_papers` and
+    `papers_recent / papers_previous >= min_growth_vs_field * field_recent / field_previous`: it has
+    enough papers and grows faster than the field. A record without `activity` is not marked.
 - **research-resource** — `icon`, `links[]` (`{label, url}`, display order), `order`. Body:
   `Overview`.
 
