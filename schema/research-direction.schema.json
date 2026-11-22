@@ -27,8 +27,9 @@
         "field_recent": { "type": "integer", "minimum": 0, "description": "every paper of the counted arXiv categories in the latest window, the field the direction is compared with" },
         "field_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
         "window_days": { "type": "integer", "minimum": 1, "description": "length of each window in days" },
-        "min_papers": { "type": "integer", "minimum": 0, "description": "the rule: fewest `papers_recent` a hot direction has" },
-        "min_growth_vs_field": { "type": "number", "exclusiveMinimum": 0, "description": "the rule: how many times the field's growth (`field_recent / field_previous`) the direction's growth (`papers_recent / papers_previous`) is, at least" },
+        "min_papers_high_volume": { "type": "integer", "minimum": 0, "description": "the rule, high volume: `papers_recent` that make a direction hot whatever its growth; absent on a block written before 2.1, which was judged by the rising rule alone" },
+        "min_papers": { "type": "integer", "minimum": 0, "description": "the rule, rising: fewest `papers_recent` a direction that is hot by its growth has" },
+        "min_growth_vs_field": { "type": "number", "exclusiveMinimum": 0, "description": "the rule, rising: how many times the field's growth (`field_recent / field_previous`) the direction's growth (`papers_recent / papers_previous`) is, at least" },
         "is_hot": { "type": "boolean", "description": "the verdict of the rule on these counts" },
         "observed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "the day the counts were read; refreshed only when a figure changed" },
         "source": { "type": "string", "format": "uri", "description": "the arXiv API address that gave `papers_recent`; it states the query, the categories and the window" }

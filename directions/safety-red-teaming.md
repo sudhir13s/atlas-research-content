@@ -2,7 +2,7 @@
 id: research-direction/safety-red-teaming
 type: research-direction
 slug: safety-red-teaming
-schema_version: 2.0
+schema_version: 2.1
 title: Safety & Red Teaming
 search_query: '"red+teaming"'
 order: 13
@@ -12,6 +12,7 @@ activity:
   field_recent: 43623
   field_previous: 36684
   window_days: 90
+  min_papers_high_volume: 400
   min_papers: 100
   min_growth_vs_field: 1.05
   is_hot: false

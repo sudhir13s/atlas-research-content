@@ -5,6 +5,16 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Schema 2.1 (hot by high volume)
+
+- **Added** `activity.min_papers_high_volume` on `research-direction`: a direction with at least
+  that many papers in the latest window is hot whatever its growth. The earlier rule (enough papers
+  and faster growth than the field) still marks a direction as well. The 15 records were converted
+  to 2.1 and judged again from their stored counts.
+- **Changed** `search_query` of three `research-direction` records whose queries matched too few
+  papers or papers off the direction: `hallucination-reduction`, `rlhf-alignment` and
+  `benchmark-methodology`. Their counts were read again for the same two windows.
+
 ### Schema 2.0 (direction activity)
 
 - **Removed** the hand-set `is_hot` field of `research-direction`. Breaking: a reader of the
@@ -46,3 +56,4 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 - **1.0** — initial schema for all four research content types.
 - **1.1** — `paper.citation_signals`; the `feed-item` type for recent papers.
 - **2.0** — `research-direction.is_hot` replaced by the agent-owned `research-direction.activity`.
+- **2.1** — `research-direction.activity.min_papers_high_volume`: a second way to be hot.

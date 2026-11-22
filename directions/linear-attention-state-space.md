@@ -2,7 +2,7 @@
 id: research-direction/linear-attention-state-space
 type: research-direction
 slug: linear-attention-state-space
-schema_version: 2.0
+schema_version: 2.1
 title: Linear Attention / State-Space
 search_query: '"linear+attention"'
 order: 3
@@ -12,6 +12,7 @@ activity:
   field_recent: 43623
   field_previous: 36684
   window_days: 90
+  min_papers_high_volume: 400
   min_papers: 100
   min_growth_vs_field: 1.05
   is_hot: true
