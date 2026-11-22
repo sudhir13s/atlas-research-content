@@ -8,10 +8,31 @@
     "search_query": {
       "type": "string",
       "minLength": 1,
-      "description": "the paper-search query for the direction, with `+` between words"
+      "description": "the paper-search query for the direction: words joined with `+`, a phrase inside double quotes; a paper must contain every word and phrase"
     },
-    "is_hot": { "type": "boolean", "description": "the direction is moving fast right now" },
-    "order": { "type": "integer", "minimum": 1, "description": "position among the directions, 1 = first" }
+    "order": { "type": "integer", "minimum": 1, "description": "position among the directions, 1 = first" },
+    "activity": { "$ref": "#/$defs/activity" }
   },
-  "required": ["search_query", "is_hot", "order"]
+  "required": ["search_query", "order"],
+  "not": { "required": ["is_hot"] },
+  "$defs": {
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "agent-owned: arXiv paper counts for `search_query`, the rule they were judged by and the verdict, written by code; absent until the first count",
+      "required": ["papers_recent", "papers_previous", "field_recent", "field_previous", "window_days", "min_papers", "min_growth_vs_field", "is_hot", "observed_at", "source"],
+      "properties": {
+        "papers_recent": { "type": "integer", "minimum": 0, "description": "papers matching `search_query` submitted in the latest window" },
+        "papers_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
+        "field_recent": { "type": "integer", "minimum": 0, "description": "every paper of the counted arXiv categories in the latest window, the field the direction is compared with" },
+        "field_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
+        "window_days": { "type": "integer", "minimum": 1, "description": "length of each window in days" },
+        "min_papers": { "type": "integer", "minimum": 0, "description": "the rule: fewest `papers_recent` a hot direction has" },
+        "min_growth_vs_field": { "type": "number", "exclusiveMinimum": 0, "description": "the rule: how many times the field's growth (`field_recent / field_previous`) the direction's growth (`papers_recent / papers_previous`) is, at least" },
+        "is_hot": { "type": "boolean", "description": "the verdict of the rule on these counts" },
+        "observed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "the day the counts were read; refreshed only when a figure changed" },
+        "source": { "type": "string", "format": "uri", "description": "the arXiv API address that gave `papers_recent`; it states the query, the categories and the window" }
+      }
+    }
+  }
 }

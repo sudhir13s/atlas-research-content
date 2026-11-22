@@ -5,6 +5,18 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Schema 2.0 (direction activity)
+
+- **Removed** the hand-set `is_hot` field of `research-direction`. Breaking: a reader of the
+  top-level `is_hot` now reads `activity.is_hot`.
+- **Added** the optional, agent-owned `activity` block on `research-direction`: the arXiv paper
+  counts for the record's `search_query` in the latest window and the one before, the same counts
+  for the whole field, the rule they were judged by, the verdict `is_hot`, the day read and the API
+  address used. Written by code only; absent until the first count.
+- **Changed** `search_query` of `research-direction`: a phrase may be written inside double quotes.
+  The 15 records were converted to 2.0, and the queries whose results were off the direction now
+  name it by its phrase.
+
 ### Directions and resources checked against their primary sources
 
 - **Changed** the 15 `research-direction` records: `Why It Matters` now describes the research
@@ -51,3 +63,4 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 - **1.0** — initial schema for all four research content types.
 - **1.1** — `paper.citation_signals`; the `feed-item` type for recent papers.
+- **2.0** — `research-direction.is_hot` replaced by the agent-owned `research-direction.activity`.

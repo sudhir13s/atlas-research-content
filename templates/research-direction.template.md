@@ -2,10 +2,9 @@
 id: research-direction/<slug>
 type: research-direction
 slug: <slug>
-schema_version: 1.0
+schema_version: 2.0
 title: "<Direction name>"
-search_query: "<words+joined+with+plus>"
-is_hot: false
+search_query: '"<words+of+a+phrase>"+<word>'
 order: 1
 tags: [research-direction]
 updated: <YYYY-MM-DD>
