@@ -5,6 +5,13 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Schema 2.3 (one quote per sentence)
+
+- **Added** the optional, agent-owned `quotes` on `research-direction`: one span of a source
+  abstract for each sentence of a model-written text, in sentence order. Each sentence is checked
+  against its own quote before the record is stored. The single `quote` stays on the records
+  written before 2.3.
+
 ### Schema 2.2 (directions chosen by rule)
 
 - **Added** `status` (`active` or `retired`), `origin` and `selection` on `research-direction`,
@@ -89,3 +96,4 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 - **2.1** — `research-direction.activity.min_papers_high_volume`: a second way to be hot.
 - **2.2** — `research-direction.status`, `origin` and `selection`: directions chosen by rule from
   OpenAlex keywords; `quote`, `review` and `generated_by` on a model-written direction.
+- **2.3** — `research-direction.quotes`: one quote per sentence of a model-written direction.

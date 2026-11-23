@@ -18,7 +18,8 @@
     "origin": { "$ref": "#/$defs/origin" },
     "selection": { "$ref": "#/$defs/selection" },
     "activity": { "$ref": "#/$defs/activity" },
-    "quote": { "type": "string", "minLength": 1, "description": "agent-owned: the span of a source abstract the model-written text rests on; only on a record whose text a model wrote" },
+    "quote": { "type": "string", "minLength": 1, "description": "agent-owned: the span of a source abstract the model-written text rests on; only on a record whose text a model wrote before 2.3, with one quote for the whole text" },
+    "quotes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "description": "agent-owned: one span of a source abstract per sentence of the model-written text, in sentence order; only on a record whose text a model wrote" },
     "review": { "type": "object", "description": "agent-owned: the Critic's score, the reviewing model and the prompt versions; only on a record whose text a model wrote" },
     "generated_by": { "type": "object", "description": "agent-owned: the job, run, provider, model and prompt version that wrote the text; only on a record whose text a model wrote" }
   },

@@ -2,7 +2,7 @@
 id: research-direction/<slug>
 type: research-direction
 slug: <slug>
-schema_version: 2.2
+schema_version: 2.3
 title: "<Direction name>"
 search_query: '"<words+of+a+phrase>"+<word>'
 order: 1
