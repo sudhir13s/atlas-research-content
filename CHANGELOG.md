@@ -5,6 +5,18 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Schema 2.2 (directions chosen by rule)
+
+- **Added** `status` (`active` or `retired`), `origin` and `selection` on `research-direction`,
+  all agent-owned and optional. A direction now stands for one or more OpenAlex keywords
+  (`origin`); `selection` holds the keyword work counts, the rule and the runs spent below the
+  leave bar. A record without `status` is active.
+- **Added** the optional `quote`, `review` and `generated_by` on `research-direction`, present
+  only on a record whose text a model wrote from paper abstracts.
+- **Changed** the 15 `research-direction` records to 2.2: each names its keywords in `origin`
+  and keeps its text. Thirteen are `active`. `multi-head-latent-attention` and
+  `benchmark-methodology` are `retired`: their keywords are far below the entry bar.
+
 ### Schema 2.1 (hot by high volume)
 
 - **Added** `activity.min_papers_high_volume` on `research-direction`: a direction with at least
@@ -26,6 +38,24 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 - **Changed** `search_query` of `research-direction`: a phrase may be written inside double quotes.
   The 15 records were converted to 2.0, and the queries whose results were off the direction now
   name it by its phrase.
+
+### Directions and resources checked against their primary sources
+
+- **Changed** the 15 `research-direction` records: `Why It Matters` now describes the research
+  area and the main approaches, each backed by a paper whose arXiv abstract states it and cited in
+  `sources`. Market, adoption and prediction claims and numbers no paper states were removed.
+- **Changed** the 13 `research-resource` records: overviews say only what each site states about
+  itself, without rankings or unstated "free" claims. Links that no longer resolve or did not do
+  what their label said were removed or relabelled, and `sources` lists the pages used.
+- **Changed** the GPT-2 and chain-of-thought `paper` records move to `research-topic/llm`.
+
+### Must-read papers checked against their primary pages
+
+- **Changed** the 36 must-read `paper` records after checking each against its arXiv record,
+  proceedings page or publisher page: exact titles (short names moved to `aliases`), authors and
+  year where they differed, the venue in `citation_signals.venue` set from the page that states it
+  and locked against the OpenAlex refresh, and `summary` and `Why It Matters` rewritten to what
+  the abstract supports, without superlatives or unsourced influence claims.
 
 ### Schema 1.1 (citation signals)
 
@@ -57,3 +87,5 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 - **1.1** — `paper.citation_signals`; the `feed-item` type for recent papers.
 - **2.0** — `research-direction.is_hot` replaced by the agent-owned `research-direction.activity`.
 - **2.1** — `research-direction.activity.min_papers_high_volume`: a second way to be hot.
+- **2.2** — `research-direction.status`, `origin` and `selection`: directions chosen by rule from
+  OpenAlex keywords; `quote`, `review` and `generated_by` on a model-written direction.

@@ -35,7 +35,7 @@ see `schema/<type>.schema.json`.
 - `tags`: lowercase, hyphen-separated.
 - `updated`: ISO date (`YYYY-MM-DD`).
 - `sources[]`: `{ url, title, trust }` — `trust` in `[0,1]`. A paper's source is its own link.
-- `schema_version`: the `major.minor` the file was authored against (currently `2.1`).
+- `schema_version`: the `major.minor` the file was authored against (currently `2.2`).
 
 ## Body sections
 
@@ -57,6 +57,29 @@ see `schema/<type>.schema.json`.
   an arXiv ID or DOI; never written by hand.
 - **research-topic** — `icon`, `order`. No body.
 - **research-direction** — `search_query`, `order`. Body: `Why It Matters`.
+  - **Which directions exist is decided by rule, not by hand.** A direction stands for one or
+    more OpenAlex keywords; the `research-curation` job counts the arXiv-primary works of every
+    keyword each month and applies the rule in `config/jobs.yaml` of TheAIAtlas.
+  - `origin` is agent-owned and written once: `source` (`OpenAlex keyword`), `keyword_ids` (short
+    OpenAlex IDs, the naming keyword first), `keyword_names` and `first_seen`. A direction the
+    job adds takes its title from the first keyword's name in title case, its slug from the
+    title, and its `search_query` from that name as one phrase.
+  - `status` is agent-owned: `active` (listed) or `retired` (kept with its text, not listed).
+    A record without it is active. A direction is retired after `leave_after_runs` runs in a
+    row below the leave bar and becomes active again when its keywords pass the entry bar.
+  - `selection` is agent-owned and never written by hand: the keyword works in the latest
+    window and the one before (`works_recent`, `works_previous`), the same counts for every
+    work counted (`field_recent`, `field_previous`), the rule's numbers (`window_days`,
+    `min_recent_papers`, `max_field_share`, `max_directions`, `leave_below_ratio`,
+    `leave_after_runs`), `runs_below` and the day read.
+    - Entry: `works_recent >= min_recent_papers` and
+      `works_recent <= max_field_share * field_recent`, while fewer than `max_directions` are
+      active; the fastest-growing keywords enter first.
+    - Leave bar: `leave_below_ratio * min_recent_papers`.
+  - The text of a direction the job adds is written by a model from the abstracts of the
+    keyword's most cited recent arXiv papers and reviewed before it is stored. Such a record
+    lists those papers in `sources` and carries `quote` (the abstract span the text rests on),
+    `review` and `generated_by`. A hand-written record has none of the three.
   - `search_query` is words joined with `+`; a phrase goes inside double quotes
     (`"mixture+of+experts"`, `agent+"tool+use"`). A paper must contain every word and phrase. The
     same query opens the arXiv search and is counted through the arXiv API, so it holds no field

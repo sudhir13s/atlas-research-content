@@ -11,11 +11,52 @@
       "description": "the paper-search query for the direction: words joined with `+`, a phrase inside double quotes; a paper must contain every word and phrase"
     },
     "order": { "type": "integer", "minimum": 1, "description": "position among the directions, 1 = first" },
-    "activity": { "$ref": "#/$defs/activity" }
+    "status": {
+      "enum": ["active", "retired"],
+      "description": "agent-owned: `active` directions are listed; a `retired` one fell below the leave bar of the selection rule, is kept with its text and comes back when its keywords qualify again; a record without the field is active"
+    },
+    "origin": { "$ref": "#/$defs/origin" },
+    "selection": { "$ref": "#/$defs/selection" },
+    "activity": { "$ref": "#/$defs/activity" },
+    "quote": { "type": "string", "minLength": 1, "description": "agent-owned: the span of a source abstract the model-written text rests on; only on a record whose text a model wrote" },
+    "review": { "type": "object", "description": "agent-owned: the Critic's score, the reviewing model and the prompt versions; only on a record whose text a model wrote" },
+    "generated_by": { "type": "object", "description": "agent-owned: the job, run, provider, model and prompt version that wrote the text; only on a record whose text a model wrote" }
   },
   "required": ["search_query", "order"],
   "not": { "required": ["is_hot"] },
   "$defs": {
+    "origin": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "agent-owned: the OpenAlex keywords the direction stands for; written once, when the direction is first listed",
+      "required": ["source", "keyword_ids", "keyword_names", "first_seen"],
+      "properties": {
+        "source": { "const": "OpenAlex keyword" },
+        "keyword_ids": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" }, "description": "short OpenAlex keyword IDs, the one that names the direction first; `https://openalex.org/keywords/<id>` is the keyword's page" },
+        "keyword_names": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "description": "the keywords as OpenAlex displays them, in the order of `keyword_ids`" },
+        "first_seen": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "the day the direction was first tied to its keywords" }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "agent-owned: the OpenAlex work counts of the direction's keywords, the rule they were judged by and the runs spent below the leave bar, written by code; absent until the first run of the rule",
+      "required": ["works_recent", "works_previous", "field_recent", "field_previous", "window_days", "min_recent_papers", "max_field_share", "max_directions", "leave_below_ratio", "leave_after_runs", "runs_below", "observed_at"],
+      "properties": {
+        "works_recent": { "type": "integer", "minimum": 0, "description": "arXiv-primary works carrying one of `origin.keyword_ids`, published in the latest window; a work with two of the keywords counts twice, and a keyword outside OpenAlex's 200 largest counts as 0" },
+        "works_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
+        "field_recent": { "type": "integer", "minimum": 0, "description": "every arXiv-primary work of the counted OpenAlex topics in the latest window" },
+        "field_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
+        "window_days": { "type": "integer", "minimum": 1, "description": "length of each window in days" },
+        "min_recent_papers": { "type": "integer", "minimum": 1, "description": "the rule: fewest `works_recent` of a keyword group that enters the list" },
+        "max_field_share": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "the rule: largest `works_recent / field_recent` of a keyword group that enters the list" },
+        "max_directions": { "type": "integer", "minimum": 1, "description": "the rule: most active directions" },
+        "leave_below_ratio": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "the rule: the leave bar is this share of `min_recent_papers`" },
+        "leave_after_runs": { "type": "integer", "minimum": 1, "description": "the rule: runs in a row below the leave bar that retire a direction" },
+        "runs_below": { "type": "integer", "minimum": 0, "description": "runs in a row the direction was below the leave bar, as of the latest run" },
+        "observed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "the day the counts were read; refreshed only when a figure changed" }
+      }
+    },
     "activity": {
       "type": "object",
       "additionalProperties": false,
