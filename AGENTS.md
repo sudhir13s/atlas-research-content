@@ -47,8 +47,8 @@ separate index is needed and none can fall out of sync.
 ## 5. Add or edit content
 
 1. Pick the `type`; copy `templates/<type>.template.md`.
-2. Set `id` = `<type>/<slug>`, `slug` = filename, `schema_version` from `meta.json`, and `updated`
-   to today's date.
+2. Set `id` = `<type>/<slug>`, `slug` = filename, `schema_version` to the constant the type's
+   schema states (`3.0`, as in `meta.json`; `2.0` for `feed-item`), and `updated` to today's date.
 3. Fill the type-specific frontmatter fields (schema `required` first) and every required body
    section in order.
 4. Use IDs for all cross-references; create or reference the target files so nothing dangles.
