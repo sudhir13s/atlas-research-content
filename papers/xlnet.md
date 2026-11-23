@@ -2,12 +2,11 @@
 id: paper/xlnet
 type: paper
 slug: xlnet
-schema_version: 1.0
+schema_version: 3.0
 title: XLNet
 authors: Yang et al.
 year: 2019
 url: https://arxiv.org/abs/1906.08237
-arxiv_id: '1906.08237'
 topics:
 - research-topic/nlp-classics
 is_high_impact: false

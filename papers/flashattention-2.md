@@ -2,12 +2,11 @@
 id: paper/flashattention-2
 type: paper
 slug: flashattention-2
-schema_version: 1.0
+schema_version: 3.0
 title: FlashAttention-2
 authors: Dao
 year: 2023
 url: https://arxiv.org/abs/2307.08691
-arxiv_id: '2307.08691'
 topics:
 - research-topic/efficiency
 is_high_impact: false

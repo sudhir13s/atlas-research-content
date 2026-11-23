@@ -2,14 +2,13 @@
 id: paper/scaling-laws-for-neural-language-models
 type: paper
 slug: scaling-laws-for-neural-language-models
-schema_version: 1.0
+schema_version: 3.0
 title: Scaling Laws for Neural Language Models
 aliases:
 - Scaling Laws
 authors: Kaplan et al.
 year: 2020
 url: https://arxiv.org/abs/2001.08361
-arxiv_id: '2001.08361'
 topics:
 - research-topic/llm
 must_read:

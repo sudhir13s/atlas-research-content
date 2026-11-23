@@ -2,12 +2,11 @@
 id: paper/toolformer
 type: paper
 slug: toolformer
-schema_version: 1.0
+schema_version: 3.0
 title: Toolformer
 authors: Schick et al.
 year: 2023
 url: https://arxiv.org/abs/2302.04761
-arxiv_id: '2302.04761'
 topics:
 - research-topic/agents
 must_read:

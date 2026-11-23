@@ -2,12 +2,11 @@
 id: paper/palm
 type: paper
 slug: palm
-schema_version: 1.0
+schema_version: 3.0
 title: PaLM
 authors: Chowdhery et al.
 year: 2022
 url: https://arxiv.org/abs/2204.02311
-arxiv_id: '2204.02311'
 topics:
 - research-topic/llm
 is_high_impact: false

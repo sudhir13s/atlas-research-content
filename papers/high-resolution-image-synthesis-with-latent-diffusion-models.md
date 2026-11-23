@@ -2,14 +2,13 @@
 id: paper/high-resolution-image-synthesis-with-latent-diffusion-models
 type: paper
 slug: high-resolution-image-synthesis-with-latent-diffusion-models
-schema_version: 1.0
+schema_version: 3.0
 title: High-Resolution Image Synthesis with Latent Diffusion Models
 aliases:
 - Latent Diffusion (Stable Diffusion)
 authors: Rombach et al.
 year: 2022
 url: https://arxiv.org/abs/2112.10752
-arxiv_id: '2112.10752'
 topics:
 - research-topic/diffusion
 must_read:

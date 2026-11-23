@@ -2,12 +2,11 @@
 id: paper/qwen2-vl
 type: paper
 slug: qwen2-vl
-schema_version: 1.0
+schema_version: 3.0
 title: Qwen2-VL
 authors: Wang et al.
 year: 2024
 url: https://arxiv.org/abs/2409.12191
-arxiv_id: '2409.12191'
 topics:
 - research-topic/multimodal
 is_high_impact: false

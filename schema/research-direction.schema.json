@@ -2,9 +2,11 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://theaiatlas.dev/schema/research/research-direction.schema.json",
   "title": "research-direction",
+  "unevaluatedProperties": false,
   "allOf": [{ "$ref": "_shared.schema.json#/$defs/base" }],
   "properties": {
     "type": { "const": "research-direction" },
+    "schema_version": { "const": 3.0 },
     "search_query": {
       "type": "string",
       "minLength": 1,
@@ -18,13 +20,16 @@
     "origin": { "$ref": "#/$defs/origin" },
     "selection": { "$ref": "#/$defs/selection" },
     "activity": { "$ref": "#/$defs/activity" },
-    "quote": { "type": "string", "minLength": 1, "description": "agent-owned: the span of a source abstract the model-written text rests on; only on a record whose text a model wrote before 2.3, with one quote for the whole text" },
-    "quotes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "description": "agent-owned: one span of a source abstract per sentence of the model-written text, in sentence order; only on a record whose text a model wrote" },
-    "review": { "type": "object", "description": "agent-owned: the Critic's score, the reviewing model and the prompt versions; only on a record whose text a model wrote" },
-    "generated_by": { "type": "object", "description": "agent-owned: the job, run, provider, model and prompt version that wrote the text; only on a record whose text a model wrote" }
+    "quotes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "description": "agent-owned: the spans of the source abstracts the model-written text rests on. One span per sentence, in sentence order, when the writer's prompt version (`review.prompt_versions.writer`) is 2.0.0 or later; a single span for the whole text before that. Only on a record whose text a model wrote" },
+    "review": { "$ref": "_shared.schema.json#/$defs/review" },
+    "generated_by": { "$ref": "_shared.schema.json#/$defs/generated_by_model" }
   },
   "required": ["search_query", "order"],
-  "not": { "required": ["is_hot"] },
+  "dependentRequired": {
+    "quotes": ["review", "generated_by"],
+    "review": ["quotes", "generated_by"],
+    "generated_by": ["quotes", "review"]
+  },
   "$defs": {
     "origin": {
       "type": "object",
@@ -41,19 +46,15 @@
     "selection": {
       "type": "object",
       "additionalProperties": false,
-      "description": "agent-owned: the OpenAlex work counts of the direction's keywords, the rule they were judged by and the runs spent below the leave bar, written by code; absent until the first run of the rule",
-      "required": ["works_recent", "works_previous", "field_recent", "field_previous", "window_days", "min_recent_papers", "max_field_share", "max_directions", "leave_below_ratio", "leave_after_runs", "runs_below", "observed_at"],
+      "description": "agent-owned: the OpenAlex work counts of the direction's keywords and the runs spent below the leave bar, written by code; absent until the first run of the rule. The rule's thresholds are the `directions` setting of the `research-curation` job in the consumer's `config/jobs.yaml`; a record does not repeat them",
+      "required": ["works_recent", "works_previous", "field_recent", "field_previous", "window_days", "leave_after_runs", "runs_below", "observed_at"],
       "properties": {
         "works_recent": { "type": "integer", "minimum": 0, "description": "arXiv-primary works carrying one of `origin.keyword_ids`, published in the latest window; a work with two of the keywords counts twice, and a keyword outside OpenAlex's 200 largest counts as 0" },
         "works_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
         "field_recent": { "type": "integer", "minimum": 0, "description": "every arXiv-primary work of the counted OpenAlex topics in the latest window" },
         "field_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
-        "window_days": { "type": "integer", "minimum": 1, "description": "length of each window in days" },
-        "min_recent_papers": { "type": "integer", "minimum": 1, "description": "the rule: fewest `works_recent` of a keyword group that enters the list" },
-        "max_field_share": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "the rule: largest `works_recent / field_recent` of a keyword group that enters the list" },
-        "max_directions": { "type": "integer", "minimum": 1, "description": "the rule: most active directions" },
-        "leave_below_ratio": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "the rule: the leave bar is this share of `min_recent_papers`" },
-        "leave_after_runs": { "type": "integer", "minimum": 1, "description": "the rule: runs in a row below the leave bar that retire a direction" },
+        "window_days": { "type": "integer", "minimum": 1, "description": "length of each counted window in days" },
+        "leave_after_runs": { "type": "integer", "minimum": 1, "description": "runs in a row below the leave bar that retire the direction, as of the latest run; `runs_below` is read against it" },
         "runs_below": { "type": "integer", "minimum": 0, "description": "runs in a row the direction was below the leave bar, as of the latest run" },
         "observed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "the day the counts were read; refreshed only when a figure changed" }
       }
@@ -61,18 +62,15 @@
     "activity": {
       "type": "object",
       "additionalProperties": false,
-      "description": "agent-owned: arXiv paper counts for `search_query`, the rule they were judged by and the verdict, written by code; absent until the first count",
-      "required": ["papers_recent", "papers_previous", "field_recent", "field_previous", "window_days", "min_papers", "min_growth_vs_field", "is_hot", "observed_at", "source"],
+      "description": "agent-owned: arXiv paper counts for `search_query` and the verdict they gave, written by code; absent until the first count. The rule's thresholds are the `hot_directions` setting of the `research-curation` job in the consumer's `config/jobs.yaml`; a record does not repeat them",
+      "required": ["papers_recent", "papers_previous", "field_recent", "field_previous", "window_days", "is_hot", "observed_at", "source"],
       "properties": {
         "papers_recent": { "type": "integer", "minimum": 0, "description": "papers matching `search_query` submitted in the latest window" },
         "papers_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
         "field_recent": { "type": "integer", "minimum": 0, "description": "every paper of the counted arXiv categories in the latest window, the field the direction is compared with" },
         "field_previous": { "type": "integer", "minimum": 0, "description": "the same count in the window before" },
-        "window_days": { "type": "integer", "minimum": 1, "description": "length of each window in days" },
-        "min_papers_high_volume": { "type": "integer", "minimum": 0, "description": "the rule, high volume: `papers_recent` that make a direction hot whatever its growth; absent on a block written before 2.1, which was judged by the rising rule alone" },
-        "min_papers": { "type": "integer", "minimum": 0, "description": "the rule, rising: fewest `papers_recent` a direction that is hot by its growth has" },
-        "min_growth_vs_field": { "type": "number", "exclusiveMinimum": 0, "description": "the rule, rising: how many times the field's growth (`field_recent / field_previous`) the direction's growth (`papers_recent / papers_previous`) is, at least" },
-        "is_hot": { "type": "boolean", "description": "the verdict of the rule on these counts" },
+        "window_days": { "type": "integer", "minimum": 1, "description": "length of each counted window in days" },
+        "is_hot": { "type": "boolean", "description": "the verdict of the hot rule on these counts, as of the day they were read" },
         "observed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "the day the counts were read; refreshed only when a figure changed" },
         "source": { "type": "string", "format": "uri", "description": "the arXiv API address that gave `papers_recent`; it states the query, the categories and the window" }
       }

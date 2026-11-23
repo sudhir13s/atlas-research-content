@@ -2,12 +2,11 @@
 id: paper/autogpt-survey
 type: paper
 slug: autogpt-survey
-schema_version: 1.0
+schema_version: 3.0
 title: AutoGPT Survey
 authors: Various
 year: 2023
 url: https://arxiv.org/abs/2306.02224
-arxiv_id: '2306.02224'
 topics:
 - research-topic/agents
 is_high_impact: false

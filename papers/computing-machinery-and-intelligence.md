@@ -2,7 +2,7 @@
 id: paper/computing-machinery-and-intelligence
 type: paper
 slug: computing-machinery-and-intelligence
-schema_version: 1.0
+schema_version: 3.0
 title: Computing Machinery and Intelligence
 authors: Alan Turing
 year: 1950

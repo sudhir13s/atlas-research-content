@@ -2,7 +2,7 @@
 id: research-topic/audio
 type: research-topic
 slug: audio
-schema_version: 1.0
+schema_version: 3.0
 title: Audio & Speech
 icon: 🎙️
 order: 7

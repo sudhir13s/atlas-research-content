@@ -2,12 +2,11 @@
 id: paper/distilbert
 type: paper
 slug: distilbert
-schema_version: 1.0
+schema_version: 3.0
 title: DistilBERT
 authors: Sanh et al.
 year: 2019
 url: https://arxiv.org/abs/1910.01108
-arxiv_id: '1910.01108'
 topics:
 - research-topic/efficiency
 is_high_impact: false

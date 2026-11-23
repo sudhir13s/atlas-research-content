@@ -2,12 +2,11 @@
 id: paper/gqa-generalized-multi-query-transformer
 type: paper
 slug: gqa-generalized-multi-query-transformer
-schema_version: 1.0
+schema_version: 3.0
 title: 'GQA: Generalized Multi-Query Transformer'
 authors: Ainslie et al.
 year: 2023
 url: https://arxiv.org/abs/2305.13245
-arxiv_id: '2305.13245'
 topics:
 - research-topic/transformers
 is_high_impact: false

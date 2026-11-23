@@ -2,14 +2,13 @@
 id: paper/clip-learning-transferable-visual-models
 type: paper
 slug: clip-learning-transferable-visual-models
-schema_version: 1.0
+schema_version: 3.0
 title: 'CLIP: Learning Transferable Visual Models'
 aliases:
 - CLIP
 authors: Radford et al.
 year: 2021
 url: https://arxiv.org/abs/2103.00020
-arxiv_id: '2103.00020'
 topics:
 - research-topic/vision
 - research-topic/multimodal

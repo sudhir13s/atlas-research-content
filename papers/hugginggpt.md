@@ -2,12 +2,11 @@
 id: paper/hugginggpt
 type: paper
 slug: hugginggpt
-schema_version: 1.0
+schema_version: 3.0
 title: HuggingGPT
 authors: Shen et al.
 year: 2023
 url: https://arxiv.org/abs/2303.17580
-arxiv_id: '2303.17580'
 topics:
 - research-topic/agents
 is_high_impact: false

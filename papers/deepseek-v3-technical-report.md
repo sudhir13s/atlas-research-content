@@ -2,14 +2,13 @@
 id: paper/deepseek-v3-technical-report
 type: paper
 slug: deepseek-v3-technical-report
-schema_version: 1.0
+schema_version: 3.0
 title: DeepSeek-V3 Technical Report
 aliases:
 - DeepSeek-V3
 authors: DeepSeek AI
 year: 2024
 url: https://arxiv.org/abs/2412.19437
-arxiv_id: '2412.19437'
 topics:
 - research-topic/llm
 must_read:

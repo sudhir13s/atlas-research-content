@@ -2,7 +2,7 @@
 id: paper/a-logical-calculus-of-ideas-immanent-in-nervous-activity
 type: paper
 slug: a-logical-calculus-of-ideas-immanent-in-nervous-activity
-schema_version: 1.0
+schema_version: 3.0
 title: A Logical Calculus of Ideas Immanent in Nervous Activity
 authors: McCulloch & Pitts
 year: 1943

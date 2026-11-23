@@ -2,12 +2,11 @@
 id: paper/red-teaming-lms-with-lms
 type: paper
 slug: red-teaming-lms-with-lms
-schema_version: 1.0
+schema_version: 3.0
 title: Red Teaming LMs with LMs
 authors: Perez et al.
 year: 2022
 url: https://arxiv.org/abs/2202.03286
-arxiv_id: '2202.03286'
 topics:
 - research-topic/alignment
 is_high_impact: false

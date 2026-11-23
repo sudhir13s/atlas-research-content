@@ -2,12 +2,11 @@
 id: paper/wan2-1
 type: paper
 slug: wan2-1
-schema_version: 1.0
+schema_version: 3.0
 title: Wan2.1
 authors: Wan AI
 year: 2025
 url: https://arxiv.org/abs/2503.20314
-arxiv_id: '2503.20314'
 topics:
 - research-topic/video
 is_high_impact: false

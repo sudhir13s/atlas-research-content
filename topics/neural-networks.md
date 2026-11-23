@@ -2,7 +2,7 @@
 id: research-topic/neural-networks
 type: research-topic
 slug: neural-networks
-schema_version: 1.0
+schema_version: 3.0
 title: Neural Networks (Foundations)
 icon: 🧬
 order: 1

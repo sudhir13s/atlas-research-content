@@ -2,12 +2,11 @@
 id: paper/hubert
 type: paper
 slug: hubert
-schema_version: 1.0
+schema_version: 3.0
 title: HuBERT
 authors: Hsu et al.
 year: 2021
 url: https://arxiv.org/abs/2106.07447
-arxiv_id: '2106.07447'
 topics:
 - research-topic/audio
 is_high_impact: false

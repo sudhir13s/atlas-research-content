@@ -2,12 +2,11 @@
 id: paper/colpali
 type: paper
 slug: colpali
-schema_version: 1.0
+schema_version: 3.0
 title: ColPali
 authors: Faysse et al.
 year: 2024
 url: https://arxiv.org/abs/2407.01449
-arxiv_id: '2407.01449'
 topics:
 - research-topic/rag
 is_high_impact: false

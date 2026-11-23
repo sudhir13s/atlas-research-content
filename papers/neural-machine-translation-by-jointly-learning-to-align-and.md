@@ -2,14 +2,13 @@
 id: paper/neural-machine-translation-by-jointly-learning-to-align-and
 type: paper
 slug: neural-machine-translation-by-jointly-learning-to-align-and
-schema_version: 1.0
+schema_version: 3.0
 title: Neural Machine Translation by Jointly Learning to Align and Translate
 aliases:
 - Attention for NMT (Bahdanau)
 authors: Bahdanau, Cho & Bengio
 year: 2014
 url: https://arxiv.org/abs/1409.0473
-arxiv_id: '1409.0473'
 topics:
 - research-topic/nlp-classics
 must_read:

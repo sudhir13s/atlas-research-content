@@ -2,12 +2,11 @@
 id: paper/llm-int8
 type: paper
 slug: llm-int8
-schema_version: 1.0
+schema_version: 3.0
 title: LLM.int8()
 authors: Dettmers et al.
 year: 2022
 url: https://arxiv.org/abs/2208.07339
-arxiv_id: '2208.07339'
 topics:
 - research-topic/efficiency
 is_high_impact: false

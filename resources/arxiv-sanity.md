@@ -2,7 +2,7 @@
 id: research-resource/arxiv-sanity
 type: research-resource
 slug: arxiv-sanity
-schema_version: 1.0
+schema_version: 3.0
 title: Arxiv Sanity
 icon: 🧹
 links:

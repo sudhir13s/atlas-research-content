@@ -2,12 +2,11 @@
 id: paper/roformer-rope
 type: paper
 slug: roformer-rope
-schema_version: 1.0
+schema_version: 3.0
 title: RoFormer (RoPE)
 authors: Su et al.
 year: 2021
 url: https://arxiv.org/abs/2104.09864
-arxiv_id: '2104.09864'
 topics:
 - research-topic/transformers
 is_high_impact: false

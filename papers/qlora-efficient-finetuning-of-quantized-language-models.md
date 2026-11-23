@@ -2,14 +2,13 @@
 id: paper/qlora-efficient-finetuning-of-quantized-language-models
 type: paper
 slug: qlora-efficient-finetuning-of-quantized-language-models
-schema_version: 1.0
+schema_version: 3.0
 title: 'QLoRA: Efficient Finetuning of Quantized Language Models'
 aliases:
 - QLoRA
 authors: Dettmers et al.
 year: 2023
 url: https://arxiv.org/abs/2305.14314
-arxiv_id: '2305.14314'
 topics:
 - research-topic/efficiency
 must_read:

@@ -2,12 +2,11 @@
 id: paper/mamba-linear-time-sequence-modeling
 type: paper
 slug: mamba-linear-time-sequence-modeling
-schema_version: 1.0
+schema_version: 3.0
 title: 'Mamba: Linear-Time Sequence Modeling'
 authors: Gu & Dao
 year: 2023
 url: https://arxiv.org/abs/2312.00752
-arxiv_id: '2312.00752'
 topics:
 - research-topic/transformers
 is_high_impact: false

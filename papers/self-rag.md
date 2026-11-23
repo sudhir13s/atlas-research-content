@@ -2,12 +2,11 @@
 id: paper/self-rag
 type: paper
 slug: self-rag
-schema_version: 1.0
+schema_version: 3.0
 title: Self-RAG
 authors: Asai et al.
 year: 2023
 url: https://arxiv.org/abs/2305.15294
-arxiv_id: '2305.15294'
 topics:
 - research-topic/rag
 is_high_impact: false

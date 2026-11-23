@@ -2,9 +2,11 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://theaiatlas.dev/schema/research/research-resource.schema.json",
   "title": "research-resource",
+  "unevaluatedProperties": false,
   "allOf": [{ "$ref": "_shared.schema.json#/$defs/base" }],
   "properties": {
     "type": { "const": "research-resource" },
+    "schema_version": { "const": 3.0 },
     "icon": { "type": "string", "minLength": 1, "description": "an emoji shown beside the platform" },
     "links": {
       "type": "array",

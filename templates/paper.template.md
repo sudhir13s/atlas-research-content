@@ -2,13 +2,12 @@
 id: paper/<slug>
 type: paper
 slug: <slug>
-schema_version: 1.1
+schema_version: 3.0                      # the schema's current version; the schema refuses any other
 title: "<Full paper title>"
 aliases: ["<shorter name the paper is also known by>"]   # optional
-authors: "<First author et al.>"
+authors: "<First author et al.>"         # one line of text, not a list
 year: <YYYY>
-url: "<where to read it>"
-arxiv_id: "<NNNN.NNNNN>"                 # only when the url is an arXiv link
+url: "<where to read it>"                # https://arxiv.org/abs/<NNNN.NNNNN> for an arXiv paper; the arXiv ID is read from it
 topics: [research-topic/<slug>]          # every topic the paper is listed under; [] for none
 must_read: { era: "<era heading>", order: 1 }   # only for must-read papers
 is_high_impact: false

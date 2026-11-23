@@ -2,12 +2,11 @@
 id: paper/encodec
 type: paper
 slug: encodec
-schema_version: 1.0
+schema_version: 3.0
 title: Encodec
 authors: Defossez et al.
 year: 2022
 url: https://arxiv.org/abs/2210.13438
-arxiv_id: '2210.13438'
 topics:
 - research-topic/audio
 is_high_impact: false

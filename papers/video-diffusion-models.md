@@ -2,12 +2,11 @@
 id: paper/video-diffusion-models
 type: paper
 slug: video-diffusion-models
-schema_version: 1.0
+schema_version: 3.0
 title: Video Diffusion Models
 authors: Ho et al.
 year: 2022
 url: https://arxiv.org/abs/2204.03458
-arxiv_id: '2204.03458'
 topics:
 - research-topic/video
 is_high_impact: false

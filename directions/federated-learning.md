@@ -2,7 +2,7 @@
 id: research-direction/federated-learning
 type: research-direction
 slug: federated-learning
-schema_version: 2.2
+schema_version: 3.0
 title: Federated Learning
 search_query: '"federated+learning"'
 order: 19
@@ -20,14 +20,11 @@ selection:
   field_recent: 28087
   field_previous: 20431
   window_days: 90
-  min_recent_papers: 250
-  max_field_share: 0.08
-  max_directions: 25
-  leave_below_ratio: 0.7
   leave_after_runs: 2
   runs_below: 0
   observed_at: '2026-11-23'
-quote: While cross-user collaboration can overcome this data bottleneck, current trajectory-sharing approaches compromise user privacy and impose a uniform global library that fails to accommodate client heterogeneity.
+quotes:
+- While cross-user collaboration can overcome this data bottleneck, current trajectory-sharing approaches compromise user privacy and impose a uniform global library that fails to accommodate client heterogeneity.
 review:
   score: 10.0
   reviewed_by:
@@ -48,9 +45,6 @@ activity:
   field_recent: 43411
   field_previous: 36532
   window_days: 90
-  min_papers_high_volume: 400
-  min_papers: 100
-  min_growth_vs_field: 1.05
   is_hot: false
   observed_at: '2026-11-23'
   source: https://export.arxiv.org/api/query?search_query=all%3A%22federated+learning%22+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG+OR+cat%3Acs.CV+OR+cat%3Acs.SE+OR+cat%3Acs.CR%29+AND+submittedDate%3A%5B202608180000+TO+202611160000%5D&max_results=1

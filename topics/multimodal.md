@@ -2,7 +2,7 @@
 id: research-topic/multimodal
 type: research-topic
 slug: multimodal
-schema_version: 1.0
+schema_version: 3.0
 title: Multimodal Models
 icon: 🌐
 order: 11

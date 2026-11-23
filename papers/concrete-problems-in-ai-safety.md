@@ -2,12 +2,11 @@
 id: paper/concrete-problems-in-ai-safety
 type: paper
 slug: concrete-problems-in-ai-safety
-schema_version: 1.0
+schema_version: 3.0
 title: Concrete Problems in AI Safety
 authors: Amodei et al.
 year: 2016
 url: https://arxiv.org/abs/1606.06565
-arxiv_id: '1606.06565'
 topics:
 - research-topic/alignment
 is_high_impact: false

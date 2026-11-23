@@ -2,12 +2,11 @@
 id: paper/mae
 type: paper
 slug: mae
-schema_version: 1.0
+schema_version: 3.0
 title: MAE
 authors: He et al.
 year: 2021
 url: https://arxiv.org/abs/2111.06377
-arxiv_id: '2111.06377'
 topics:
 - research-topic/vision
 is_high_impact: false

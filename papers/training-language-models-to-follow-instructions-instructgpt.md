@@ -2,14 +2,13 @@
 id: paper/training-language-models-to-follow-instructions-instructgpt
 type: paper
 slug: training-language-models-to-follow-instructions-instructgpt
-schema_version: 1.0
+schema_version: 3.0
 title: Training language models to follow instructions (InstructGPT)
 aliases:
 - InstructGPT
 authors: Ouyang et al.
 year: 2022
 url: https://arxiv.org/abs/2203.02155
-arxiv_id: '2203.02155'
 topics:
 - research-topic/alignment
 must_read:

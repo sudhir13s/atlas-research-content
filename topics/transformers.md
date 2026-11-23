@@ -2,7 +2,7 @@
 id: research-topic/transformers
 type: research-topic
 slug: transformers
-schema_version: 1.0
+schema_version: 3.0
 title: Transformers & Attention
 icon: 🔧
 order: 2

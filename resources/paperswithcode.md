@@ -2,7 +2,7 @@
 id: research-resource/paperswithcode
 type: research-resource
 slug: paperswithcode
-schema_version: 1.0
+schema_version: 3.0
 title: Papers With Code
 icon: 💻
 links:

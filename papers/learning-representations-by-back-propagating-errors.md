@@ -2,7 +2,7 @@
 id: paper/learning-representations-by-back-propagating-errors
 type: paper
 slug: learning-representations-by-back-propagating-errors
-schema_version: 1.0
+schema_version: 3.0
 title: Learning Representations by Back-Propagating Errors
 authors: Rumelhart, Hinton & Williams
 year: 1986

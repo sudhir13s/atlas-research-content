@@ -2,12 +2,11 @@
 id: paper/audiolm
 type: paper
 slug: audiolm
-schema_version: 1.0
+schema_version: 3.0
 title: AudioLM
 authors: Borsos et al.
 year: 2022
 url: https://arxiv.org/abs/2209.03143
-arxiv_id: '2209.03143'
 topics:
 - research-topic/audio
 is_high_impact: false

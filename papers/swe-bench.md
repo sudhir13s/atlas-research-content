@@ -2,12 +2,11 @@
 id: paper/swe-bench
 type: paper
 slug: swe-bench
-schema_version: 1.0
+schema_version: 3.0
 title: SWE-bench
 authors: Jimenez et al.
 year: 2023
 url: https://arxiv.org/abs/2310.06770
-arxiv_id: '2310.06770'
 topics:
 - research-topic/code
 is_high_impact: false

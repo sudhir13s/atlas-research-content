@@ -2,7 +2,7 @@
 id: research-topic/nlp-classics
 type: research-topic
 slug: nlp-classics
-schema_version: 1.0
+schema_version: 3.0
 title: NLP Classics
 icon: 📖
 order: 13

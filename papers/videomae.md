@@ -2,12 +2,11 @@
 id: paper/videomae
 type: paper
 slug: videomae
-schema_version: 1.0
+schema_version: 3.0
 title: VideoMAE
 authors: Tong et al.
 year: 2022
 url: https://arxiv.org/abs/2203.12602
-arxiv_id: '2203.12602'
 topics:
 - research-topic/video
 is_high_impact: false

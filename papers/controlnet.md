@@ -2,12 +2,11 @@
 id: paper/controlnet
 type: paper
 slug: controlnet
-schema_version: 1.0
+schema_version: 3.0
 title: ControlNet
 authors: Zhang & Agrawala
 year: 2023
 url: https://arxiv.org/abs/2302.05543
-arxiv_id: '2302.05543'
 topics:
 - research-topic/diffusion
 is_high_impact: false

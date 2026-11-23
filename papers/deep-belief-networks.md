@@ -2,7 +2,7 @@
 id: paper/deep-belief-networks
 type: paper
 slug: deep-belief-networks
-schema_version: 1.0
+schema_version: 3.0
 title: Deep Belief Networks
 authors: Hinton, Osindero & Teh
 year: 2006

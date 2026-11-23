@@ -2,7 +2,7 @@
 id: research-resource/core
 type: research-resource
 slug: core
-schema_version: 1.0
+schema_version: 3.0
 title: CORE
 icon: 🌐
 links:

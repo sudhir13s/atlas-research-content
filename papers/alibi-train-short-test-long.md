@@ -2,12 +2,11 @@
 id: paper/alibi-train-short-test-long
 type: paper
 slug: alibi-train-short-test-long
-schema_version: 1.0
+schema_version: 3.0
 title: 'ALiBi: Train Short, Test Long'
 authors: Press et al.
 year: 2021
 url: https://arxiv.org/abs/2108.12409
-arxiv_id: '2108.12409'
 topics:
 - research-topic/transformers
 is_high_impact: false

@@ -2,12 +2,11 @@
 id: paper/whisper
 type: paper
 slug: whisper
-schema_version: 1.0
+schema_version: 3.0
 title: Whisper
 authors: Radford et al.
 year: 2022
 url: https://arxiv.org/abs/2212.04356
-arxiv_id: '2212.04356'
 topics:
 - research-topic/audio
 is_high_impact: false

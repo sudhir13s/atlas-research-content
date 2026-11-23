@@ -2,12 +2,11 @@
 id: paper/soundstream
 type: paper
 slug: soundstream
-schema_version: 1.0
+schema_version: 3.0
 title: SoundStream
 authors: Zeghidour et al.
 year: 2021
 url: https://arxiv.org/abs/2107.03312
-arxiv_id: '2107.03312'
 topics:
 - research-topic/audio
 is_high_impact: false

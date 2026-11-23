@@ -2,12 +2,11 @@
 id: paper/swin-transformer
 type: paper
 slug: swin-transformer
-schema_version: 1.0
+schema_version: 3.0
 title: Swin Transformer
 authors: Liu et al.
 year: 2021
 url: https://arxiv.org/abs/2103.14030
-arxiv_id: '2103.14030'
 topics:
 - research-topic/vision
 is_high_impact: false

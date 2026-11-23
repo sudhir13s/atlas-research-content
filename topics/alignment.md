@@ -2,7 +2,7 @@
 id: research-topic/alignment
 type: research-topic
 slug: alignment
-schema_version: 1.0
+schema_version: 3.0
 title: Alignment & Safety
 icon: 🛡️
 order: 9

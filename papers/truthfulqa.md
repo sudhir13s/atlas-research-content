@@ -2,12 +2,11 @@
 id: paper/truthfulqa
 type: paper
 slug: truthfulqa
-schema_version: 1.0
+schema_version: 3.0
 title: TruthfulQA
 authors: Lin et al.
 year: 2021
 url: https://arxiv.org/abs/2109.07958
-arxiv_id: '2109.07958'
 topics:
 - research-topic/alignment
 is_high_impact: false

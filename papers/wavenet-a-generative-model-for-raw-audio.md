@@ -2,14 +2,13 @@
 id: paper/wavenet-a-generative-model-for-raw-audio
 type: paper
 slug: wavenet-a-generative-model-for-raw-audio
-schema_version: 1.0
+schema_version: 3.0
 title: 'WaveNet: A Generative Model for Raw Audio'
 aliases:
 - WaveNet
 authors: van den Oord et al.
 year: 2016
 url: https://arxiv.org/abs/1609.03499
-arxiv_id: '1609.03499'
 topics:
 - research-topic/audio
 must_read:

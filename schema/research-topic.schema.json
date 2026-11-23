@@ -2,9 +2,11 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://theaiatlas.dev/schema/research/research-topic.schema.json",
   "title": "research-topic",
+  "unevaluatedProperties": false,
   "allOf": [{ "$ref": "_shared.schema.json#/$defs/base" }],
   "properties": {
     "type": { "const": "research-topic" },
+    "schema_version": { "const": 3.0 },
     "icon": { "type": "string", "minLength": 1, "description": "an emoji shown beside the topic" },
     "order": { "type": "integer", "minimum": 1, "description": "position among the topics, 1 = first" }
   },

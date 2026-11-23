@@ -2,7 +2,7 @@
 id: paper/gpt-1
 type: paper
 slug: gpt-1
-schema_version: 1.0
+schema_version: 3.0
 title: GPT-1
 authors: Radford et al.
 year: 2018

@@ -2,12 +2,11 @@
 id: paper/timesformer
 type: paper
 slug: timesformer
-schema_version: 1.0
+schema_version: 3.0
 title: TimeSformer
 authors: Bertasius et al.
 year: 2021
 url: https://arxiv.org/abs/2102.05095
-arxiv_id: '2102.05095'
 topics:
 - research-topic/video
 is_high_impact: false

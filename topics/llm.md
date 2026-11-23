@@ -2,7 +2,7 @@
 id: research-topic/llm
 type: research-topic
 slug: llm
-schema_version: 1.0
+schema_version: 3.0
 title: Large Language Models
 icon: 💬
 order: 3

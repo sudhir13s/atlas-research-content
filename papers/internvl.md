@@ -2,12 +2,11 @@
 id: paper/internvl
 type: paper
 slug: internvl
-schema_version: 1.0
+schema_version: 3.0
 title: InternVL
 authors: Chen et al.
 year: 2023
 url: https://arxiv.org/abs/2312.14238
-arxiv_id: '2312.14238'
 topics:
 - research-topic/multimodal
 is_high_impact: false

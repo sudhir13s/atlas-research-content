@@ -2,7 +2,7 @@
 id: research-topic/efficiency
 type: research-topic
 slug: efficiency
-schema_version: 1.0
+schema_version: 3.0
 title: Efficiency & Quantization
 icon: ⚡
 order: 12

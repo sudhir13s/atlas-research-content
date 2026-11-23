@@ -2,12 +2,11 @@
 id: paper/segment-anything-sam
 type: paper
 slug: segment-anything-sam
-schema_version: 1.0
+schema_version: 3.0
 title: Segment Anything (SAM)
 authors: Kirillov et al.
 year: 2023
 url: https://arxiv.org/abs/2304.02643
-arxiv_id: '2304.02643'
 topics:
 - research-topic/vision
 must_read:

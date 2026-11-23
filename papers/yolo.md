@@ -2,12 +2,11 @@
 id: paper/yolo
 type: paper
 slug: yolo
-schema_version: 1.0
+schema_version: 3.0
 title: YOLO
 authors: Redmon et al.
 year: 2015
 url: https://arxiv.org/abs/1506.02640
-arxiv_id: '1506.02640'
 topics:
 - research-topic/vision
 is_high_impact: false

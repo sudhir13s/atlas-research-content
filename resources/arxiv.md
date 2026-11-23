@@ -2,7 +2,7 @@
 id: research-resource/arxiv
 type: research-resource
 slug: arxiv
-schema_version: 1.0
+schema_version: 3.0
 title: arXiv
 icon: 📄
 links:

@@ -2,12 +2,11 @@
 id: paper/make-a-video
 type: paper
 slug: make-a-video
-schema_version: 1.0
+schema_version: 3.0
 title: Make-A-Video
 authors: Singer et al.
 year: 2022
 url: https://arxiv.org/abs/2209.14792
-arxiv_id: '2209.14792'
 topics:
 - research-topic/video
 is_high_impact: false

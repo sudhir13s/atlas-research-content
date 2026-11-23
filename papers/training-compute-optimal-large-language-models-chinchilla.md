@@ -2,14 +2,13 @@
 id: paper/training-compute-optimal-large-language-models-chinchilla
 type: paper
 slug: training-compute-optimal-large-language-models-chinchilla
-schema_version: 1.0
+schema_version: 3.0
 title: Training Compute-Optimal Large Language Models (Chinchilla)
 aliases:
 - Chinchilla Scaling Laws
 authors: Hoffmann et al.
 year: 2022
 url: https://arxiv.org/abs/2203.15556
-arxiv_id: '2203.15556'
 topics:
 - research-topic/llm
 must_read:

@@ -2,12 +2,11 @@
 id: paper/incoder
 type: paper
 slug: incoder
-schema_version: 1.0
+schema_version: 3.0
 title: InCoder
 authors: Fried et al.
 year: 2022
 url: https://arxiv.org/abs/2204.05999
-arxiv_id: '2204.05999'
 topics:
 - research-topic/code
 is_high_impact: false

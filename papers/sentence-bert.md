@@ -2,12 +2,11 @@
 id: paper/sentence-bert
 type: paper
 slug: sentence-bert
-schema_version: 1.0
+schema_version: 3.0
 title: Sentence-BERT
 authors: Reimers & Gurevych
 year: 2019
 url: https://arxiv.org/abs/1908.10084
-arxiv_id: '1908.10084'
 topics:
 - research-topic/rag
 is_high_impact: false

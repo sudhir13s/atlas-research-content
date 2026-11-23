@@ -2,7 +2,7 @@
 id: research-resource/<slug>
 type: research-resource
 slug: <slug>
-schema_version: 1.0
+schema_version: 3.0               # the schema's current version; the schema refuses any other
 title: "<Platform name>"
 icon: "<emoji>"
 links:

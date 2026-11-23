@@ -2,7 +2,7 @@
 id: paper/perceptrons-an-introduction-to-computational-geometry
 type: paper
 slug: perceptrons-an-introduction-to-computational-geometry
-schema_version: 1.0
+schema_version: 3.0
 title: 'Perceptrons: An Introduction to Computational Geometry'
 authors: Minsky & Papert
 year: 1969

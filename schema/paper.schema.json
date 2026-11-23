@@ -2,24 +2,21 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://theaiatlas.dev/schema/research/paper.schema.json",
   "title": "paper",
+  "unevaluatedProperties": false,
   "allOf": [{ "$ref": "_shared.schema.json#/$defs/base" }],
   "properties": {
     "type": { "const": "paper" },
+    "schema_version": { "const": 3.0 },
     "authors": {
       "type": "string",
       "minLength": 1,
-      "description": "the authors as the page writes them, without the year (for example `Vaswani et al.`)"
+      "description": "the authors as one line of text, as the page writes them and without the year (for example `Vaswani et al.`). It is a citation line, not a list of names: a `feed-item` lists each author in `fields.authors`, and the two are not the same shape"
     },
     "year": { "type": "integer", "minimum": 1900 },
     "url": {
       "type": "string",
       "format": "uri",
-      "description": "where to read the paper; an arXiv abstract page when there is one, otherwise the publisher, a PDF or a book page"
-    },
-    "arxiv_id": {
-      "type": "string",
-      "pattern": "^\\d{4}\\.\\d{4,5}$",
-      "description": "present only when `url` is an arXiv link, taken from it by code"
+      "description": "where to read the paper; an arXiv abstract page (`https://arxiv.org/abs/<arXiv ID>`) when there is one, otherwise the publisher, a PDF or a book page. A paper's arXiv ID is not stored: it is the part of an arXiv abstract address after `/abs/`"
     },
     "topics": {
       "type": "array",
@@ -49,7 +46,7 @@
     "citation_signals": {
       "type": "object",
       "additionalProperties": false,
-      "description": "agent-owned: citation figures copied from OpenAlex by code for a paper with an arXiv ID or DOI; absent until the first read",
+      "description": "agent-owned: citation figures copied from OpenAlex by code for a paper whose `url` is an arXiv abstract page or a DOI address; absent until the first read",
       "required": ["cited_by_count", "observed_at", "source"],
       "properties": {
         "cited_by_count": { "type": "integer", "minimum": 0, "description": "how many works cite the paper" },

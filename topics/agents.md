@@ -2,7 +2,7 @@
 id: research-topic/agents
 type: research-topic
 slug: agents
-schema_version: 1.0
+schema_version: 3.0
 title: AI Agents & Tool Use
 icon: 🤖
 order: 10

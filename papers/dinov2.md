@@ -2,12 +2,11 @@
 id: paper/dinov2
 type: paper
 slug: dinov2
-schema_version: 1.0
+schema_version: 3.0
 title: DINOv2
 authors: Oquab et al.
 year: 2023
 url: https://arxiv.org/abs/2304.07193
-arxiv_id: '2304.07193'
 topics:
 - research-topic/vision
 is_high_impact: false

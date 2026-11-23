@@ -2,12 +2,11 @@
 id: paper/colbert
 type: paper
 slug: colbert
-schema_version: 1.0
+schema_version: 3.0
 title: ColBERT
 authors: Khattab & Zaharia
 year: 2020
 url: https://arxiv.org/abs/2004.12832
-arxiv_id: '2004.12832'
 topics:
 - research-topic/rag
 is_high_impact: false

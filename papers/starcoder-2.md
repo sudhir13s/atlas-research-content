@@ -2,12 +2,11 @@
 id: paper/starcoder-2
 type: paper
 slug: starcoder-2
-schema_version: 1.0
+schema_version: 3.0
 title: StarCoder 2
 authors: Lozhkov et al.
 year: 2024
 url: https://arxiv.org/abs/2402.19173
-arxiv_id: '2402.19173'
 topics:
 - research-topic/code
 is_high_impact: false

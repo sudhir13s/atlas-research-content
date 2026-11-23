@@ -2,7 +2,7 @@
 id: paper/an-image-is-worth-16x16-words-vit
 type: paper
 slug: an-image-is-worth-16x16-words-vit
-schema_version: 1.0
+schema_version: 3.0
 title: An Image is Worth 16x16 Words (ViT)
 aliases:
 - Vision Transformer (ViT)
@@ -10,7 +10,6 @@ aliases:
 authors: Dosovitskiy et al.
 year: 2020
 url: https://arxiv.org/abs/2010.11929
-arxiv_id: '2010.11929'
 topics:
 - research-topic/transformers
 - research-topic/vision
