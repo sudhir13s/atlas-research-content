@@ -2,12 +2,11 @@
 id: paper/pali
 type: paper
 slug: pali
-schema_version: 1.0
+schema_version: 3.0
 title: PaLI
 authors: Chen et al.
 year: 2022
 url: https://arxiv.org/abs/2209.06794
-arxiv_id: '2209.06794'
 topics:
 - research-topic/multimodal
 is_high_impact: false

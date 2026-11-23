@@ -2,12 +2,11 @@
 id: paper/stable-video-diffusion
 type: paper
 slug: stable-video-diffusion
-schema_version: 1.0
+schema_version: 3.0
 title: Stable Video Diffusion
 authors: Blattmann et al.
 year: 2023
 url: https://arxiv.org/abs/2311.15127
-arxiv_id: '2311.15127'
 topics:
 - research-topic/video
 is_high_impact: false

@@ -2,7 +2,7 @@
 id: research-resource/unpaywall
 type: research-resource
 slug: unpaywall
-schema_version: 1.0
+schema_version: 3.0
 title: Unpaywall
 icon: 🔓
 links:

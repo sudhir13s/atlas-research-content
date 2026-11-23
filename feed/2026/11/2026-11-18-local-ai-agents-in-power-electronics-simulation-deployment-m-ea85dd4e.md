@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-local-ai-agents-in-power-electronics-simulation-deployment-m-ea85dd4e
 type: feed-item
 slug: 2026-11-18-local-ai-agents-in-power-electronics-simulation-deployment-m-ea85dd4e
-schema_version: 1.0
+schema_version: 2.0
 title: 'Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs'
 kind: paper
 url: https://arxiv.org/abs/2611.24880
@@ -24,8 +24,6 @@ fields:
   - eess.SY
   primary_category: cs.AI
   pdf_url: https://arxiv.org/pdf/2611.24880v1
-  doi: ''
-  journal_reference: ''
   comment: 27 pages, 23 figures, 12 tables
   updated: '2026-11-18T18:27:40Z'
 review:

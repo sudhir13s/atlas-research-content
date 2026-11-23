@@ -2,7 +2,7 @@
 id: research-topic/code
 type: research-topic
 slug: code
-schema_version: 1.0
+schema_version: 3.0
 title: Code Generation
 icon: 💻
 order: 4

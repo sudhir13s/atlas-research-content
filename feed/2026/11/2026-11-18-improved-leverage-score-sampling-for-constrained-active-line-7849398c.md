@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-improved-leverage-score-sampling-for-constrained-active-line-7849398c
 type: feed-item
 slug: 2026-11-18-improved-leverage-score-sampling-for-constrained-active-line-7849398c
-schema_version: 1.0
+schema_version: 2.0
 title: Improved Leverage Score Sampling for Constrained Active Linear Regression
 kind: paper
 url: https://arxiv.org/abs/2611.23801
@@ -27,8 +27,6 @@ fields:
   - math.NA
   primary_category: stat.ML
   pdf_url: https://arxiv.org/pdf/2611.23801v1
-  doi: ''
-  journal_reference: ''
   comment: To appear in NeurIPS 2026 (Spotlight)
   updated: '2026-11-18T04:06:10Z'
 review:

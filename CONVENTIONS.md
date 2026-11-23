@@ -35,7 +35,15 @@ see `schema/<type>.schema.json`.
 - `tags`: lowercase, hyphen-separated.
 - `updated`: ISO date (`YYYY-MM-DD`).
 - `sources[]`: `{ url, title, trust }` — `trust` in `[0,1]`. A paper's source is its own link.
-- `schema_version`: the `major.minor` the file was authored against (currently `2.3`).
+- `schema_version`: the version of the type's schema. Every schema fixes the value and a record
+  with any other is refused; a breaking change raises it and converts every record.
+  - `paper`, `research-topic`, `research-direction`, `research-resource`: `3.0`.
+  - `feed-item`: `2.0`. The type is shared with `atlas-news-content` and carries its own version.
+- **No unknown fields** on any type, at the top level or inside a block of fixed shape.
+- **A value that is not known is absent.** No empty text, zero or placeholder stands in for it.
+- `review` and `generated_by` are defined once, in `schema/_shared.schema.json`, for every type
+  that carries them. `generated_by` names the job and run; it adds `provider`, `model` and
+  `prompt_version` (all three) exactly when a model wrote text in the record.
 
 ## Body sections
 
@@ -45,16 +53,18 @@ see `schema/<type>.schema.json`.
 
 ## Per-type specifics
 
-- **paper** — one record per distinct paper, however many lists it appears in. `authors` is the
-  string as written, without the year; `year` is a number. `url` is the link as given (an arXiv
-  abstract page, a publisher page, a PDF or a book); `arxiv_id` is present only for arXiv links.
+- **paper** — one record per distinct paper, however many lists it appears in. `authors` is one
+  line of text as written, without the year (`Vaswani et al.`), not a list of names; `year` is a
+  number. `url` is the link as given (an arXiv abstract page, a publisher page, a PDF or a book).
+  The arXiv ID is not stored: for an arXiv paper `url` is `https://arxiv.org/abs/<arXiv ID>` and
+  a reader takes the ID from it.
   `topics` lists every topic the paper sits under (empty for none). `must_read` is
   `{era, order}` and present only for must-read papers. `is_high_impact` marks the few papers the
   page highlights. Body: `Why It Matters`, then optionally `Also Noted` (a second text from another
   topic's list). `summary` holds the short must-read text when a longer one fills `Why It Matters`.
   Other titles the paper is known by go in `aliases`. `citation_signals` is agent-owned: citation
-  count, venue, the day it was read and the paper's OpenAlex address, copied by code for papers with
-  an arXiv ID or DOI; never written by hand.
+  count, venue, the day it was read and the paper's OpenAlex address, copied by code for papers
+  whose `url` is an arXiv abstract page or a DOI address; never written by hand.
 - **research-topic** — `icon`, `order`. No body.
 - **research-direction** — `search_query`, `order`. Body: `Why It Matters`.
   - **Which directions exist is decided by rule, not by hand.** A direction stands for one or
@@ -67,20 +77,28 @@ see `schema/<type>.schema.json`.
   - `status` is agent-owned: `active` (listed) or `retired` (kept with its text, not listed).
     A record without it is active. A direction is retired after `leave_after_runs` runs in a
     row below the leave bar and becomes active again when its keywords pass the entry bar.
-  - `selection` is agent-owned and never written by hand: the keyword works in the latest
-    window and the one before (`works_recent`, `works_previous`), the same counts for every
-    work counted (`field_recent`, `field_previous`), the rule's numbers (`window_days`,
-    `min_recent_papers`, `max_field_share`, `max_directions`, `leave_below_ratio`,
-    `leave_after_runs`), `runs_below` and the day read.
+  - `selection` is agent-owned and never written by hand. It holds what was counted and decided
+    for the direction, not the rule:
+    - the keyword works in the latest window and the one before (`works_recent`,
+      `works_previous`) and the same counts for every work counted (`field_recent`,
+      `field_previous`);
+    - `window_days`, the length of each window;
+    - `runs_below`, the runs in a row below the leave bar, read against `leave_after_runs`;
+    - `observed_at`, the day read.
+  - **The rule's thresholds are not copied into a record.** They are the `directions` setting
+    of the `research-curation` job in `config/jobs.yaml` of TheAIAtlas (`min_recent_papers`,
+    `max_field_share`, `max_directions`, `leave_below_ratio`).
     - Entry: `works_recent >= min_recent_papers` and
       `works_recent <= max_field_share * field_recent`, while fewer than `max_directions` are
       active; the fastest-growing keywords enter first.
     - Leave bar: `leave_below_ratio * min_recent_papers`.
   - The text of a direction the job adds is written by a model from the abstracts of the
     keyword's most cited recent arXiv papers and reviewed before it is stored. Such a record
-    lists those papers in `sources` and carries `quotes` (one abstract span per sentence of the
-    text, in sentence order; a record written before 2.3 has a single `quote`), `review` and
-    `generated_by`. A hand-written record has none of them.
+    lists those papers in `sources` and carries `quotes`, `review` and `generated_by`, all three
+    or none. A hand-written record has none of them.
+    - `quotes` is a list of abstract spans: one per sentence of the text, in sentence order,
+      when `review.prompt_versions.writer` is `2.0.0` or later; one span for the whole text
+      before that.
   - `search_query` is words joined with `+`; a phrase goes inside double quotes
     (`"mixture+of+experts"`, `agent+"tool+use"`). A paper must contain every word and phrase. The
     same query opens the arXiv search and is counted through the arXiv API, so it holds no field
@@ -88,9 +106,10 @@ see `schema/<type>.schema.json`.
   - `activity` is agent-owned and never written by hand; a template has none. It holds the arXiv
     paper counts for the query in the latest window and the one before (`papers_recent`,
     `papers_previous`), the same two counts for every paper of the counted arXiv categories
-    (`field_recent`, `field_previous`), the rule the counts were judged by (`window_days`,
-    `min_papers_high_volume`, `min_papers`, `min_growth_vs_field`), the verdict `is_hot`, the day
-    read and the API address that gave `papers_recent`.
+    (`field_recent`, `field_previous`), `window_days`, the verdict `is_hot`, the day read and the
+    API address that gave `papers_recent`. The thresholds of the hot rule are not copied into a
+    record: they are the `hot_directions` setting of the same job (`min_papers_high_volume`,
+    `min_papers`, `min_growth_vs_field`).
   - A direction is hot for either of two reasons. High volume:
     `papers_recent >= min_papers_high_volume`. Rising: `papers_recent >= min_papers` and
     `papers_recent / papers_previous >= min_growth_vs_field * field_recent / field_previous`, enough
@@ -104,11 +123,21 @@ see `schema/<type>.schema.json`.
   first 8 hex characters of the SHA-256 of its `url`. The file is `feed/<year>/<month>/<slug>.md`
   (`feed/undated/` without a date) and its name equals `slug`. `kind` is always `paper`; `url` is
   unique across the repo; `source` names the `config/sources.yaml` entry and `source_tool` the fetch
-  tool (`arxiv`, `huggingface-papers`). A paper copied by code has a `generated_by` that names the
-  job and run only: `fields` holds what the source gave (`arxiv_id`, `authors`, counts), `relevance`
-  is `0`, `tags` is empty, the `Summary` is the abstract as the source gives it, and it has no
-  `quote`, `review` or `Why It Matters`. A paper a model wrote names `provider`, `model` and
-  `prompt_version` in `generated_by` and carries `quote`, `review` and both sections.
+  tool (`arxiv`, `huggingface-papers`).
+  - **The type is shared with `atlas-news-content`.** Everything but `kind` is defined by
+    `feed_item` in `schema/_shared.schema.json`, and that definition and those it refers to are
+    kept word for word the same in both repositories.
+  - **`fields` has one shape per `source_tool`**, with no other key allowed:
+    - `arxiv`: `arxiv_id`, `version`, `authors`, `categories`, `primary_category`, `pdf_url`,
+      `updated`, and `doi`, `journal_reference`, `comment` only when arXiv states them;
+    - `huggingface-papers`: `arxiv_id`, `authors`, `upvotes`, `comments`.
+  - `authors` in `fields` is a list, one entry per author. A `paper` record's `authors` is one
+    line of text; the two are not the same shape.
+  - A paper copied by code has a `generated_by` that names the job and run only. It has no
+    `relevance` (no one scored it), no `quote`, no `review` and no `Why It Matters`; `tags` is
+    empty and the `Summary` is the abstract as the source gives it.
+  - A paper a model wrote names `provider`, `model` and `prompt_version` in `generated_by` and
+    carries `relevance`, `quote`, `review` and both sections.
 
 ## Sourcing
 

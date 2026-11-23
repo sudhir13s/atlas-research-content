@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-tabbiomed-a-large-scale-benchmark-for-biomedical-tabular-lea-1d479604
 type: feed-item
 slug: 2026-11-18-tabbiomed-a-large-scale-benchmark-for-biomedical-tabular-lea-1d479604
-schema_version: 1.0
+schema_version: 2.0
 title: 'TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning'
 kind: paper
 url: https://arxiv.org/abs/2611.23779
@@ -31,8 +31,6 @@ fields:
   - cs.LG
   primary_category: cs.LG
   pdf_url: https://arxiv.org/pdf/2611.23779v1
-  doi: ''
-  journal_reference: ''
   comment: 87 pages, 43 figures, including appendices and the NeurIPS paper checklist
   updated: '2026-11-18T03:35:35Z'
 review:

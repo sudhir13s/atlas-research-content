@@ -2,12 +2,11 @@
 id: paper/learning-to-summarize-from-human-feedback
 type: paper
 slug: learning-to-summarize-from-human-feedback
-schema_version: 1.0
+schema_version: 3.0
 title: Learning to Summarize from Human Feedback
 authors: Stiennon et al.
 year: 2020
 url: https://arxiv.org/abs/2009.01325
-arxiv_id: '2009.01325'
 topics:
 - research-topic/alignment
 is_high_impact: false

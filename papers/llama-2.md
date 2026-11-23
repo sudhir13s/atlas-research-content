@@ -2,12 +2,11 @@
 id: paper/llama-2
 type: paper
 slug: llama-2
-schema_version: 1.0
+schema_version: 3.0
 title: Llama 2
 authors: Touvron et al.
 year: 2023
 url: https://arxiv.org/abs/2307.09288
-arxiv_id: '2307.09288'
 topics:
 - research-topic/llm
 is_high_impact: false

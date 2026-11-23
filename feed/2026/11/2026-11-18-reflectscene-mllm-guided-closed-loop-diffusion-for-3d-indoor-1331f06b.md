@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-reflectscene-mllm-guided-closed-loop-diffusion-for-3d-indoor-1331f06b
 type: feed-item
 slug: 2026-11-18-reflectscene-mllm-guided-closed-loop-diffusion-for-3d-indoor-1331f06b
-schema_version: 1.0
+schema_version: 2.0
 title: ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation
 kind: paper
 url: https://arxiv.org/abs/2611.23845
@@ -28,8 +28,6 @@ fields:
   - cs.AI
   primary_category: cs.CV
   pdf_url: https://arxiv.org/pdf/2611.23845v1
-  doi: ''
-  journal_reference: ''
   comment: 10 pages, 3 figures
   updated: '2026-11-18T04:50:50Z'
 review:

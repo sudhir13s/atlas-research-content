@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-robobuilder-agentic-robot-co-design-with-real-world-video-fe-179f51cd
 type: feed-item
 slug: 2026-11-18-robobuilder-agentic-robot-co-design-with-real-world-video-fe-179f51cd
-schema_version: 1.0
+schema_version: 2.0
 title: 'RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop'
 kind: paper
 url: https://arxiv.org/abs/2611.23855
@@ -26,9 +26,6 @@ fields:
   - cs.RO
   primary_category: cs.AI
   pdf_url: https://arxiv.org/pdf/2611.23855v1
-  doi: ''
-  journal_reference: ''
-  comment: ''
   updated: '2026-11-18T05:02:07Z'
 review:
   score: 10.0

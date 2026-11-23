@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-geometry-bridge-flow-matching-for-blind-rigid-motion-correct-a428e29f
 type: feed-item
 slug: 2026-11-18-geometry-bridge-flow-matching-for-blind-rigid-motion-correct-a428e29f
-schema_version: 1.0
+schema_version: 2.0
 title: Geometry-bridge flow matching for blind rigid-motion correction in head cone-beam CT
 kind: paper
 url: https://arxiv.org/abs/2611.23788
@@ -24,9 +24,6 @@ fields:
   - cs.CV
   primary_category: physics.med-ph
   pdf_url: https://arxiv.org/pdf/2611.23788v1
-  doi: ''
-  journal_reference: ''
-  comment: ''
   updated: '2026-11-18T03:51:56Z'
 review:
   score: 10.0

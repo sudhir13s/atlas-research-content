@@ -2,12 +2,11 @@
 id: paper/dall-e-2
 type: paper
 slug: dall-e-2
-schema_version: 1.0
+schema_version: 3.0
 title: DALL-E 2
 authors: Ramesh et al.
 year: 2022
 url: https://arxiv.org/abs/2204.06125
-arxiv_id: '2204.06125'
 topics:
 - research-topic/diffusion
 is_high_impact: false

@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-curvdelta-low-curvature-delta-modeling-for-surgical-learning-78a114c2
 type: feed-item
 slug: 2026-11-18-curvdelta-low-curvature-delta-modeling-for-surgical-learning-78a114c2
-schema_version: 1.1
+schema_version: 2.0
 title: 'CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning'
 kind: paper
 url: https://arxiv.org/abs/2611.24654

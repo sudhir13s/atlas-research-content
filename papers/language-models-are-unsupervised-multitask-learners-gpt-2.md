@@ -2,7 +2,7 @@
 id: paper/language-models-are-unsupervised-multitask-learners-gpt-2
 type: paper
 slug: language-models-are-unsupervised-multitask-learners-gpt-2
-schema_version: 1.0
+schema_version: 3.0
 title: Language Models are Unsupervised Multitask Learners
 aliases:
 - GPT-2

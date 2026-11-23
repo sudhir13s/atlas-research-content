@@ -2,12 +2,11 @@
 id: paper/wizardcoder
 type: paper
 slug: wizardcoder
-schema_version: 1.0
+schema_version: 3.0
 title: WizardCoder
 authors: Luo et al.
 year: 2023
 url: https://arxiv.org/abs/2306.08568
-arxiv_id: '2306.08568'
 topics:
 - research-topic/code
 is_high_impact: false

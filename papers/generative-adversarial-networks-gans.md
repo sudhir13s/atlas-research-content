@@ -2,7 +2,7 @@
 id: paper/generative-adversarial-networks-gans
 type: paper
 slug: generative-adversarial-networks-gans
-schema_version: 1.0
+schema_version: 3.0
 title: Generative Adversarial Networks
 aliases:
 - GANs
@@ -10,7 +10,6 @@ aliases:
 authors: Goodfellow et al.
 year: 2014
 url: https://arxiv.org/abs/1406.2661
-arxiv_id: '1406.2661'
 topics:
 - research-topic/neural-networks
 - research-topic/diffusion

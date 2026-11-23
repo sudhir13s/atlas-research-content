@@ -2,7 +2,7 @@
 id: research-resource/alphaxiv
 type: research-resource
 slug: alphaxiv
-schema_version: 1.0
+schema_version: 3.0
 title: alphaXiv
 icon: 💬
 links:

@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-probing-the-conscious-mind-selective-access-and-global-works-092d41b7
 type: feed-item
 slug: 2026-11-19-probing-the-conscious-mind-selective-access-and-global-works-092d41b7
-schema_version: 1.1
+schema_version: 2.0
 title: 'Probing the "Conscious" Mind: Selective Access and Global Workspace in Vision-Language Models'
 kind: paper
 url: https://arxiv.org/abs/2611.26590

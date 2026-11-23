@@ -2,12 +2,11 @@
 id: paper/mixtral-of-experts
 type: paper
 slug: mixtral-of-experts
-schema_version: 1.0
+schema_version: 3.0
 title: Mixtral of Experts
 authors: Jiang et al.
 year: 2024
 url: https://arxiv.org/abs/2401.04088
-arxiv_id: '2401.04088'
 topics:
 - research-topic/llm
 must_read:

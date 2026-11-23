@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-narrowspec-draft-hidden-width-need-not-match-the-target-in-s-a62b6f14
 type: feed-item
 slug: 2026-11-18-narrowspec-draft-hidden-width-need-not-match-the-target-in-s-a62b6f14
-schema_version: 1.0
+schema_version: 2.0
 title: 'NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding'
 kind: paper
 url: https://arxiv.org/abs/2611.23835
@@ -26,8 +26,6 @@ fields:
   - cs.PF
   primary_category: cs.CL
   pdf_url: https://arxiv.org/pdf/2611.23835v1
-  doi: ''
-  journal_reference: ''
   comment: 29 pages, 6 figures, 33 tables
   updated: '2026-11-18T04:40:10Z'
 review:

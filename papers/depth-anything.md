@@ -2,12 +2,11 @@
 id: paper/depth-anything
 type: paper
 slug: depth-anything
-schema_version: 1.0
+schema_version: 3.0
 title: Depth Anything
 authors: Yang et al.
 year: 2024
 url: https://arxiv.org/abs/2401.10891
-arxiv_id: '2401.10891'
 topics:
 - research-topic/vision
 is_high_impact: false

@@ -2,12 +2,11 @@
 id: paper/react
 type: paper
 slug: react
-schema_version: 1.0
+schema_version: 3.0
 title: ReAct
 authors: Yao et al.
 year: 2022
 url: https://arxiv.org/abs/2210.03629
-arxiv_id: '2210.03629'
 topics:
 - research-topic/agents
 is_high_impact: false

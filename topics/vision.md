@@ -2,7 +2,7 @@
 id: research-topic/vision
 type: research-topic
 slug: vision
-schema_version: 1.0
+schema_version: 3.0
 title: Computer Vision
 icon: 👁️
 order: 5

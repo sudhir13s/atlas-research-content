@@ -2,12 +2,11 @@
 id: paper/batch-normalization
 type: paper
 slug: batch-normalization
-schema_version: 1.0
+schema_version: 3.0
 title: Batch Normalization
 authors: Ioffe & Szegedy
 year: 2015
 url: https://arxiv.org/abs/1502.03167
-arxiv_id: '1502.03167'
 topics:
 - research-topic/neural-networks
 is_high_impact: false

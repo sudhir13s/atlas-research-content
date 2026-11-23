@@ -2,7 +2,7 @@
 id: paper/sora-video-generation-models-as-world-simulators
 type: paper
 slug: sora-video-generation-models-as-world-simulators
-schema_version: 1.0
+schema_version: 3.0
 title: Video generation models as world simulators
 aliases:
 - Sora (World Simulators)

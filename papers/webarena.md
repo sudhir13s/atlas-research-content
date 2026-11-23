@@ -2,12 +2,11 @@
 id: paper/webarena
 type: paper
 slug: webarena
-schema_version: 1.0
+schema_version: 3.0
 title: WebArena
 authors: Zhou et al.
 year: 2023
 url: https://arxiv.org/abs/2307.13854
-arxiv_id: '2307.13854'
 topics:
 - research-topic/agents
 is_high_impact: false

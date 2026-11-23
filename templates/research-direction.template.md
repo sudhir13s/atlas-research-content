@@ -2,7 +2,7 @@
 id: research-direction/<slug>
 type: research-direction
 slug: <slug>
-schema_version: 2.3
+schema_version: 3.0               # the schema's current version; the schema refuses any other
 title: "<Direction name>"
 search_query: '"<words+of+a+phrase>"+<word>'
 order: 1

@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-hint-wam-hindsight-informed-training-for-world-action-models-9374f0f5
 type: feed-item
 slug: 2026-11-18-hint-wam-hindsight-informed-training-for-world-action-models-9374f0f5
-schema_version: 1.1
+schema_version: 2.0
 title: 'HINT-WAM: Hindsight-Informed Training for World Action Models'
 kind: paper
 url: https://arxiv.org/abs/2611.24789

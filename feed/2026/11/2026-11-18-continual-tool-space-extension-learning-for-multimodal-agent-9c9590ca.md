@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-continual-tool-space-extension-learning-for-multimodal-agent-9c9590ca
 type: feed-item
 slug: 2026-11-18-continual-tool-space-extension-learning-for-multimodal-agent-9c9590ca
-schema_version: 1.0
+schema_version: 2.0
 title: Continual Tool-Space Extension Learning for Multimodal Agents
 kind: paper
 url: https://arxiv.org/abs/2611.23810
@@ -27,9 +27,6 @@ fields:
   - cs.LG
   primary_category: cs.AI
   pdf_url: https://arxiv.org/pdf/2611.23810v1
-  doi: ''
-  journal_reference: ''
-  comment: ''
   updated: '2026-11-18T04:14:02Z'
 review:
   score: 10.0

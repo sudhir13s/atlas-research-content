@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-coda-davinci-reimagining-video-generation-with-code2video-1fa2ba59
 type: feed-item
 slug: 2026-11-19-coda-davinci-reimagining-video-generation-with-code2video-1fa2ba59
-schema_version: 1.1
+schema_version: 2.0
 title: 'Coda-DaVinci: Reimagining Video Generation with Code2Video'
 kind: paper
 url: https://arxiv.org/abs/2611.26595

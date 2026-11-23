@@ -2,7 +2,7 @@
 id: feed-item/2026-11-16-alive-making-streaming-video-models-interactive-3469db9e
 type: feed-item
 slug: 2026-11-16-alive-making-streaming-video-models-interactive-3469db9e
-schema_version: 1.1
+schema_version: 2.0
 title: 'ALIVE: Making Streaming Video Models Interactive'
 kind: paper
 url: https://arxiv.org/abs/2611.21366

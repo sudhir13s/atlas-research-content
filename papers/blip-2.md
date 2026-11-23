@@ -2,12 +2,11 @@
 id: paper/blip-2
 type: paper
 slug: blip-2
-schema_version: 1.0
+schema_version: 3.0
 title: BLIP-2
 authors: Li et al.
 year: 2023
 url: https://arxiv.org/abs/2301.12597
-arxiv_id: '2301.12597'
 topics:
 - research-topic/multimodal
 is_high_impact: false

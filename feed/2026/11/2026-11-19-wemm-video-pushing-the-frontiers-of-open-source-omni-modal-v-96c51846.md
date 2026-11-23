@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-wemm-video-pushing-the-frontiers-of-open-source-omni-modal-v-96c51846
 type: feed-item
 slug: 2026-11-19-wemm-video-pushing-the-frontiers-of-open-source-omni-modal-v-96c51846
-schema_version: 1.1
+schema_version: 2.0
 title: 'WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding'
 kind: paper
 url: https://arxiv.org/abs/2611.26409

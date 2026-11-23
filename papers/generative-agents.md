@@ -2,12 +2,11 @@
 id: paper/generative-agents
 type: paper
 slug: generative-agents
-schema_version: 1.0
+schema_version: 3.0
 title: Generative Agents
 authors: Park et al.
 year: 2023
 url: https://arxiv.org/abs/2304.03442
-arxiv_id: '2304.03442'
 topics:
 - research-topic/agents
 is_high_impact: false

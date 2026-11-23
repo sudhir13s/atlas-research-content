@@ -2,12 +2,11 @@
 id: paper/gaia
 type: paper
 slug: gaia
-schema_version: 1.0
+schema_version: 3.0
 title: GAIA
 authors: Mialon et al.
 year: 2023
 url: https://arxiv.org/abs/2311.12983
-arxiv_id: '2311.12983'
 topics:
 - research-topic/agents
 is_high_impact: false

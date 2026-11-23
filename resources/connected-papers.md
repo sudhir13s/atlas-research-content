@@ -2,7 +2,7 @@
 id: research-resource/connected-papers
 type: research-resource
 slug: connected-papers
-schema_version: 1.0
+schema_version: 3.0
 title: Connected Papers
 icon: 🕸️
 links:

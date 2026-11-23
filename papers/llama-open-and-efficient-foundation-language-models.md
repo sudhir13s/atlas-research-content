@@ -2,14 +2,13 @@
 id: paper/llama-open-and-efficient-foundation-language-models
 type: paper
 slug: llama-open-and-efficient-foundation-language-models
-schema_version: 1.0
+schema_version: 3.0
 title: 'LLaMA: Open and Efficient Foundation Language Models'
 aliases:
 - LLaMA
 authors: Touvron et al.
 year: 2023
 url: https://arxiv.org/abs/2302.13971
-arxiv_id: '2302.13971'
 topics:
 - research-topic/llm
 must_read:

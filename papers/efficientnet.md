@@ -2,12 +2,11 @@
 id: paper/efficientnet
 type: paper
 slug: efficientnet
-schema_version: 1.0
+schema_version: 3.0
 title: EfficientNet
 authors: Tan & Le
 year: 2019
 url: https://arxiv.org/abs/1905.11946
-arxiv_id: '1905.11946'
 topics:
 - research-topic/vision
 is_high_impact: false

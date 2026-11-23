@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-neural-memory-orchestration-618412b7
 type: feed-item
 slug: 2026-11-18-neural-memory-orchestration-618412b7
-schema_version: 1.0
+schema_version: 2.0
 title: Neural Memory Orchestration
 kind: paper
 url: https://arxiv.org/abs/2611.23857
@@ -24,8 +24,6 @@ fields:
   - cs.OS
   primary_category: cs.DC
   pdf_url: https://arxiv.org/pdf/2611.23857v1
-  doi: ''
-  journal_reference: ''
   comment: 10 pages, 9 figures
   updated: '2026-11-18T05:02:56Z'
 review:

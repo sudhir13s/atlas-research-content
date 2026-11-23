@@ -2,12 +2,11 @@
 id: paper/detr
 type: paper
 slug: detr
-schema_version: 1.0
+schema_version: 3.0
 title: DETR
 authors: Carion et al.
 year: 2020
 url: https://arxiv.org/abs/2005.12872
-arxiv_id: '2005.12872'
 topics:
 - research-topic/vision
 is_high_impact: false

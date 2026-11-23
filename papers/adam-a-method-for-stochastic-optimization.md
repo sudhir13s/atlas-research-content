@@ -2,12 +2,11 @@
 id: paper/adam-a-method-for-stochastic-optimization
 type: paper
 slug: adam-a-method-for-stochastic-optimization
-schema_version: 1.0
+schema_version: 3.0
 title: 'Adam: A Method for Stochastic Optimization'
 authors: Kingma & Ba
 year: 2014
 url: https://arxiv.org/abs/1412.6980
-arxiv_id: '1412.6980'
 topics:
 - research-topic/neural-networks
 is_high_impact: false

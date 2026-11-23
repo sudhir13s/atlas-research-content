@@ -2,12 +2,11 @@
 id: paper/vilbert
 type: paper
 slug: vilbert
-schema_version: 1.0
+schema_version: 3.0
 title: ViLBERT
 authors: Lu et al.
 year: 2019
 url: https://arxiv.org/abs/1908.02265
-arxiv_id: '1908.02265'
 topics:
 - research-topic/multimodal
 is_high_impact: false

@@ -2,7 +2,7 @@
 id: paper/long-short-term-memory-lstm
 type: paper
 slug: long-short-term-memory-lstm
-schema_version: 1.0
+schema_version: 3.0
 title: Long Short-Term Memory
 aliases:
 - LSTM

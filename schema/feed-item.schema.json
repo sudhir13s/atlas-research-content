@@ -2,90 +2,16 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://theaiatlas.dev/schema/research/feed-item.schema.json",
   "title": "feed-item",
+  "unevaluatedProperties": false,
   "allOf": [
     { "$ref": "_shared.schema.json#/$defs/base" },
-    {
-      "if": {
-        "properties": { "generated_by": { "not": { "required": ["provider"] } } },
-        "required": ["generated_by"]
-      },
-      "then": { "required": ["fields"] },
-      "else": {
-        "required": ["quote", "review"],
-        "properties": {
-          "generated_by": { "required": ["provider", "model", "prompt_version"] }
-        }
-      }
-    }
+    { "$ref": "_shared.schema.json#/$defs/feed_item" }
   ],
   "properties": {
     "type": { "const": "feed-item" },
-    "kind": { "const": "paper" },
-    "url": { "type": "string", "format": "uri", "minLength": 1 },
-    "source": { "type": "string", "minLength": 1 },
-    "source_tool": { "type": "string", "minLength": 1 },
-    "published_at": {
-      "type": ["string", "null"],
-      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
-    },
-    "relevance": { "type": "integer", "minimum": 0, "maximum": 10 },
-    "quote": { "type": "string", "minLength": 1 },
-    "credit": { "type": "string", "minLength": 1 },
-    "fields": { "type": "object" },
-    "review": {
-      "type": "object",
-      "required": ["score", "reviewed_by", "prompt_versions"],
-      "additionalProperties": false,
-      "properties": {
-        "score": { "type": "number", "minimum": 0, "maximum": 10 },
-        "reviewed_by": {
-          "type": "object",
-          "required": ["provider", "model"],
-          "additionalProperties": false,
-          "properties": {
-            "provider": { "type": "string", "minLength": 1 },
-            "model": { "type": "string", "minLength": 1 }
-          }
-        },
-        "prompt_versions": {
-          "type": "object",
-          "required": ["writer", "critic"],
-          "additionalProperties": false,
-          "properties": {
-            "writer": { "type": "string", "minLength": 1 },
-            "critic": { "type": "string", "minLength": 1 }
-          }
-        }
-      }
-    },
-    "generated_by": {
-      "type": "object",
-      "required": ["job", "run_id"],
-      "additionalProperties": false,
-      "dependentRequired": {
-        "provider": ["model", "prompt_version"],
-        "model": ["provider", "prompt_version"],
-        "prompt_version": ["provider", "model"]
-      },
-      "properties": {
-        "job": { "type": "string", "minLength": 1 },
-        "run_id": { "type": "integer", "minimum": 0 },
-        "provider": { "type": "string", "minLength": 1 },
-        "model": { "type": "string", "minLength": 1 },
-        "prompt_version": { "type": "string", "minLength": 1 }
-      }
-    }
+    "schema_version": { "const": 2.0 },
+    "kind": { "const": "paper", "description": "this repository holds papers only; news and newsletter issues live in atlas-news-content" },
+    "source_tool": { "enum": ["arxiv", "huggingface-papers"] }
   },
-  "required": [
-    "kind",
-    "url",
-    "source",
-    "source_tool",
-    "published_at",
-    "relevance",
-    "credit",
-    "fields",
-    "generated_by"
-  ],
-  "unevaluatedProperties": false
+  "required": ["kind"]
 }

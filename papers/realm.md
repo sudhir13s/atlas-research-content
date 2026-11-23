@@ -2,12 +2,11 @@
 id: paper/realm
 type: paper
 slug: realm
-schema_version: 1.0
+schema_version: 3.0
 title: REALM
 authors: Guu et al.
 year: 2020
 url: https://arxiv.org/abs/2002.08909
-arxiv_id: '2002.08909'
 topics:
 - research-topic/rag
 is_high_impact: false

@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-hiuni-harmonizing-understanding-and-generation-in-shared-vis-d2a08847
 type: feed-item
 slug: 2026-11-19-hiuni-harmonizing-understanding-and-generation-in-shared-vis-d2a08847
-schema_version: 1.1
+schema_version: 2.0
 title: 'HiUni: Harmonizing Understanding and Generation in Shared Visual Space'
 kind: paper
 url: https://arxiv.org/abs/2611.26107

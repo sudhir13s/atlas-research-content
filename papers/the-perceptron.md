@@ -2,7 +2,7 @@
 id: paper/the-perceptron
 type: paper
 slug: the-perceptron
-schema_version: 1.0
+schema_version: 3.0
 title: 'The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain'
 aliases:
 - The Perceptron

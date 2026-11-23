@@ -2,7 +2,7 @@
 id: paper/handwritten-digit-recognition-with-backpropagation-lenet
 type: paper
 slug: handwritten-digit-recognition-with-backpropagation-lenet
-schema_version: 1.0
+schema_version: 3.0
 title: Handwritten Digit Recognition with a Back-Propagation Network
 aliases:
 - LeNet

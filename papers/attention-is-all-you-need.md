@@ -2,12 +2,11 @@
 id: paper/attention-is-all-you-need
 type: paper
 slug: attention-is-all-you-need
-schema_version: 1.0
+schema_version: 3.0
 title: Attention Is All You Need
 authors: Vaswani et al.
 year: 2017
 url: https://arxiv.org/abs/1706.03762
-arxiv_id: '1706.03762'
 topics:
 - research-topic/transformers
 must_read:

@@ -2,12 +2,11 @@
 id: paper/alphacode
 type: paper
 slug: alphacode
-schema_version: 1.0
+schema_version: 3.0
 title: AlphaCode
 authors: Li et al.
 year: 2022
 url: https://arxiv.org/abs/2203.07814
-arxiv_id: '2203.07814'
 topics:
 - research-topic/code
 is_high_impact: false

@@ -2,7 +2,7 @@
 id: paper/deep-belief-networks
 type: paper
 slug: deep-belief-networks
-schema_version: 1.0
+schema_version: 3.0
 title: A Fast Learning Algorithm for Deep Belief Nets
 aliases:
 - Deep Belief Networks

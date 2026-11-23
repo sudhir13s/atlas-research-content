@@ -2,14 +2,13 @@
 id: paper/direct-preference-optimization-dpo
 type: paper
 slug: direct-preference-optimization-dpo
-schema_version: 1.0
+schema_version: 3.0
 title: 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'
 aliases:
 - DPO
 authors: Rafailov et al.
 year: 2023
 url: https://arxiv.org/abs/2305.18290
-arxiv_id: '2305.18290'
 topics:
 - research-topic/alignment
 must_read:

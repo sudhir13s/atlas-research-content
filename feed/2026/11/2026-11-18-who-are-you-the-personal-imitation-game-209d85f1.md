@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-who-are-you-the-personal-imitation-game-209d85f1
 type: feed-item
 slug: 2026-11-18-who-are-you-the-personal-imitation-game-209d85f1
-schema_version: 1.0
+schema_version: 2.0
 title: Who are you? The Personal Imitation Game
 kind: paper
 url: https://arxiv.org/abs/2611.24888
@@ -29,8 +29,6 @@ fields:
   - cs.CL
   primary_category: cs.HC
   pdf_url: https://arxiv.org/pdf/2611.24888v1
-  doi: ''
-  journal_reference: ''
   comment: 19 pages, 6 figures, 5 tables
   updated: '2026-11-18T18:32:14Z'
 review:

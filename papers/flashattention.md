@@ -2,12 +2,11 @@
 id: paper/flashattention
 type: paper
 slug: flashattention
-schema_version: 1.0
+schema_version: 3.0
 title: FlashAttention
 authors: Dao et al.
 year: 2022
 url: https://arxiv.org/abs/2205.14135
-arxiv_id: '2205.14135'
 topics:
 - research-topic/transformers
 - research-topic/efficiency

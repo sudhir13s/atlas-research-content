@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-cafe-aqi-coverage-aware-day-ahead-aqi-forecasting-with-early-5b9def46
 type: feed-item
 slug: 2026-11-18-cafe-aqi-coverage-aware-day-ahead-aqi-forecasting-with-early-5b9def46
-schema_version: 1.0
+schema_version: 2.0
 title: 'CAFE-AQI: Coverage-Aware Day-Ahead AQI Forecasting with Early Warning and Conformal Uncertainty in Bangladesh'
 kind: paper
 url: https://arxiv.org/abs/2611.23815
@@ -26,9 +26,6 @@ fields:
   - stat.AP
   primary_category: cs.LG
   pdf_url: https://arxiv.org/pdf/2611.23815v1
-  doi: ''
-  journal_reference: ''
-  comment: ''
   updated: '2026-11-18T04:18:24Z'
 review:
   score: 10.0

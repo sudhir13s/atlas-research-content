@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-a-fast-programmable-gpu-to-cpu-invocation-layer-for-gpu-init-02f9f43c
 type: feed-item
 slug: 2026-11-18-a-fast-programmable-gpu-to-cpu-invocation-layer-for-gpu-init-02f9f43c
-schema_version: 1.0
+schema_version: 2.0
 title: A Fast, Programmable GPU-to-CPU Invocation Layer for GPU-Initiated Communication
 kind: paper
 url: https://arxiv.org/abs/2611.23848
@@ -27,8 +27,6 @@ fields:
   - cs.LG
   primary_category: cs.DC
   pdf_url: https://arxiv.org/pdf/2611.23848v1
-  doi: ''
-  journal_reference: ''
   comment: 11 pages, 9 figures, 3 tables
   updated: '2026-11-18T04:52:50Z'
 review:

@@ -2,7 +2,7 @@
 id: research-resource/helm
 type: research-resource
 slug: helm
-schema_version: 1.0
+schema_version: 3.0
 title: HELM (Stanford)
 icon: 📊
 links:

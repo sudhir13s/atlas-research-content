@@ -2,12 +2,11 @@
 id: paper/code-llama
 type: paper
 slug: code-llama
-schema_version: 1.0
+schema_version: 3.0
 title: Code Llama
 authors: Roziere et al.
 year: 2023
 url: https://arxiv.org/abs/2308.12950
-arxiv_id: '2308.12950'
 topics:
 - research-topic/code
 is_high_impact: false

@@ -2,7 +2,7 @@
 id: research-resource/huggingface
 type: research-resource
 slug: huggingface
-schema_version: 1.0
+schema_version: 3.0
 title: Hugging Face Papers
 icon: 🤗
 links:

@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-sightline-long-window-speculative-decoding-for-fast-svg-gene-0021da7e
 type: feed-item
 slug: 2026-11-18-sightline-long-window-speculative-decoding-for-fast-svg-gene-0021da7e
-schema_version: 1.0
+schema_version: 2.0
 title: 'Sightline: Long-Window Speculative Decoding for Fast SVG Generation'
 kind: paper
 url: https://arxiv.org/abs/2611.23807
@@ -32,8 +32,6 @@ fields:
   - cs.LG
   primary_category: cs.CV
   pdf_url: https://arxiv.org/pdf/2611.23807v1
-  doi: ''
-  journal_reference: ''
   comment: '45 pages, 23 figures, 34 tables. Code: https://github.com/LiZaiyuan0619/Sightline'
   updated: '2026-11-18T04:12:31Z'
 review:

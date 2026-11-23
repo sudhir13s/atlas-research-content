@@ -2,12 +2,11 @@
 id: paper/awq
 type: paper
 slug: awq
-schema_version: 1.0
+schema_version: 3.0
 title: AWQ
 authors: Lin et al.
 year: 2023
 url: https://arxiv.org/abs/2306.00978
-arxiv_id: '2306.00978'
 topics:
 - research-topic/efficiency
 is_high_impact: false

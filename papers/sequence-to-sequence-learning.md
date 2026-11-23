@@ -2,12 +2,11 @@
 id: paper/sequence-to-sequence-learning
 type: paper
 slug: sequence-to-sequence-learning
-schema_version: 1.0
+schema_version: 3.0
 title: Sequence to Sequence Learning with Neural Networks
 authors: Sutskever, Vinyals & Le
 year: 2014
 url: https://arxiv.org/abs/1409.3215
-arxiv_id: '1409.3215'
 topics:
 - research-topic/neural-networks
 must_read:

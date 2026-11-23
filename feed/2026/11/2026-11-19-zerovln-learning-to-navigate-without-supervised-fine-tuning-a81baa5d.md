@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-zerovln-learning-to-navigate-without-supervised-fine-tuning-a81baa5d
 type: feed-item
 slug: 2026-11-19-zerovln-learning-to-navigate-without-supervised-fine-tuning-a81baa5d
-schema_version: 1.1
+schema_version: 2.0
 title: 'ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain'
 kind: paper
 url: https://arxiv.org/abs/2611.26414

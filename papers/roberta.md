@@ -2,12 +2,11 @@
 id: paper/roberta
 type: paper
 slug: roberta
-schema_version: 1.0
+schema_version: 3.0
 title: RoBERTa
 authors: Liu et al.
 year: 2019
 url: https://arxiv.org/abs/1907.11692
-arxiv_id: '1907.11692'
 topics:
 - research-topic/nlp-classics
 is_high_impact: false

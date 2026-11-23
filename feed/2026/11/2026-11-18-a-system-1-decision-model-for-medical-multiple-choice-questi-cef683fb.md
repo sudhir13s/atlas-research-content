@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-a-system-1-decision-model-for-medical-multiple-choice-questi-cef683fb
 type: feed-item
 slug: 2026-11-18-a-system-1-decision-model-for-medical-multiple-choice-questi-cef683fb
-schema_version: 1.0
+schema_version: 2.0
 title: A System 1 Decision Model for Medical Multiple-Choice Questions Built on Frozen Language Models
 kind: paper
 url: https://arxiv.org/abs/2611.23832
@@ -22,8 +22,6 @@ fields:
   - cs.CL
   primary_category: cs.AI
   pdf_url: https://arxiv.org/pdf/2611.23832v1
-  doi: ''
-  journal_reference: ''
   comment: 12 pages with 7 tabular explanations
   updated: '2026-11-18T04:38:49Z'
 review:

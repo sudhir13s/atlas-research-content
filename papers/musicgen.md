@@ -2,12 +2,11 @@
 id: paper/musicgen
 type: paper
 slug: musicgen
-schema_version: 1.0
+schema_version: 3.0
 title: MusicGen
 authors: Copet et al.
 year: 2023
 url: https://arxiv.org/abs/2306.05284
-arxiv_id: '2306.05284'
 topics:
 - research-topic/audio
 is_high_impact: false

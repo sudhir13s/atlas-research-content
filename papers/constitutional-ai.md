@@ -2,12 +2,11 @@
 id: paper/constitutional-ai
 type: paper
 slug: constitutional-ai
-schema_version: 1.0
+schema_version: 3.0
 title: Constitutional AI
 authors: Bai et al.
 year: 2022
 url: https://arxiv.org/abs/2212.08073
-arxiv_id: '2212.08073'
 topics:
 - research-topic/alignment
 is_high_impact: false

@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-evidence-based-credit-assignment-for-search-augmented-langua-042c74e7
 type: feed-item
 slug: 2026-11-18-evidence-based-credit-assignment-for-search-augmented-langua-042c74e7
-schema_version: 1.0
+schema_version: 2.0
 title: Evidence-Based Credit Assignment for Search-Augmented Language Models
 kind: paper
 url: https://arxiv.org/abs/2611.23824
@@ -27,8 +27,6 @@ fields:
   - cs.AI
   primary_category: cs.AI
   pdf_url: https://arxiv.org/pdf/2611.23824v1
-  doi: ''
-  journal_reference: ''
   comment: 16 pages, 4 figures. Includes supplementary material
   updated: '2026-11-18T04:24:51Z'
 review:

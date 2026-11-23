@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-posterior-matching-distillation-78d21f09
 type: feed-item
 slug: 2026-11-19-posterior-matching-distillation-78d21f09
-schema_version: 1.1
+schema_version: 2.0
 title: Posterior Matching Distillation
 kind: paper
 url: https://arxiv.org/abs/2611.26629

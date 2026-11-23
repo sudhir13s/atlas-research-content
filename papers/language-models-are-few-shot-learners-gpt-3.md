@@ -2,14 +2,13 @@
 id: paper/language-models-are-few-shot-learners-gpt-3
 type: paper
 slug: language-models-are-few-shot-learners-gpt-3
-schema_version: 1.0
+schema_version: 3.0
 title: Language Models are Few-Shot Learners
 aliases:
 - GPT-3
 authors: Brown et al.
 year: 2020
 url: https://arxiv.org/abs/2005.14165
-arxiv_id: '2005.14165'
 topics:
 - research-topic/llm
 must_read:

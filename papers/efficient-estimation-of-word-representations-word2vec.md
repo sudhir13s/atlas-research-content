@@ -2,14 +2,13 @@
 id: paper/efficient-estimation-of-word-representations-word2vec
 type: paper
 slug: efficient-estimation-of-word-representations-word2vec
-schema_version: 1.0
+schema_version: 3.0
 title: Efficient Estimation of Word Representations in Vector Space
 aliases:
 - Word2Vec
 authors: Mikolov et al.
 year: 2013
 url: https://arxiv.org/abs/1301.3781
-arxiv_id: '1301.3781'
 topics:
 - research-topic/nlp-classics
 must_read:

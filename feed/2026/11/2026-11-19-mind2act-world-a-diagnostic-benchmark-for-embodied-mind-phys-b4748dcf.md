@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-mind2act-world-a-diagnostic-benchmark-for-embodied-mind-phys-b4748dcf
 type: feed-item
 slug: 2026-11-19-mind2act-world-a-diagnostic-benchmark-for-embodied-mind-phys-b4748dcf
-schema_version: 1.1
+schema_version: 2.0
 title: 'Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation'
 kind: paper
 url: https://arxiv.org/abs/2611.26444

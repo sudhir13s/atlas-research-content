@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-togbench-benchmarking-and-improving-tiny-object-generation-f-514a1fc0
 type: feed-item
 slug: 2026-11-18-togbench-benchmarking-and-improving-tiny-object-generation-f-514a1fc0
-schema_version: 1.0
+schema_version: 2.0
 title: 'TOGBench: Benchmarking and Improving Tiny-Object Generation Fidelity in Aerial Imagery'
 kind: paper
 url: https://arxiv.org/abs/2611.23840
@@ -24,8 +24,6 @@ fields:
   - cs.AI
   primary_category: cs.CV
   pdf_url: https://arxiv.org/pdf/2611.23840v1
-  doi: ''
-  journal_reference: ''
   comment: Accepted to WACV 2027 Round 2. 20 pages, 7 figures
   updated: '2026-11-18T04:45:57Z'
 review:

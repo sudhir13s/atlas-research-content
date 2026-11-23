@@ -2,14 +2,13 @@
 id: paper/bert-pre-training-of-deep-bidirectional-transformers
 type: paper
 slug: bert-pre-training-of-deep-bidirectional-transformers
-schema_version: 1.0
+schema_version: 3.0
 title: 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'
 aliases:
 - BERT
 authors: Devlin et al.
 year: 2018
 url: https://arxiv.org/abs/1810.04805
-arxiv_id: '1810.04805'
 topics:
 - research-topic/llm
 must_read:

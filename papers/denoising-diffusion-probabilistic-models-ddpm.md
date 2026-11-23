@@ -2,14 +2,13 @@
 id: paper/denoising-diffusion-probabilistic-models-ddpm
 type: paper
 slug: denoising-diffusion-probabilistic-models-ddpm
-schema_version: 1.0
+schema_version: 3.0
 title: Denoising Diffusion Probabilistic Models
 aliases:
 - DDPM
 authors: Ho et al.
 year: 2020
 url: https://arxiv.org/abs/2006.11239
-arxiv_id: '2006.11239'
 topics:
 - research-topic/diffusion
 must_read:

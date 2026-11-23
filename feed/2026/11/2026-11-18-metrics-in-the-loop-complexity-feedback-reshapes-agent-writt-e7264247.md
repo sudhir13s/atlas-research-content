@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-metrics-in-the-loop-complexity-feedback-reshapes-agent-writt-e7264247
 type: feed-item
 slug: 2026-11-18-metrics-in-the-loop-complexity-feedback-reshapes-agent-writt-e7264247
-schema_version: 1.0
+schema_version: 2.0
 title: 'Metrics-in-the-Loop: Complexity Feedback Reshapes Agent-Written Code'
 kind: paper
 url: https://arxiv.org/abs/2611.23817
@@ -23,8 +23,6 @@ fields:
   - cs.AI
   primary_category: cs.AI
   pdf_url: https://arxiv.org/pdf/2611.23817v1
-  doi: ''
-  journal_reference: ''
   comment: Agent Evaluation Science Symposium, Fall 2026, New York City
   updated: '2026-11-18T04:19:48Z'
 review:

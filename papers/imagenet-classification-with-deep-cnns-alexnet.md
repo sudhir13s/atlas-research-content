@@ -2,7 +2,7 @@
 id: paper/imagenet-classification-with-deep-cnns-alexnet
 type: paper
 slug: imagenet-classification-with-deep-cnns-alexnet
-schema_version: 1.0
+schema_version: 3.0
 title: ImageNet Classification with Deep Convolutional Neural Networks
 aliases:
 - AlexNet

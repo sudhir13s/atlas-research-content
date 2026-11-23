@@ -2,7 +2,7 @@
 id: feed-item/2026-11-19-egocaptioner-towards-comprehensive-and-fine-grained-egocentr-bbb9d3be
 type: feed-item
 slug: 2026-11-19-egocaptioner-towards-comprehensive-and-fine-grained-egocentr-bbb9d3be
-schema_version: 1.1
+schema_version: 2.0
 title: 'EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning'
 kind: paper
 url: https://arxiv.org/abs/2611.26380

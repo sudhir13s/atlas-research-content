@@ -2,7 +2,7 @@
 id: feed-item/2026-11-17-the-resolution-hypothesis-agent-evolution-s-key-is-identifyi-a0c40b04
 type: feed-item
 slug: 2026-11-17-the-resolution-hypothesis-agent-evolution-s-key-is-identifyi-a0c40b04
-schema_version: 1.1
+schema_version: 2.0
 title: 'The Resolution Hypothesis: Agent Evolution''s Key Is Identifying Improvements'
 kind: paper
 url: https://arxiv.org/abs/2611.23068

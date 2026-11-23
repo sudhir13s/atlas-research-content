@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-online-state-representation-adaptation-under-synthetic-inter-ae102333
 type: feed-item
 slug: 2026-11-18-online-state-representation-adaptation-under-synthetic-inter-ae102333
-schema_version: 1.0
+schema_version: 2.0
 title: Online State-Representation Adaptation under Synthetic Interaction-Cue Remapping
 kind: paper
 url: https://arxiv.org/abs/2611.23836
@@ -21,8 +21,6 @@ fields:
   - cs.LG
   primary_category: cs.LG
   pdf_url: https://arxiv.org/pdf/2611.23836v1
-  doi: ''
-  journal_reference: ''
   comment: 10 pages, 2 figures. Code and synthetic data are available at https://doi.org/10.5281/zenodo.24329690
   updated: '2026-11-18T04:41:47Z'
 review:

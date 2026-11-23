@@ -5,6 +5,39 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 
 ## [Unreleased]
 
+### Schema 3.0, feed-item 2.0 (strict schemas, checked versions; breaking)
+
+Every record was converted by the consumer's `atlas migrate research-restructure`. A step only
+moved, renamed or deleted: no value was added, and `updated` did not move.
+
+- **Changed** `schema_version` to a constant of each schema: `3.0` for `paper`,
+  `research-topic`, `research-direction` and `research-resource`, `2.0` for `feed-item`. A
+  record with any other value is refused. The records said `1.0`, `1.1`, `2.2` or `2.3`.
+- **Changed** to strict: no unknown field at the top level of any type, in `sources[]`, or
+  inside a block of fixed shape.
+- **Removed** `paper.arxiv_id` (107 of 121 records). Breaking: the ID is read from `url`, which
+  is `https://arxiv.org/abs/<arXiv ID>` on each of those records.
+- **Removed** the copies of the rule's thresholds from every `research-direction` (26 records).
+  Breaking: a reader takes them from the `research-curation` job in `config/jobs.yaml`.
+  - `selection`: `min_recent_papers`, `max_field_share`, `max_directions`, `leave_below_ratio`.
+  - `activity`: `min_papers_high_volume`, `min_papers`, `min_growth_vs_field`.
+  - Kept: the counts, `window_days`, `runs_below`, `leave_after_runs`, `is_hot`, the days read.
+- **Removed** `research-direction.quote`. Breaking: the 7 records that held it list the same
+  text as the one entry of `quotes`. Their writer prompt version (`1.0.0`) says the span covers
+  the whole text; from `2.0.0` there is one span per sentence.
+- **Changed** `review` and `generated_by` to shared definitions in `_shared.schema.json`, with
+  every property declared. On a `research-direction` they come with `quotes`, all three or none.
+- **Changed** `feed-item.fields` from an open object to one shape per `source_tool` (`arxiv`,
+  `huggingface-papers`). The shared part of the type is `feed_item` in `_shared.schema.json`,
+  identical in `atlas-news-content`.
+- **Removed** empty text standing for a missing value in `feed-item.fields`: `doi` and
+  `journal_reference` (20 records each) and `comment` (6 records).
+- **Changed** `feed-item`: a paper copied by code states no `relevance`, `quote` or `review`
+  (it stated `relevance: 0`); a paper a model wrote states all three. No stored record changed
+  for this: all 33 are model-written.
+- **Kept** as written: `paper.authors` (one line of text; splitting `Bertasius et al.` would
+  invent names) and `paper.summary` (optional prose, on 28 records).
+
 ### Schema 2.3 (one quote per sentence)
 
 - **Added** the optional, agent-owned `quotes` on `research-direction`: one span of a source
@@ -97,3 +130,6 @@ All notable changes to `atlas-research-content`. Grouped by schema version / rel
 - **2.2** — `research-direction.status`, `origin` and `selection`: directions chosen by rule from
   OpenAlex keywords; `quote`, `review` and `generated_by` on a model-written direction.
 - **2.3** — `research-direction.quotes`: one quote per sentence of a model-written direction.
+- **3.0** — strict schemas and a fixed version per type; `paper.arxiv_id`, the rule copies of
+  `research-direction` and `research-direction.quote` removed. `feed-item` is at its own `2.0`:
+  typed `fields` per `source_tool`, shared with `atlas-news-content`.

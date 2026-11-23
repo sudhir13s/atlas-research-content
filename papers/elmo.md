@@ -2,12 +2,11 @@
 id: paper/elmo
 type: paper
 slug: elmo
-schema_version: 1.0
+schema_version: 3.0
 title: ELMo
 authors: Peters et al.
 year: 2018
 url: https://arxiv.org/abs/1802.05365
-arxiv_id: '1802.05365'
 topics:
 - research-topic/nlp-classics
 is_high_impact: false

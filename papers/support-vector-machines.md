@@ -2,7 +2,7 @@
 id: paper/support-vector-machines
 type: paper
 slug: support-vector-machines
-schema_version: 1.0
+schema_version: 3.0
 title: The Nature of Statistical Learning Theory
 aliases:
 - Support Vector Machines

@@ -2,12 +2,11 @@
 id: paper/cogvideox
 type: paper
 slug: cogvideox
-schema_version: 1.0
+schema_version: 3.0
 title: CogVideoX
 authors: Yang et al.
 year: 2024
 url: https://arxiv.org/abs/2408.06072
-arxiv_id: '2408.06072'
 topics:
 - research-topic/video
 is_high_impact: false

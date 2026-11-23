@@ -2,14 +2,13 @@
 id: paper/chain-of-thought-prompting-elicits-reasoning
 type: paper
 slug: chain-of-thought-prompting-elicits-reasoning
-schema_version: 1.0
+schema_version: 3.0
 title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
 aliases:
 - Chain-of-Thought Prompting
 authors: Wei et al.
 year: 2022
 url: https://arxiv.org/abs/2201.11903
-arxiv_id: '2201.11903'
 topics:
 - research-topic/llm
 must_read:

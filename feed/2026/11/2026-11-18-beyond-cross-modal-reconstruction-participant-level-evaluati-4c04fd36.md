@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-beyond-cross-modal-reconstruction-participant-level-evaluati-4c04fd36
 type: feed-item
 slug: 2026-11-18-beyond-cross-modal-reconstruction-participant-level-evaluati-4c04fd36
-schema_version: 1.0
+schema_version: 2.0
 title: 'Beyond Cross-Modal Reconstruction: Participant-Level Evaluation of sEMG-Kinematic Coupling in Post-Stroke Gait'
 kind: paper
 url: https://arxiv.org/abs/2611.23856
@@ -24,9 +24,6 @@ fields:
   - cs.LG
   primary_category: cs.LG
   pdf_url: https://arxiv.org/pdf/2611.23856v1
-  doi: ''
-  journal_reference: ''
-  comment: ''
   updated: '2026-11-18T05:02:17Z'
 review:
   score: 10.0

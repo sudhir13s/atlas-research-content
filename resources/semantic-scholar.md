@@ -2,7 +2,7 @@
 id: research-resource/semantic-scholar
 type: research-resource
 slug: semantic-scholar
-schema_version: 1.0
+schema_version: 3.0
 title: Semantic Scholar
 icon: 🔬
 links:

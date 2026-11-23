@@ -2,12 +2,11 @@
 id: paper/voyager
 type: paper
 slug: voyager
-schema_version: 1.0
+schema_version: 3.0
 title: Voyager
 authors: Wang et al.
 year: 2023
 url: https://arxiv.org/abs/2305.16291
-arxiv_id: '2305.16291'
 topics:
 - research-topic/agents
 is_high_impact: false

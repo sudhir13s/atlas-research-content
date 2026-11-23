@@ -2,12 +2,11 @@
 id: paper/wav2vec-2-0
 type: paper
 slug: wav2vec-2-0
-schema_version: 1.0
+schema_version: 3.0
 title: wav2vec 2.0
 authors: Baevski et al.
 year: 2020
 url: https://arxiv.org/abs/2006.11477
-arxiv_id: '2006.11477'
 topics:
 - research-topic/audio
 is_high_impact: false

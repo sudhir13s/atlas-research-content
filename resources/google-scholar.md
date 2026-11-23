@@ -2,7 +2,7 @@
 id: research-resource/google-scholar
 type: research-resource
 slug: google-scholar
-schema_version: 1.0
+schema_version: 3.0
 title: Google Scholar
 icon: 🎓
 links:

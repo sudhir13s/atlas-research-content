@@ -2,12 +2,11 @@
 id: paper/llava
 type: paper
 slug: llava
-schema_version: 1.0
+schema_version: 3.0
 title: LLaVA
 authors: Liu et al.
 year: 2023
 url: https://arxiv.org/abs/2304.08485
-arxiv_id: '2304.08485'
 topics:
 - research-topic/multimodal
 is_high_impact: false

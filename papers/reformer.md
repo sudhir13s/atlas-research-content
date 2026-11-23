@@ -2,12 +2,11 @@
 id: paper/reformer
 type: paper
 slug: reformer
-schema_version: 1.0
+schema_version: 3.0
 title: Reformer
 authors: Kitaev et al.
 year: 2020
 url: https://arxiv.org/abs/2001.04451
-arxiv_id: '2001.04451'
 topics:
 - research-topic/transformers
 is_high_impact: false

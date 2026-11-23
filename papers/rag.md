@@ -2,12 +2,11 @@
 id: paper/rag
 type: paper
 slug: rag
-schema_version: 1.0
+schema_version: 3.0
 title: RAG
 authors: Lewis et al.
 year: 2020
 url: https://arxiv.org/abs/2005.11401
-arxiv_id: '2005.11401'
 topics:
 - research-topic/rag
 is_high_impact: false

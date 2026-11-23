@@ -2,14 +2,13 @@
 id: paper/deep-residual-learning-for-image-recognition-resnet
 type: paper
 slug: deep-residual-learning-for-image-recognition-resnet
-schema_version: 1.0
+schema_version: 3.0
 title: Deep Residual Learning for Image Recognition
 aliases:
 - ResNet
 authors: He et al.
 year: 2015
 url: https://arxiv.org/abs/1512.03385
-arxiv_id: '1512.03385'
 topics:
 - research-topic/neural-networks
 must_read:

@@ -2,12 +2,11 @@
 id: paper/flamingo
 type: paper
 slug: flamingo
-schema_version: 1.0
+schema_version: 3.0
 title: Flamingo
 authors: Alayrac et al.
 year: 2022
 url: https://arxiv.org/abs/2204.14198
-arxiv_id: '2204.14198'
 topics:
 - research-topic/multimodal
 is_high_impact: false

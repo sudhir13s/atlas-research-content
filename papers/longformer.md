@@ -2,12 +2,11 @@
 id: paper/longformer
 type: paper
 slug: longformer
-schema_version: 1.0
+schema_version: 3.0
 title: Longformer
 authors: Beltagy et al.
 year: 2020
 url: https://arxiv.org/abs/2004.05150
-arxiv_id: '2004.05150'
 topics:
 - research-topic/transformers
 is_high_impact: false

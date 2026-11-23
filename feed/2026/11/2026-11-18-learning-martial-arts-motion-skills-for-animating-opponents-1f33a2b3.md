@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-learning-martial-arts-motion-skills-for-animating-opponents-1f33a2b3
 type: feed-item
 slug: 2026-11-18-learning-martial-arts-motion-skills-for-animating-opponents-1f33a2b3
-schema_version: 1.0
+schema_version: 2.0
 title: Learning Martial Arts Motion Skills for Animating Opponents in VR Sparring Games
 kind: paper
 url: https://arxiv.org/abs/2611.23825
@@ -27,9 +27,6 @@ fields:
   - cs.RO
   primary_category: cs.HC
   pdf_url: https://arxiv.org/pdf/2611.23825v1
-  doi: ''
-  journal_reference: ''
-  comment: ''
   updated: '2026-11-18T04:26:30Z'
 review:
   score: 10.0

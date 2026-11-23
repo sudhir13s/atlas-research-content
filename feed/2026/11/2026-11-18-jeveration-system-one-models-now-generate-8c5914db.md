@@ -2,7 +2,7 @@
 id: feed-item/2026-11-18-jeveration-system-one-models-now-generate-8c5914db
 type: feed-item
 slug: 2026-11-18-jeveration-system-one-models-now-generate-8c5914db
-schema_version: 1.1
+schema_version: 2.0
 title: 'Jeveration: System One Models Now Generate'
 kind: paper
 url: https://arxiv.org/abs/2611.24738

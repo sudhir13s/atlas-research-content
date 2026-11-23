@@ -2,7 +2,7 @@
 id: paper/glove
 type: paper
 slug: glove
-schema_version: 1.0
+schema_version: 3.0
 title: GloVe
 authors: Pennington et al.
 year: 2014
