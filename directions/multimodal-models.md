@@ -24,7 +24,7 @@ selection:
   window_days: 90
   min_recent_papers: 250
   max_field_share: 0.08
-  max_directions: 20
+  max_directions: 25
   leave_below_ratio: 0.7
   leave_after_runs: 2
   runs_below: 0
