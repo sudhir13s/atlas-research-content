@@ -12,13 +12,13 @@ topics:
 - research-topic/agents
 is_high_impact: false
 citation_signals:
-  cited_by_count: 3434
+  cited_by_count: 3500
   venue: Transactions on machine learning research
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4378505261
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2305.16291
   title: Voyager

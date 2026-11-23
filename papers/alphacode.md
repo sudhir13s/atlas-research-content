@@ -12,13 +12,13 @@ topics:
 - research-topic/code
 is_high_impact: false
 citation_signals:
-  cited_by_count: 3114
+  cited_by_count: 3157
   venue: Science
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4226287673
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2203.07814
   title: AlphaCode

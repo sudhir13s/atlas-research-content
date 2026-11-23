@@ -17,14 +17,14 @@ must_read:
   order: 15
 is_high_impact: true
 citation_signals:
-  cited_by_count: 62242
+  cited_by_count: 63012
   venue: NeurIPS 2020
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3030163527
 summary: 'Trains GPT-3, an autoregressive language model with 175 billion parameters, and tests it in the few-shot setting: tasks and demonstrations are given purely as text, with no gradient updates or fine-tuning.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2005.14165
   title: Language Models are Few-Shot Learners

@@ -12,13 +12,13 @@ topics:
 - research-topic/multimodal
 is_high_impact: false
 citation_signals:
-  cited_by_count: 4334
+  cited_by_count: 4367
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4366330503
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2304.08485
   title: LLaVA

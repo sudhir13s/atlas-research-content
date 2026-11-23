@@ -12,13 +12,13 @@ topics:
 - research-topic/efficiency
 is_high_impact: false
 citation_signals:
-  cited_by_count: 2364
+  cited_by_count: 2426
   venue: International Conference on Learning Representations
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4384648639
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2307.08691
   title: FlashAttention-2

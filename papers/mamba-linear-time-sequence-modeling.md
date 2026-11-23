@@ -12,13 +12,13 @@ topics:
 - research-topic/transformers
 is_high_impact: false
 citation_signals:
-  cited_by_count: 11870
+  cited_by_count: 12073
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4389326242
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2312.00752
   title: 'Mamba: Linear-Time Sequence Modeling'

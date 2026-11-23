@@ -12,13 +12,13 @@ topics:
 - research-topic/agents
 is_high_impact: false
 citation_signals:
-  cited_by_count: 431
+  cited_by_count: 434
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4379539325
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2306.02224
   title: AutoGPT Survey

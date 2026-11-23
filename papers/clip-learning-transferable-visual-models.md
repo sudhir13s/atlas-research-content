@@ -18,14 +18,14 @@ must_read:
   order: 13
 is_high_impact: false
 citation_signals:
-  cited_by_count: 61476
+  cited_by_count: 62551
   venue: ICML 2021
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3135367836
 summary: 'Learns image representations from natural language: the model (CLIP) is pre-trained to predict which caption goes with which image, on 400 million (image, text) pairs collected from the internet.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2103.00020
   title: Learning Transferable Visual Models From Natural Language Supervision

@@ -17,14 +17,14 @@ must_read:
   order: 21
 is_high_impact: false
 citation_signals:
-  cited_by_count: 9876
+  cited_by_count: 9927
   venue: arXiv preprint
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2519091744
 summary: Introduces WaveNet, a fully probabilistic, autoregressive deep neural network that generates raw audio waveforms, conditioning each audio sample on all previous ones.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1609.03499
   title: 'WaveNet: A Generative Model for Raw Audio'

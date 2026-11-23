@@ -12,13 +12,13 @@ topics:
 - research-topic/audio
 is_high_impact: false
 citation_signals:
-  cited_by_count: 5819
+  cited_by_count: 5890
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4311000453
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2212.04356
   title: Whisper

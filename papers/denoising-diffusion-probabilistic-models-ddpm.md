@@ -17,14 +17,14 @@ must_read:
   order: 17
 is_high_impact: false
 citation_signals:
-  cited_by_count: 20791
+  cited_by_count: 21081
   venue: NeurIPS 2020
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3036167779
 summary: Synthesizes images with diffusion probabilistic models, latent variable models inspired by nonequilibrium thermodynamics, trained on a weighted variational bound linked to denoising score matching with Langevin dynamics.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2006.11239
   title: Denoising Diffusion Probabilistic Models

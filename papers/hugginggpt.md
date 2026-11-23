@@ -12,13 +12,13 @@ topics:
 - research-topic/agents
 is_high_impact: false
 citation_signals:
-  cited_by_count: 2184
+  cited_by_count: 2214
   venue: neural information processing systems
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W7133202489
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2303.17580
   title: HuggingGPT

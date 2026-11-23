@@ -12,13 +12,13 @@ topics:
 - research-topic/vision
 is_high_impact: false
 citation_signals:
-  cited_by_count: 48637
+  cited_by_count: 49078
   venue: IEEE/CVF International Conference on Computer Vision (ICCV)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3138516171
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2103.14030
   title: Swin Transformer

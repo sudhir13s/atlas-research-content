@@ -17,14 +17,14 @@ must_read:
   order: 11
 is_high_impact: false
 citation_signals:
-  cited_by_count: 37134
+  cited_by_count: 37689
   venue: CVPR 2022
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4312933868
 summary: 'Introduces latent diffusion models (LDMs): diffusion models trained in the latent space of powerful pretrained autoencoders instead of pixel space, with cross-attention layers for conditioning on inputs such as text or bounding boxes.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2112.10752
   title: High-Resolution Image Synthesis with Latent Diffusion Models

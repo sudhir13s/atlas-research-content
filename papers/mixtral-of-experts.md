@@ -15,14 +15,14 @@ must_read:
   order: 3
 is_high_impact: false
 citation_signals:
-  cited_by_count: 4828
+  cited_by_count: 4873
   venue: arXiv preprint
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4390723197
 summary: 'Introduces Mixtral 8x7B, a sparse mixture-of-experts (SMoE) language model: the Mistral 7B architecture with 8 feedforward blocks (experts) per layer, of which a router selects two for each token.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2401.04088
   title: Mixtral of Experts

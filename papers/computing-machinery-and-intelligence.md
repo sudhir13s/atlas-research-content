@@ -13,13 +13,13 @@ must_read:
   order: 35
 is_high_impact: false
 citation_signals:
-  cited_by_count: 17028
+  cited_by_count: 17602
   venue: Mind
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2001771035
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://doi.org/10.1093/mind/LIX.236.433
   title: Computing Machinery and Intelligence

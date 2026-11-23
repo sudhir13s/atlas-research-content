@@ -12,13 +12,13 @@ topics:
 - research-topic/rag
 is_high_impact: false
 citation_signals:
-  cited_by_count: 433
+  cited_by_count: 441
   venue: International Conference on Learning Representations
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4400373146
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2407.01449
   title: ColPali

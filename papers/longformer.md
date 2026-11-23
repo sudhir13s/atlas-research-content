@@ -12,13 +12,13 @@ topics:
 - research-topic/transformers
 is_high_impact: false
 citation_signals:
-  cited_by_count: 7644
+  cited_by_count: 7674
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3015468748
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2004.05150
   title: Longformer

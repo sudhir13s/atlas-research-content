@@ -12,13 +12,13 @@ topics:
 - research-topic/vision
 is_high_impact: false
 citation_signals:
-  cited_by_count: 66671
+  cited_by_count: 67540
   venue: IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W1483870316
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1506.02640
   title: YOLO

@@ -17,14 +17,14 @@ must_read:
   order: 25
 is_high_impact: false
 citation_signals:
-  cited_by_count: 32229
+  cited_by_count: 32147
   venue: ICLR 2015
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2133564696
 summary: Extends the encoder-decoder model for neural machine translation so that it automatically (soft-)searches for the parts of a source sentence relevant to predicting each target word, instead of using one fixed-length vector.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1409.0473
   title: Neural Machine Translation by Jointly Learning to Align and Translate

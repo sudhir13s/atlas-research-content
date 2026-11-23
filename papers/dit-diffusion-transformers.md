@@ -12,13 +12,13 @@ topics:
 - research-topic/diffusion
 is_high_impact: false
 citation_signals:
-  cited_by_count: 9399
+  cited_by_count: 9601
   venue: IEEE/CVF International Conference on Computer Vision (ICCV)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4390872297
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2212.09748
   title: DiT (Diffusion Transformers)

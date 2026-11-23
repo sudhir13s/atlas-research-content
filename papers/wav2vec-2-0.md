@@ -12,13 +12,13 @@ topics:
 - research-topic/audio
 is_high_impact: false
 citation_signals:
-  cited_by_count: 4917
-  venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  cited_by_count: 5783
+  venue: neural information processing systems
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3036601975
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2006.11477
   title: wav2vec 2.0

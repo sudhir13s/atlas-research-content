@@ -15,13 +15,13 @@ must_read:
   order: 28
 is_high_impact: false
 citation_signals:
-  cited_by_count: 18969
+  cited_by_count: 19195
   venue: Neural Computation
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2136922672
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://doi.org/10.1162/neco.2006.18.7.1527
   title: A Fast Learning Algorithm for Deep Belief Nets

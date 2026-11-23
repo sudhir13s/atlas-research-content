@@ -19,14 +19,14 @@ must_read:
   order: 14
 is_high_impact: true
 citation_signals:
-  cited_by_count: 68247
+  cited_by_count: 72289
   venue: ICLR 2021
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3094502228
 summary: 'Introduces the Vision Transformer (ViT): a standard Transformer applied directly to sequences of image patches, with no reliance on convolutional neural networks (CNNs).'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2010.11929
   title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'

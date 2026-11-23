@@ -12,13 +12,13 @@ topics:
 - research-topic/code
 is_high_impact: false
 citation_signals:
-  cited_by_count: 1728
+  cited_by_count: 1741
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3008088841
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2002.08155
   title: CodeBERT

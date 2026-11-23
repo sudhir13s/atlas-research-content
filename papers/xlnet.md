@@ -12,13 +12,13 @@ topics:
 - research-topic/nlp-classics
 is_high_impact: false
 citation_signals:
-  cited_by_count: 8638
-  venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  cited_by_count: 8609
+  venue: neural information processing systems
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2950813464
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1906.08237
   title: XLNet

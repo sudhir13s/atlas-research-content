@@ -12,13 +12,13 @@ topics:
 - research-topic/llm
 is_high_impact: false
 citation_signals:
-  cited_by_count: 22588
+  cited_by_count: 23088
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4384918448
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2307.09288
   title: Llama 2

@@ -11,9 +11,14 @@ arxiv_id: '2402.19173'
 topics:
 - research-topic/code
 is_high_impact: false
+citation_signals:
+  cited_by_count: 1110
+  venue: arXiv (Cornell University)
+  observed_at: '2026-11-23'
+  source: https://openalex.org/W6967084484
 tags:
 - paper
-updated: '2026-11-19'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2402.19173
   title: StarCoder 2

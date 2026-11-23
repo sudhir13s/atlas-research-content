@@ -12,13 +12,13 @@ topics:
 - research-topic/code
 is_high_impact: false
 citation_signals:
-  cited_by_count: 2605
+  cited_by_count: 2706
   venue: International Conference on Learning Representations
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4387561453
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2310.06770
   title: SWE-bench

@@ -17,14 +17,14 @@ must_read:
   order: 22
 is_high_impact: false
 citation_signals:
-  cited_by_count: 18006
+  cited_by_count: 18258
   venue: CVPR 2016
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2949650786
 summary: 'Introduces residual learning: layers learn residual functions with reference to their inputs, which eases the training of networks substantially deeper than those used before.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1512.03385
   title: Deep Residual Learning for Image Recognition

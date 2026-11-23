@@ -12,13 +12,13 @@ topics:
 - research-topic/efficiency
 is_high_impact: false
 citation_signals:
-  cited_by_count: 22878
+  cited_by_count: 24655
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3168867926
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2106.09685
   title: LoRA

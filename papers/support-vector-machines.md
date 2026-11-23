@@ -15,13 +15,13 @@ must_read:
   order: 29
 is_high_impact: false
 citation_signals:
-  cited_by_count: 42859
+  cited_by_count: 43350
   venue: Springer (book)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2156909104
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://doi.org/10.1007/978-1-4757-2440-0
   title: The Nature of Statistical Learning Theory

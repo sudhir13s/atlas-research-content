@@ -12,13 +12,13 @@ topics:
 - research-topic/agents
 is_high_impact: false
 citation_signals:
-  cited_by_count: 1455
+  cited_by_count: 1465
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4385327683
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2307.13854
   title: WebArena

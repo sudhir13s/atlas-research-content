@@ -16,14 +16,14 @@ must_read:
   order: 30
 is_high_impact: false
 citation_signals:
-  cited_by_count: 131870
+  cited_by_count: 133603
   venue: Neural Computation
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2064675550
 summary: Introduces long short-term memory (LSTM), a gradient-based recurrent network method that addresses the insufficient, decaying error backflow that makes learning over long time intervals slow.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://doi.org/10.1162/neco.1997.9.8.1735
   title: Long Short-Term Memory

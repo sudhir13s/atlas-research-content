@@ -12,13 +12,13 @@ topics:
 - research-topic/alignment
 is_high_impact: false
 citation_signals:
-  cited_by_count: 3626
-  venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  cited_by_count: 3682
+  venue: neural information processing systems
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3082115681
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2009.01325
   title: Learning to Summarize from Human Feedback

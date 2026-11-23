@@ -17,14 +17,14 @@ must_read:
   order: 19
 is_high_impact: true
 citation_signals:
-  cited_by_count: 83274
+  cited_by_count: 83666
   venue: NAACL 2019
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2896457183
 summary: Introduces BERT (Bidirectional Encoder Representations from Transformers), a language representation model pre-trained on unlabeled text by conditioning on both left and right context in all layers.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1810.04805
   title: 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'

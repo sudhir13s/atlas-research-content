@@ -13,13 +13,13 @@ must_read:
   order: 33
 is_high_impact: false
 citation_signals:
-  cited_by_count: 507
+  cited_by_count: 521
   venue: MIT Press (book)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4255885670
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://doi.org/10.7551/mitpress/11301.001.0001
   title: 'Perceptrons: An Introduction to Computational Geometry'

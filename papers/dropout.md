@@ -12,13 +12,13 @@ topics:
 - research-topic/neural-networks
 is_high_impact: false
 citation_signals:
-  cited_by_count: 9560
+  cited_by_count: 9579
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W1904365287
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1207.0580
   title: Dropout

@@ -12,13 +12,13 @@ topics:
 - research-topic/diffusion
 is_high_impact: false
 citation_signals:
-  cited_by_count: 10586
+  cited_by_count: 10695
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4224035735
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2204.06125
   title: DALL-E 2

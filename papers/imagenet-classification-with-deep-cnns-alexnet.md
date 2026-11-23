@@ -16,14 +16,14 @@ must_read:
   order: 27
 is_high_impact: false
 citation_signals:
-  cited_by_count: 118207
+  cited_by_count: 118435
   venue: NeurIPS 2012
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2163605009
 summary: Trains a large, deep convolutional neural network to classify the 1.3 million high-resolution images of the ImageNet LSVRC-2010 training set into 1000 classes.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://doi.org/10.1145/3065386
   title: ImageNet Classification with Deep Convolutional Neural Networks

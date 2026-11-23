@@ -17,14 +17,14 @@ must_read:
   order: 7
 is_high_impact: false
 citation_signals:
-  cited_by_count: 7434
+  cited_by_count: 7575
   venue: NeurIPS 2023
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W7133233472
 summary: Introduces QLoRA, a fine-tuning approach that backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters (LoRA).
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2305.14314
   title: 'QLoRA: Efficient Finetuning of Quantized LLMs'

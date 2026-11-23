@@ -18,14 +18,14 @@ must_read:
   order: 10
 is_high_impact: false
 citation_signals:
-  cited_by_count: 6673
+  cited_by_count: 6772
   venue: NeurIPS 2022
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W7133225605
 summary: Investigates the optimal model size and number of training tokens for a transformer language model under a given compute budget, training over 400 models from 70 million to over 16 billion parameters.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2203.15556
   title: Training Compute-Optimal Large Language Models

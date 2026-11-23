@@ -12,13 +12,13 @@ topics:
 - research-topic/rag
 is_high_impact: false
 citation_signals:
-  cited_by_count: 8684
+  cited_by_count: 8815
   venue: Conference on Empirical Methods in Natural Language Processing (EMNLP)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3015883388
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2004.04906
   title: DPR

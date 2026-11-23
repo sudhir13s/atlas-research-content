@@ -12,13 +12,13 @@ topics:
 - research-topic/multimodal
 is_high_impact: false
 citation_signals:
-  cited_by_count: 2830
+  cited_by_count: 2836
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4225323055
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2204.14198
   title: Flamingo

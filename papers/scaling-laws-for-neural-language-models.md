@@ -17,14 +17,14 @@ must_read:
   order: 16
 is_high_impact: true
 citation_signals:
-  cited_by_count: 12454
+  cited_by_count: 12576
   venue: arXiv preprint
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W3001279689
 summary: Studies empirical scaling laws for language model performance on the cross-entropy loss.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2001.08361
   title: Scaling Laws for Neural Language Models

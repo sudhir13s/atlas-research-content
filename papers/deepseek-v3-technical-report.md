@@ -17,14 +17,14 @@ must_read:
   order: 1
 is_high_impact: false
 citation_signals:
-  cited_by_count: 9659
+  cited_by_count: 9805
   venue: arXiv preprint
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4405903187
 summary: Describes DeepSeek-V3, a Mixture-of-Experts (MoE) language model with 671B total parameters, 37B of them activated for each token, built on Multi-head Latent Attention (MLA) and the DeepSeekMoE architecture.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2412.19437
   title: DeepSeek-V3 Technical Report

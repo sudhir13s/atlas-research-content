@@ -17,14 +17,14 @@ must_read:
   order: 12
 is_high_impact: true
 citation_signals:
-  cited_by_count: 38349
+  cited_by_count: 38959
   venue: NeurIPS 2022
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W7133224126
 summary: 'Introduces chain-of-thought prompting: a large language model is given a few exemplars that show a series of intermediate reasoning steps before the answer.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2201.11903
   title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models

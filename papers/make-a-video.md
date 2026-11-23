@@ -12,13 +12,13 @@ topics:
 - research-topic/video
 is_high_impact: false
 citation_signals:
-  cited_by_count: 1948
+  cited_by_count: 1961
   venue: arXiv (Cornell University)
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4298185919
 tags:
 - paper
-updated: '2026-11-20'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2209.14792
   title: Make-A-Video

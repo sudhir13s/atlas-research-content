@@ -19,14 +19,14 @@ must_read:
   order: 23
 is_high_impact: false
 citation_signals:
-  cited_by_count: 11967
+  cited_by_count: 12093
   venue: NeurIPS 2014
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4298289240
 summary: 'Proposes estimating generative models through an adversarial process: a generative model G and a discriminative model D are trained together, with G trained to maximize the probability that D makes a mistake.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1406.2661
   title: Generative Adversarial Networks

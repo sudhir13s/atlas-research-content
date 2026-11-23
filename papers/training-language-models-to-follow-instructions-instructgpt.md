@@ -17,14 +17,14 @@ must_read:
   order: 9
 is_high_impact: false
 citation_signals:
-  cited_by_count: 10993
+  cited_by_count: 11061
   venue: NeurIPS 2022
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4226278401
 summary: Fine-tunes GPT-3 with human feedback, first by supervised learning on labeler demonstrations, then by reinforcement learning from human feedback (RLHF) on rankings of model outputs; the resulting models are called InstructGPT.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2203.02155
   title: Training language models to follow instructions with human feedback

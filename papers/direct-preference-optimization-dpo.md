@@ -17,14 +17,14 @@ must_read:
   order: 8
 is_high_impact: false
 citation_signals:
-  cited_by_count: 10923
+  cited_by_count: 11099
   venue: NeurIPS 2023
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W7133208539
 summary: 'Introduces Direct Preference Optimization (DPO): a parameterization of the reward model in reinforcement learning from human feedback (RLHF) whose optimal policy has a closed form, so the RLHF problem is solved with a simple classification loss.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2305.18290
   title: 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model'

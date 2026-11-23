@@ -17,14 +17,14 @@ must_read:
   order: 5
 is_high_impact: false
 citation_signals:
-  cited_by_count: 7688
+  cited_by_count: 7880
   venue: NeurIPS 2023
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W7133214447
 summary: Introduces Toolformer, a language model trained in a self-supervised way, from a handful of demonstrations per API, to decide which APIs to call, when, with what arguments, and how to use the results.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2302.04761
   title: 'Toolformer: Language Models Can Teach Themselves to Use Tools'

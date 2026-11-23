@@ -15,14 +15,14 @@ must_read:
   order: 24
 is_high_impact: false
 citation_signals:
-  cited_by_count: 21813
+  cited_by_count: 21868
   venue: NeurIPS 2014
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W2130942839
 summary: 'Presents a general end-to-end approach to sequence learning: a multilayered long short-term memory (LSTM) network maps the input sequence to a fixed-dimensional vector, and another deep LSTM decodes the target sequence from it.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1409.3215
   title: Sequence to Sequence Learning with Neural Networks

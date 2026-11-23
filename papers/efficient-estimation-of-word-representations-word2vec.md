@@ -17,14 +17,14 @@ must_read:
   order: 26
 is_high_impact: false
 citation_signals:
-  cited_by_count: 44114
+  cited_by_count: 44416
   venue: arXiv preprint
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W1614298861
 summary: Proposes two model architectures for computing continuous vector representations of words from very large data sets.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/1301.3781
   title: Efficient Estimation of Word Representations in Vector Space

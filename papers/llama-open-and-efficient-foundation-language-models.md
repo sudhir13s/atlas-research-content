@@ -17,14 +17,14 @@ must_read:
   order: 6
 is_high_impact: false
 citation_signals:
-  cited_by_count: 29576
+  cited_by_count: 29830
   venue: arXiv preprint
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4322718191
 summary: Introduces LLaMA, a collection of foundation language models from 7B to 65B parameters, trained on trillions of tokens of publicly available data only.
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2302.13971
   title: 'LLaMA: Open and Efficient Foundation Language Models'

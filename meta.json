@@ -2,7 +2,7 @@
   "name": "atlas-research-content",
   "domain": "research",
   "title": "AI Research — reference knowledge",
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "description": "Portable, reusable reference knowledge for AI research: landmark papers with the reason each one matters, the topics that group them, the research directions currently moving, the platforms researchers use to find and read papers, and the recent papers the community is reading, copied from their sources. Content only — Markdown + JSON Schema + docs, zero code.",
   "entrypoints": {
     "human": "README.md",

@@ -18,14 +18,14 @@ must_read:
   order: 4
 is_high_impact: false
 citation_signals:
-  cited_by_count: 19456
+  cited_by_count: 19681
   venue: ICCV 2023
-  observed_at: '2026-11-20'
+  observed_at: '2026-11-23'
   source: https://openalex.org/W4390874575
 summary: 'Introduces the Segment Anything project: a new task, model and dataset for image segmentation, with a model designed and trained to be promptable.'
 tags:
 - paper
-updated: '2026-11-21'
+updated: '2026-11-23'
 sources:
 - url: https://arxiv.org/abs/2304.02643
   title: Segment Anything
