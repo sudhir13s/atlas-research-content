@@ -35,7 +35,7 @@ see `schema/<type>.schema.json`.
 - `tags`: lowercase, hyphen-separated.
 - `updated`: ISO date (`YYYY-MM-DD`).
 - `sources[]`: `{ url, title, trust }` — `trust` in `[0,1]`. A paper's source is its own link.
-- `schema_version`: the `major.minor` the file was authored against (currently `2.2`).
+- `schema_version`: the `major.minor` the file was authored against (currently `2.3`).
 
 ## Body sections
 
@@ -78,8 +78,9 @@ see `schema/<type>.schema.json`.
     - Leave bar: `leave_below_ratio * min_recent_papers`.
   - The text of a direction the job adds is written by a model from the abstracts of the
     keyword's most cited recent arXiv papers and reviewed before it is stored. Such a record
-    lists those papers in `sources` and carries `quote` (the abstract span the text rests on),
-    `review` and `generated_by`. A hand-written record has none of the three.
+    lists those papers in `sources` and carries `quotes` (one abstract span per sentence of the
+    text, in sentence order; a record written before 2.3 has a single `quote`), `review` and
+    `generated_by`. A hand-written record has none of them.
   - `search_query` is words joined with `+`; a phrase goes inside double quotes
     (`"mixture+of+experts"`, `agent+"tool+use"`). A paper must contain every word and phrase. The
     same query opens the arXiv search and is counted through the arXiv API, so it holds no field

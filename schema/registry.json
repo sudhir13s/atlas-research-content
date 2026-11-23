@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.2",
+  "schema_version": "2.3",
   "shared": "schema/_shared.schema.json",
   "types": {
     "paper": {
